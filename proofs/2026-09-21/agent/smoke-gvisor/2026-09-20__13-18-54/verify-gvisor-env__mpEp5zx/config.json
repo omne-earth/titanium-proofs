@@ -1,0 +1,53 @@
+{
+    "task": {
+        "path": ".run/tasks/openrouter/smoke-gvisor/verify-gvisor-env",
+        "git_url": null,
+        "git_commit_id": null,
+        "name": null,
+        "ref": null,
+        "overwrite": false,
+        "download_dir": null,
+        "source": "smoke-gvisor"
+    },
+    "trial_name": "verify-gvisor-env__mpEp5zx",
+    "trials_dir": ".run/jobs/openrouter/smoke-gvisor/2026-09-20__13-18-54",
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+        "name": "mini-swe-agent",
+        "import_path": null,
+        "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+        "override_timeout_sec": null,
+        "override_setup_timeout_sec": null,
+        "max_timeout_sec": null,
+        "kwargs": {},
+        "env": {}
+    },
+    "environment": {
+        "type": "gvisor",
+        "import_path": null,
+        "force_build": false,
+        "delete": true,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "override_cpus": null,
+        "override_memory_mb": null,
+        "override_storage_mb": null,
+        "override_gpus": null,
+        "suppress_override_warnings": false,
+        "mounts": null,
+        "env": {},
+        "kwargs": {}
+    },
+    "verifier": {
+        "override_timeout_sec": null,
+        "max_timeout_sec": null,
+        "env": {},
+        "disable": false
+    },
+    "artifacts": [],
+    "job_id": "f72d3eb4-a573-4583-a134-ae767bac50d1"
+}

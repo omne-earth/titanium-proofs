@@ -1,0 +1,6 @@
+audit verb=start args=["verify-cella-env-airgapped-7fuom69-verifier"] uid=1000 gid=1000 persona=cella-machine host_ns=1789985452982374564
+audit verb=gateway args=["verify-cella-env-airgapped-7fuom69-verifier", "open"] uid=1000 gid=1000 persona=cella-gateway host_ns=1789985453059451181
+audit verb=membrane-memory args=["0x0806", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789985453066309909
+audit verb=membrane-memory args=["10.77.0.1:443/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789985453066450714
+audit verb=membrane-memory args=["10.77.0.1:80/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789985453066496309
+audit verb=membrane-memory args=["10.77.0.1:53/17", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789985453066559367

@@ -1,0 +1,7 @@
+Skipping image OS validation for hb__titanium-fix-git-offline__agent-9db111e0f51ec78c: Error: hb__titanium-fix-git-offline__agent-9db111e0f51ec78c: image not known
+
+Declared cpu limit is not enforced for titanium/fix-git-offline: cpu.max reports no quota ('max 100000'). The workload would run unbounded.
+Declared memory limit is not enforced for titanium/fix-git-offline: memory.max reports no limit ('max'). The workload would run unbounded.
+Running command: . "$HOME/.local/bin/env"; mini-swe-agent --yolo --model=deepseek/deepseek-v4.1-flash --task='I just made some changes to my personal site and checked out master, but now I can'"'"'t find those changes. Please help me find them and merge them into master.
+' --output=/logs/agent/mini-swe-agent.trajectory.json -c mini.yaml -c agent.cost_limit=0 -c model.model_class=openrouter --exit-immediately 2>&1 </dev/null | tee /logs/agent/mini-swe-agent.txt
+Command outputs captured

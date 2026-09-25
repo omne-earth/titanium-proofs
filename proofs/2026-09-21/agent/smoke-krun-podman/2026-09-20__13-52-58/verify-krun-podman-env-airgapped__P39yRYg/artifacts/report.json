@@ -1,0 +1,19 @@
+{
+  "egress_tcp_denied": true,
+  "egress_http": false,
+  "dns": false,
+  "uid": 0,
+  "engine_sockets": [],
+  "writable_workdir": true,
+  "writable_tmp": true,
+  "net_interfaces": [
+    "dummy0",
+    "lo"
+  ],
+  "cpu_hypervisor": true,
+  "vsock_dev": true,
+  "nproc": 1,
+  "mem_total_kb": 1044808,
+  "pid1_comm": "init.krun",
+  "kernel_release": "6.12.91"
+}

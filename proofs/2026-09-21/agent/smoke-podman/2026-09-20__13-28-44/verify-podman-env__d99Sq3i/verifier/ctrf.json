@@ -1,0 +1,56 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 4,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1789947538.8780475,
+            "stop": 1789947539.0426178
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_report_claims",
+                "status": "passed",
+                "duration": 0.00039631200343137607,
+                "start": 1789947538.9270344,
+                "stop": 1789947538.9276078,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_engine_sockets_absent",
+                "status": "passed",
+                "duration": 0.00026252200041199103,
+                "start": 1789947538.927754,
+                "stop": 1789947538.9281268,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_dns_and_egress",
+                "status": "passed",
+                "duration": 0.11306402600530419,
+                "start": 1789947538.9282284,
+                "stop": 1789947539.0416527,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_sysrq_boundary_holds",
+                "status": "passed",
+                "duration": 0.00040642199746798724,
+                "start": 1789947539.0419378,
+                "stop": 1789947539.042469,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

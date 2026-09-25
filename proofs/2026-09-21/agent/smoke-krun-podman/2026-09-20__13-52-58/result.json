@@ -1,0 +1,42 @@
+{
+    "id": "3d809616-d3c9-4283-992c-ba9cdef3be03",
+    "started_at": "2026-09-20T13:52:58.361163",
+    "updated_at": "2026-09-20T14:07:12.375034",
+    "finished_at": "2026-09-20T14:07:12.375034",
+    "n_total_trials": 4,
+    "stats": {
+        "n_completed_trials": 4,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "mini-swe-agent__deepseek/deepseek-v4.1-flash__smoke-krun-podman": {
+                "n_trials": 4,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "fix-git-offline__9sKniLr",
+                            "build-pmars__biSwipd",
+                            "verify-krun-podman-env-airgapped__P39yRYg",
+                            "verify-krun-podman-env-www__7S5eNAh"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 2518294,
+        "n_cache_tokens": 2436864,
+        "n_output_tokens": 56460,
+        "cost_usd": 0.1014620748
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "services": {
+    "main": {
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor/2026-09-20__13-18-54/build-pmars__7s52eyH/verifier",
+          "target": "/logs/verifier"
+        },
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor/2026-09-20__13-18-54/build-pmars__7s52eyH/agent",
+          "target": "/logs/agent"
+        },
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor/2026-09-20__13-18-54/build-pmars__7s52eyH/artifacts",
+          "target": "/logs/artifacts"
+        }
+      ]
+    }
+  }
+}

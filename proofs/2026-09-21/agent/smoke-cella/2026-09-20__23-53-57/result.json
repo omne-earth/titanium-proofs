@@ -1,0 +1,44 @@
+{
+    "id": "2022f69d-07d5-4387-bc0f-bca341984f80",
+    "started_at": "2026-09-20T23:53:57.524595",
+    "updated_at": "2026-09-21T00:19:03.475512",
+    "finished_at": "2026-09-21T00:19:03.475512",
+    "n_total_trials": 4,
+    "stats": {
+        "n_completed_trials": 4,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "mini-swe-agent__deepseek/deepseek-v4.1-flash__smoke-cella": {
+                "n_trials": 4,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.75
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "fix-git-offline__onz2W3R",
+                            "verify-cella-env-airgapped__7fUom69",
+                            "verify-cella-env-www__YpuaJtt"
+                        ],
+                        "0.0": [
+                            "build-pmars__njCdfxU"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 1641503,
+        "n_cache_tokens": 1570432,
+        "n_output_tokens": 64454,
+        "cost_usd": 0.10268425739999998
+    }
+}

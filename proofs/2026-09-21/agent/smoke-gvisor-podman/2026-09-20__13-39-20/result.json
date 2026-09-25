@@ -1,0 +1,41 @@
+{
+    "id": "dec06227-0819-4ce9-8753-3313b02f2305",
+    "started_at": "2026-09-20T13:39:21.112044",
+    "updated_at": "2026-09-20T13:52:48.793863",
+    "finished_at": "2026-09-20T13:52:48.793863",
+    "n_total_trials": 3,
+    "stats": {
+        "n_completed_trials": 3,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "mini-swe-agent__deepseek/deepseek-v4.1-flash__smoke-gvisor-podman": {
+                "n_trials": 3,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "fix-git-offline__qBGdHyC",
+                            "build-pmars__VGjSbvd",
+                            "verify-gvisor-podman-env__RF2VD4E"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 3282525,
+        "n_cache_tokens": 3221248,
+        "n_output_tokens": 61687,
+        "cost_usd": 0.10618123860000003
+    }
+}

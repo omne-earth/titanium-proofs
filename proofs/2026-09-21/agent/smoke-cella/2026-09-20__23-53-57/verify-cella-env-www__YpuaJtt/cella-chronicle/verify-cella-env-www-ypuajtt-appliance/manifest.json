@@ -1,0 +1,12 @@
+{
+  "name": "verify-cella-env-www-ypuajtt-appliance",
+  "kernel": "canonical",
+  "rootfs": "terminator",
+  "mem_mb": 512,
+  "net": "world,wire:verify-cella-env-www-ypuajtt-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

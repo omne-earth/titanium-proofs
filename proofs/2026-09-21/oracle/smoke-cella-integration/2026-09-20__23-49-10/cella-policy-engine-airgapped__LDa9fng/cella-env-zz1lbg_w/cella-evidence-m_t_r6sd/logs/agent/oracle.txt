@@ -1,0 +1,15 @@
+{
+  "egress_tcp_denied": true,
+  "dns": false,
+  "uid": 1000,
+  "net_interfaces": [
+    "lo"
+  ],
+  "writable_workdir": true,
+  "writable_tmp": true,
+  "pid1_comm": "systemd",
+  "cpu_hypervisor": true,
+  "nproc": 1,
+  "mem_total_kb": 1001196,
+  "kernel_release": "7.2.2"
+}

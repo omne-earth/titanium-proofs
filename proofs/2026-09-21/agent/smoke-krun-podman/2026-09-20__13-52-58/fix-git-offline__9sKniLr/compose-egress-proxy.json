@@ -1,0 +1,42 @@
+{
+  "services": {
+    "main": {
+      "networks": [
+        "titanium-egress-internal"
+      ],
+      "depends_on": {
+        "titanium-egress-proxy": {
+          "condition": "service_healthy"
+        }
+      }
+    },
+    "titanium-egress-proxy": {
+      "build": {
+        "context": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-krun-podman/2026-09-20__13-52-58/fix-git-offline__9sKniLr/egress-proxy"
+      },
+      "environment": {
+        "PROXY_TOKEN": "iiVLvJdU52Qj11JbwFBaueRHW92Qc_k8",
+        "ALLOWLIST_DOMAINS": "openrouter.ai"
+      },
+      "healthcheck": {
+        "test": [
+          "CMD-SHELL",
+          "bash -lc '</dev/tcp/127.0.0.1/8080'"
+        ],
+        "interval": "1s",
+        "timeout": "1s",
+        "retries": 30
+      },
+      "networks": [
+        "titanium-egress-internal",
+        "default"
+      ]
+    }
+  },
+  "networks": {
+    "titanium-egress-internal": {
+      "internal": true
+    },
+    "default": {}
+  }
+}

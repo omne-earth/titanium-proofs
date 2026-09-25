@@ -1,0 +1,22 @@
+# The subject of smoke-cella (verify-cella-env-*).
+#
+# Deliberately a stock Debian that ships neither systemd nor
+# /sbin/init: the rootfs conversion's provisioning policy is on the
+# path. python3 baked because the probe and the offline verifier are
+# stdlib-only.
+FROM docker.io/library/debian:12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3 \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+RUN id -u titanium >/dev/null 2>&1 || useradd -m -s /bin/bash titanium
+ENV UV_CONCURRENT_DOWNLOADS=3
+
+ARG TITANIUM_AGENT_INSTALL_FINGERPRINT=9db111e0f51ec78c
+RUN ["/bin/bash", "-c", "printf \"Titanium agent install fingerprint: %s\\n\" \"$TITANIUM_AGENT_INSTALL_FINGERPRINT\""]
+USER root
+RUN ["/bin/bash", "-c", "export DEBIAN_FRONTEND=noninteractive; if command -v apt-get &>/dev/null; then  apt-get update && apt-get install -y curl build-essential git; elif command -v apk &>/dev/null; then  apk add --no-cache curl bash build-base git python3 py3-pip; elif command -v yum &>/dev/null; then  yum install -y curl git gcc make; elif command -v dnf &>/dev/null; then  dnf install -y curl git gcc make; else  echo \"Warning: No known package manager found, assuming build tools are available\" >&2; fi"]
+USER titanium
+RUN ["/bin/bash", "-c", "export LITELLM_LOCAL_MODEL_COST_MAP=true; \nset -euo pipefail\ncurl -LsSf https://astral.sh/uv/0.7.13/install.sh | sh\nif ! grep -q 'export PATH=\"$HOME/.local/bin:$PATH\"' \"$HOME/.bashrc\" 2>/dev/null; then\n  echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> \"$HOME/.bashrc\"\nfi\nsource \"$HOME/.local/bin/env\"\nuv tool install mini-swe-agent\n\npython_bin=\"$(head -n 1 \"$(command -v mini-swe-agent)\" | sed 's/^#!//')\"\n\n\"$python_bin\" <<'PY'\nimport json\nimport sys\nimport urllib.request\nfrom importlib.resources import files\n\nurl = \"https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json\"\npath = files(\"litellm\").joinpath(\"model_prices_and_context_window_backup.json\")\n\ntry:\n    with urllib.request.urlopen(url, timeout=20) as response:\n        data = json.loads(response.read().decode(\"utf-8\"))\n    if not isinstance(data, dict) or len(data) < 1000:\n        raise ValueError(\n            \"unexpected LiteLLM model cost map shape: \"\n            f\"{type(data).__name__}, \"\n            f\"{len(data) if isinstance(data, dict) else 'n/a'} entries\"\n        )\n    path.write_text(json.dumps(data, separators=(\",\", \":\")), encoding=\"utf-8\")\nexcept Exception as exc:\n    print(\n        f\"Warning: failed to refresh LiteLLM model cost map backup: {exc}\",\n        file=sys.stderr,\n    )\nPY\n\nmini-swe-agent --help\n"]

@@ -1,0 +1,33 @@
+{
+  "services": {
+    "main": {
+      "runtime": "runsc",
+      "security_opt": [
+        "no-new-privileges:true",
+        "label=disable"
+      ],
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor-podman/2026-09-20__13-39-20/build-pmars__VGjSbvd/.titanium-stage/in",
+          "target": "/.titanium-stage/in",
+          "read_only": true,
+          "bind": {
+            "selinux": "z"
+          }
+        },
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor-podman/2026-09-20__13-39-20/build-pmars__VGjSbvd/.titanium-stage/out",
+          "target": "/.titanium-stage/out",
+          "bind": {
+            "selinux": "z"
+          }
+        }
+      ],
+      "dns": [
+        "172.16.93.1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+    "id": "9e5d7094-8855-4070-85d5-23662b73bfca",
+    "task_name": "titanium/cella-policy-engine-www",
+    "trial_name": "cella-policy-engine-www__TpWLAnM",
+    "trial_uri": "file:///home/shree/workspace/titanium/.run/jobs/openrouter/smoke-cella-integration/2026-09-20__23-49-10/cella-policy-engine-www__TpWLAnM",
+    "task_id": {
+        "path": ".run/tasks/openrouter/smoke-cella-integration/cella-policy-engine-www"
+    },
+    "source": "smoke-cella-integration",
+    "task_checksum": "80b6d4c7639c40a7c3e303159a695522b018bd091ee5d7fe87ac240cb428dfb4",
+    "config": {
+        "task": {
+            "path": ".run/tasks/openrouter/smoke-cella-integration/cella-policy-engine-www",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "smoke-cella-integration"
+        },
+        "trial_name": "cella-policy-engine-www__TpWLAnM",
+        "trials_dir": ".run/jobs/openrouter/smoke-cella-integration/2026-09-20__23-49-10",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "69c08ae8-5af9-455b-bf3b-30e36579cae8"
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "peak_context_tokens": null,
+        "summarization_count": null,
+        "n_agent_steps": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-09-21T09:50:13.625189Z",
+    "finished_at": "2026-09-21T09:51:59.467051Z",
+    "environment_setup": {
+        "started_at": "2026-09-21T09:50:13.626038Z",
+        "finished_at": "2026-09-21T09:50:47.505120Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-09-21T09:50:47.506504Z",
+        "finished_at": "2026-09-21T09:51:59.139393Z"
+    },
+    "verifier": {
+        "started_at": "2026-09-21T09:51:59.222815Z",
+        "finished_at": "2026-09-21T09:51:59.223657Z"
+    },
+    "n_agent_steps": null,
+    "step_results": null
+}

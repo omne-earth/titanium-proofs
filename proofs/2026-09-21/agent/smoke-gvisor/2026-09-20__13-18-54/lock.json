@@ -1,0 +1,128 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-09-20T23:18:54.994926Z",
+    "titanium": {
+        "version": "0.3.0",
+        "git_commit_hash": "cf19995a82ead7847ce756aeb7ac2d60b5586637",
+        "is_editable": true
+    },
+    "invocation": [
+        ".venv/bin/titanium",
+        "run",
+        "--agent=mini-swe-agent",
+        "--model",
+        "openrouter/deepseek/deepseek-v4.1-flash",
+        "--env",
+        "gvisor",
+        "--path=./.run/tasks/openrouter/smoke-gvisor",
+        "--jobs-dir=./.run/jobs/openrouter/smoke-gvisor",
+        "-n",
+        "1"
+    ],
+    "n_concurrent_trials": 1,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "VerifierOutputParseError",
+            "VerifierTimeoutError",
+            "RewardFileNotFoundError",
+            "AgentTimeoutError",
+            "RewardFileEmptyError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "fix-git-offline",
+                "type": "local",
+                "digest": "sha256:1013c783632cb828d79ba40c0263a8af860ea840bf1d93305bde6f8ec73fb2fb",
+                "source": "smoke-gvisor",
+                "path": ".run/tasks/openrouter/smoke-gvisor/fix-git-offline"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "mini-swe-agent",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "gvisor",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "build-pmars",
+                "type": "local",
+                "digest": "sha256:db14373123d52f061e81a07cc1c5e35d798343811665978872f730fc8f9639b3",
+                "source": "smoke-gvisor",
+                "path": ".run/tasks/openrouter/smoke-gvisor/build-pmars"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "mini-swe-agent",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "gvisor",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "verify-gvisor-env",
+                "type": "local",
+                "digest": "sha256:a053f128dce403ac9b405fc233bbc40529e5aa3aed0bb1b9b2ce63d66085da26",
+                "source": "smoke-gvisor",
+                "path": ".run/tasks/openrouter/smoke-gvisor/verify-gvisor-env"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "mini-swe-agent",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "gvisor",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

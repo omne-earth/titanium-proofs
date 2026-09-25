@@ -1,0 +1,12 @@
+{
+  "name": "verify-cella-env-www-p5gmdhf",
+  "kernel": "canonical",
+  "rootfs": "verify-cella-env-www-p5gmdhf",
+  "mem_mb": 1024,
+  "net": "wire:verify-cella-env-www-p5gmdhf-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

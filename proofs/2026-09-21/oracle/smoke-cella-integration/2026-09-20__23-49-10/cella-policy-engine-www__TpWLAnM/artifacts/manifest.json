@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts",
+    "type": "directory",
+    "status": "ok"
+  },
+  {
+    "source": "/app/report.json",
+    "destination": "artifacts/report.json",
+    "type": "file",
+    "status": "ok"
+  }
+]

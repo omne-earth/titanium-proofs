@@ -1,0 +1,109 @@
+{
+    "id": "ed21becb-fa5a-49bc-bdcb-1d18e9f2cda3",
+    "task_name": "titanium/fix-git-offline",
+    "trial_name": "fix-git-offline__qaGkyEE",
+    "trial_uri": "file:///home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor/2026-09-20__13-18-54/fix-git-offline__qaGkyEE",
+    "task_id": {
+        "path": ".run/tasks/openrouter/smoke-gvisor/fix-git-offline"
+    },
+    "source": "smoke-gvisor",
+    "task_checksum": "07bd2f24a342b2fb54329f04b0a48105983a00b88d37fc16154216ca6e921875",
+    "config": {
+        "task": {
+            "path": ".run/tasks/openrouter/smoke-gvisor/fix-git-offline",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "smoke-gvisor"
+        },
+        "trial_name": "fix-git-offline__qaGkyEE",
+        "trials_dir": ".run/jobs/openrouter/smoke-gvisor/2026-09-20__13-18-54",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "gvisor",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "f72d3eb4-a573-4583-a134-ae767bac50d1"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "2.4.6",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 132257,
+        "n_cache_tokens": 120192,
+        "n_output_tokens": 6488,
+        "cost_usd": 0.0115199394,
+        "peak_context_tokens": 17768,
+        "summarization_count": null,
+        "n_agent_steps": 12,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-09-20T23:18:55.002900Z",
+    "finished_at": "2026-09-20T23:21:37.749051Z",
+    "environment_setup": {
+        "started_at": "2026-09-20T23:18:55.027226Z",
+        "finished_at": "2026-09-20T23:20:48.457695Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-09-20T23:20:48.457799Z",
+        "finished_at": "2026-09-20T23:20:48.920650Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-09-20T23:20:48.920923Z",
+        "finished_at": "2026-09-20T23:21:32.554981Z"
+    },
+    "verifier": {
+        "started_at": "2026-09-20T23:21:32.660981Z",
+        "finished_at": "2026-09-20T23:21:33.099614Z"
+    },
+    "n_agent_steps": 12,
+    "step_results": null
+}

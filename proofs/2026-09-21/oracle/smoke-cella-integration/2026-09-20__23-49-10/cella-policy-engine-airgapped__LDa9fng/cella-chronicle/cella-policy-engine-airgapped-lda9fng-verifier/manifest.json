@@ -1,0 +1,12 @@
+{
+  "name": "cella-policy-engine-airgapped-lda9fng-verifier",
+  "kernel": "canonical",
+  "rootfs": "cella-policy-engine-airgapped-lda9fng-verifier",
+  "mem_mb": 1024,
+  "net": "none",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

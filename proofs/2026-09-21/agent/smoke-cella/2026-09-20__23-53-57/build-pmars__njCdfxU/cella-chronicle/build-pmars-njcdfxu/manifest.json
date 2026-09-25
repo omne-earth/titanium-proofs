@@ -1,0 +1,12 @@
+{
+  "name": "build-pmars-njcdfxu",
+  "kernel": "canonical",
+  "rootfs": "build-pmars-njcdfxu",
+  "mem_mb": 2048,
+  "net": "wire:build-pmars-njcdfxu-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

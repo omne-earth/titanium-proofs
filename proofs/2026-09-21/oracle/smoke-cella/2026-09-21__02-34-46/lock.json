@@ -1,0 +1,158 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-09-21T12:34:46.969841Z",
+    "titanium": {
+        "version": "0.3.0",
+        "git_commit_hash": "1f5ac2764d0a69130a4fcf662fa2cbee44794330",
+        "is_editable": true
+    },
+    "invocation": [
+        ".venv/bin/titanium",
+        "run",
+        "--agent=oracle",
+        "--model",
+        "openrouter/deepseek/deepseek-v4.1-flash",
+        "--env",
+        "cella",
+        "--path=./.run/tasks/openrouter/smoke-cella",
+        "--jobs-dir=./.run/jobs/openrouter/smoke-cella",
+        "-n",
+        "1"
+    ],
+    "n_concurrent_trials": 1,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "VerifierOutputParseError",
+            "RewardFileNotFoundError",
+            "RewardFileEmptyError",
+            "AgentTimeoutError",
+            "VerifierTimeoutError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "fix-git-offline",
+                "type": "local",
+                "digest": "sha256:da9e290e671e58bb15691936564b5daf912a5abf67724a0c054bfbbd2b824721",
+                "source": "smoke-cella",
+                "path": ".run/tasks/openrouter/smoke-cella/fix-git-offline"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "build-pmars",
+                "type": "local",
+                "digest": "sha256:b39c94159f504981f81f9a3eeb4cf5a19a8be7a946a60ffa7685201ae3d6ca2c",
+                "source": "smoke-cella",
+                "path": ".run/tasks/openrouter/smoke-cella/build-pmars"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "verify-cella-env-airgapped",
+                "type": "local",
+                "digest": "sha256:c07a2cf5ebce5ff19725ff13cc0f7d228333671889a374918668ad43e0df4601",
+                "source": "smoke-cella",
+                "path": ".run/tasks/openrouter/smoke-cella/verify-cella-env-airgapped"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        },
+        {
+            "task": {
+                "name": "verify-cella-env-www",
+                "type": "local",
+                "digest": "sha256:7cae6da8b9c3814b0972b7c7b3450823af56df6ed416d3ef228b8cb4448e0c1a",
+                "source": "smoke-cella",
+                "path": ".run/tasks/openrouter/smoke-cella/verify-cella-env-www"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "build-pmars-uksmkv9-verifier",
+  "kernel": "canonical",
+  "rootfs": "build-pmars-uksmkv9-verifier",
+  "mem_mb": 2048,
+  "net": "wire:build-pmars-uksmkv9-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

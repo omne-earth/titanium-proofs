@@ -1,0 +1,74 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1789946917.4346137,
+            "stop": 1789946917.6150186
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_report_claims",
+                "status": "passed",
+                "duration": 0.0005715929999965397,
+                "start": 1789946917.5002036,
+                "stop": 1789946917.5009706,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_engine_sockets_absent",
+                "status": "passed",
+                "duration": 0.0004917040000051998,
+                "start": 1789946917.5011368,
+                "stop": 1789946917.5017524,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_dns_and_egress",
+                "status": "passed",
+                "duration": 0.10420966399998832,
+                "start": 1789946917.5019088,
+                "stop": 1789946917.6064842,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_sysrq_boundary_holds",
+                "status": "passed",
+                "duration": 0.0005742400000059433,
+                "start": 1789946917.6068134,
+                "stop": 1789946917.6075237,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_dmesg_reports_gvisor",
+                "status": "passed",
+                "duration": 0.006035072000003083,
+                "start": 1789946917.6077056,
+                "stop": 1789946917.6140108,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_uname_reports_gvisor",
+                "status": "passed",
+                "duration": 0.000425751000008745,
+                "start": 1789946917.614261,
+                "stop": 1789946917.6148145,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

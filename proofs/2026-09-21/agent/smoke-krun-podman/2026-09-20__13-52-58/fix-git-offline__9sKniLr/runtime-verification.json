@@ -1,0 +1,14 @@
+{
+  "engine": "podman",
+  "expected_runtime": "krun",
+  "services": {
+    "main": {
+      "reported": "krun",
+      "verified_at": "2026-09-20T23:54:29.850222+00:00"
+    },
+    "titanium-egress-proxy": {
+      "reported": "crun",
+      "verified_at": "2026-09-20T23:54:30.047219+00:00"
+    }
+  }
+}

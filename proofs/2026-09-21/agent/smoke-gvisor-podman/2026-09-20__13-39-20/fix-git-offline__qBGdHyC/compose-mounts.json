@@ -1,0 +1,32 @@
+{
+  "services": {
+    "main": {
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor-podman/2026-09-20__13-39-20/fix-git-offline__qBGdHyC/verifier",
+          "target": "/logs/verifier",
+          "bind": {
+            "selinux": "z"
+          }
+        },
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor-podman/2026-09-20__13-39-20/fix-git-offline__qBGdHyC/agent",
+          "target": "/logs/agent",
+          "bind": {
+            "selinux": "z"
+          }
+        },
+        {
+          "type": "bind",
+          "source": "/home/shree/workspace/titanium/.run/jobs/openrouter/smoke-gvisor-podman/2026-09-20__13-39-20/fix-git-offline__qBGdHyC/artifacts",
+          "target": "/logs/artifacts",
+          "bind": {
+            "selinux": "z"
+          }
+        }
+      ]
+    }
+  }
+}

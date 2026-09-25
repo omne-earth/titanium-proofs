@@ -1,0 +1,556 @@
+host_ns=1789984359666106296 cella: valve Closed
+host_ns=1789984359670060511 cella: booting "/home/shree/.cella/kernel/canonical/bzImage"
+host_ns=1789984359672829179 cella: valve Open
+host_ns=1789984359681287031 cella: valve Open
+host_ns=1789984359681323950 cella: valve Open
+host_ns=1789984359681429579 cella: valve Open
+host_ns=1789984359681534886 cella: valve Open
+host_ns=1789984359681744910 cella: valve Open
+host_ns=1789984359681875125 cella: valve Open
+host_ns=1789984359682281979 cella: valve Open
+host_ns=1789984359682354435 cella: valve Open
+host_ns=1789984359682419477 cella: valve Open
+host_ns=1789984359682507663 cella: valve Open
+host_ns=1789984359682563458 cella: valve Open
+host_ns=1789984359682652585 cella: valve Open
+host_ns=1789984359682728628 cella: valve Open
+host_ns=1789984359682816082 cella: valve Open
+host_ns=1789984359682866186 cella: valve Open
+host_ns=1789984359683024774 cella: valve Open
+host_ns=1789984359683189854 cella: valve Open
+host_ns=1789984372014574217 guest_ns=12351372453 cella: parked ingress from arp 02:fc:00:00:00:01
+host_ns=1789984372090406466 cella: valve Open
+host_ns=1789984372090914180 guest_ns=12427713382 cella: parked egress to arp 02:fc:00:00:00:01
+host_ns=1789984372090939137 guest_ns=12427739411 cella: membrane released egress to l2=arp 02:fc:00:00:00:01, freeze skipped
+host_ns=1789984372091470574 cella: valve Open
+host_ns=1789984372097742511 guest_ns=12434541805 cella: parked ingress from 10.77.0.2:50004 proto 17
+host_ns=1789984372098236829 cella: valve Open
+host_ns=1789984372098514911 guest_ns=12435314494 cella: parked egress to 10.77.0.2:50004 proto 17
+host_ns=1789984372098529208 guest_ns=12435329382 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984372098929159 cella: valve Open
+host_ns=1789984372103980574 guest_ns=12440779932 cella: parked ingress from 10.77.0.2:50004 proto 17
+host_ns=1789984372104403097 cella: valve Open
+host_ns=1789984372104687001 guest_ns=12441486417 cella: parked egress to 10.77.0.2:50004 proto 17
+host_ns=1789984372104703171 guest_ns=12441503328 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984372105101379 cella: valve Open
+host_ns=1789984372114338433 guest_ns=12451137923 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984372114741430 cella: valve Open
+host_ns=1789984372114960481 guest_ns=12451760040 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984372114974608 guest_ns=12451774737 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984372115286693 cella: valve Open
+host_ns=1789984372120685020 guest_ns=12457484493 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984372121202221 cella: valve Open
+host_ns=1789984372122767581 guest_ns=12459567018 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984372123296093 cella: valve Open
+host_ns=1789984372123493444 guest_ns=12460292989 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984372123507420 guest_ns=12460307536 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984372123980889 cella: valve Open
+host_ns=1789984372124772134 guest_ns=12461571546 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984372124786631 guest_ns=12461586735 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984372125160904 cella: valve Open
+host_ns=1789984372131215883 guest_ns=12468015338 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984372131754144 cella: valve Open
+host_ns=1789984372137445651 guest_ns=12474245089 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984372138148691 cella: valve Open
+host_ns=1789984372138405664 guest_ns=12475205139 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984372138420011 guest_ns=12475220077 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984372138713272 guest_ns=12475514079 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984372138851661 guest_ns=12475651045 cella: parked egress to arp ff:ff:ff:ff:ff:ff
+host_ns=1789984372138878401 guest_ns=12475678477 cella: membrane released egress to l2=arp ff:ff:ff:ff:ff:ff, freeze skipped
+host_ns=1789984372138924728 cella: valve Open
+host_ns=1789984372139227407 cella: valve Open
+host_ns=1789984372139533542 guest_ns=12476332914 cella: parked ingress from arp 02:ce:11:a0:00:77
+host_ns=1789984372139896483 cella: valve Open
+host_ns=1789984372140132487 guest_ns=12476931977 cella: parked egress to 9.9.9.9:53 proto 17
+host_ns=1789984372140146673 guest_ns=12476946745 cella: membrane released egress to ip=9.9.9.9 port=53, freeze skipped
+host_ns=1789984372140522469 cella: valve Open
+host_ns=1789984372185222361 guest_ns=12522021670 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984372185863104 cella: valve Open
+host_ns=1789984372214210533 guest_ns=12551009763 cella: parked ingress from 9.9.9.9:53 proto 17
+host_ns=1789984372214826118 cella: valve Open
+host_ns=1789984372214853199 guest_ns=12551653770 cella: the ratchet learns example.com = 172.66.147.243
+host_ns=1789984372218751208 guest_ns=12555550266 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984372218796614 cella: parked -- the machine freezes (one-shot)
+host_ns=1789984372218806693 cella: freezing with 1 held egress frame(s)
+host_ns=1789984372218819156 cella: freezing to "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984372274035305 cella: freeze timing: guest stop to TSC read 55166326 ns (0.055166326 s), TSC read to clock read 2605 ns (0.000002605 s)
+host_ns=1789984372274097592 cella: nested state: 128 bytes, 2 MSR(s)
+host_ns=1789984372279752110 cella: frozen
+host_ns=1789984373203306414 cella: valve Open
+host_ns=1789984373254270348 cella: thaw timing: prefault(ept) done in 50948355 ns (0.050948355 s)
+host_ns=1789984377860763830 cella: thaw timing: warm(stage-2, all layers) 131072 pages in 4606285311 ns (4.606285461 s)
+host_ns=1789984377860874958 cella: thaw timing: TSC write to clock write 2345 ns (0.000002345 s)
+host_ns=1789984377860885938 cella: serial restore: IER=0x0d IIR=0x01 LCR=0x13 LSR=0x60 MCR=0x0b MSR=0xb0
+host_ns=1789984377860957723 cella: applying 21 decision(s) from the verdict file
+host_ns=1789984377861174080 cella: thawed "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984377861421013 cella: thaw timing: clock write to first KVM_RUN 546175 ns (0.000546175 s)
+host_ns=1789984377879340811 guest_ns=12629300037 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984377880227155 cella: valve Open
+host_ns=1789984377880462247 guest_ns=12630421600 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984377880476524 guest_ns=12630436438 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377880692489 guest_ns=12630653004 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377880931708 cella: valve Open
+host_ns=1789984377881432047 guest_ns=12631391298 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984377882044197 cella: valve Open
+host_ns=1789984377904247308 guest_ns=12654206507 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984377904689829 cella: valve Open
+host_ns=1789984377904902338 guest_ns=12654861395 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984377904918929 guest_ns=12654878767 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377904991666 guest_ns=12654952025 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377905034456 guest_ns=12654994775 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377905173286 guest_ns=12655133726 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377905355779 cella: valve Open
+host_ns=1789984377906356549 guest_ns=12656315602 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984377906772600 cella: valve Open
+host_ns=1789984377906990779 guest_ns=12656950021 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984377907005526 guest_ns=12656965370 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377907345134 cella: valve Open
+host_ns=1789984377908494472 guest_ns=12658453590 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984377908509911 guest_ns=12658469741 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377908954847 cella: valve Open
+host_ns=1789984377910571503 guest_ns=12660530685 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984377910926089 cella: valve Open
+host_ns=1789984377911235600 guest_ns=12661194870 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984377911250257 guest_ns=12661210079 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984377911578323 cella: valve Open
+host_ns=1789984377912657710 guest_ns=12662616866 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984377913037163 cella: valve Open
+host_ns=1789984377991405775 guest_ns=12741364568 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984377992020289 cella: valve Open
+host_ns=1789984377993086220 guest_ns=12743045069 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984377993100858 guest_ns=12743060458 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984377993206816 guest_ns=12743167008 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984377993573826 cella: valve Open
+host_ns=1789984377999738030 guest_ns=12749696901 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984378000254740 cella: valve Open
+host_ns=1789984378001832833 guest_ns=12751780268 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984378002396993 cella: valve Open
+host_ns=1789984378003280772 guest_ns=12753239634 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378003306691 guest_ns=12753266364 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378003741688 cella: valve Open
+host_ns=1789984378026751574 guest_ns=12776710302 cella: parked ingress from 10.77.0.2:50001 proto 17
+host_ns=1789984378027310683 cella: valve Open
+host_ns=1789984378027815301 guest_ns=12777774156 cella: parked egress to 10.77.0.2:50001 proto 17
+host_ns=1789984378027829939 guest_ns=12777789455 cella: membrane released egress to ip=10.77.0.2 port=50001, freeze skipped
+host_ns=1789984378028272009 cella: valve Open
+host_ns=1789984378033002130 guest_ns=12782960691 cella: parked ingress from 10.77.0.2:50001 proto 17
+host_ns=1789984378033422399 cella: valve Open
+host_ns=1789984378033740928 guest_ns=12783699687 cella: parked egress to 10.77.0.2:50001 proto 17
+host_ns=1789984378033755515 guest_ns=12783715015 cella: membrane released egress to ip=10.77.0.2 port=50001, freeze skipped
+host_ns=1789984378034238502 cella: valve Open
+host_ns=1789984378039230034 guest_ns=12789188879 cella: parked ingress from 10.77.0.2:50002 proto 6
+host_ns=1789984378039605138 cella: valve Open
+host_ns=1789984378040118843 guest_ns=12790077555 cella: parked egress to 10.77.0.2:50002 proto 6
+host_ns=1789984378040143650 guest_ns=12790103324 cella: membrane released egress to ip=10.77.0.2 port=50002, freeze skipped
+host_ns=1789984378040644540 cella: valve Open
+host_ns=1789984378045469880 guest_ns=12795428729 cella: parked ingress from 10.77.0.2:50002 proto 6
+host_ns=1789984378046062874 cella: valve Open
+host_ns=1789984378046511456 guest_ns=12796470221 cella: parked egress to 10.77.0.2:50002 proto 6
+host_ns=1789984378046526354 guest_ns=12796485821 cella: membrane released egress to ip=10.77.0.2 port=50002, freeze skipped
+host_ns=1789984378046937346 cella: valve Open
+host_ns=1789984378047316889 guest_ns=12797275752 cella: parked egress to 10.77.0.2:50002 proto 6
+host_ns=1789984378047340423 guest_ns=12797299887 cella: membrane released egress to ip=10.77.0.2 port=50002, freeze skipped
+host_ns=1789984378047706430 cella: valve Open
+host_ns=1789984378053900300 guest_ns=12803859096 cella: parked ingress from 10.77.0.2:50002 proto 6
+host_ns=1789984378054264715 cella: valve Open
+host_ns=1789984378055991998 guest_ns=12805950818 cella: parked ingress from 10.77.0.2:50002 proto 6
+host_ns=1789984378056341304 cella: valve Open
+host_ns=1789984378056635296 guest_ns=12806594034 cella: parked egress to 10.77.0.2:50002 proto 6
+host_ns=1789984378056650214 guest_ns=12806609643 cella: membrane released egress to ip=10.77.0.2 port=50002, freeze skipped
+host_ns=1789984378056817228 guest_ns=12806777448 cella: membrane released egress to ip=10.77.0.2 port=50002, freeze skipped
+host_ns=1789984378056898470 guest_ns=12806857187 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378056929188 guest_ns=12806888947 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378057224923 cella: valve Open
+host_ns=1789984378057483950 cella: valve Open
+host_ns=1789984378076854972 guest_ns=12826813255 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378077377563 cella: valve Open
+host_ns=1789984378077768317 guest_ns=12827726687 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378077793485 guest_ns=12827752856 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378078063221 guest_ns=12828023784 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378078288274 cella: valve Open
+host_ns=1789984378078940859 guest_ns=12828899556 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378079401274 cella: valve Open
+host_ns=1789984378097620874 guest_ns=12847579261 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378098078754 cella: valve Open
+host_ns=1789984378098299960 guest_ns=12848258725 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378098314597 guest_ns=12848273923 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378098395829 guest_ns=12848355707 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378098439020 guest_ns=12848398858 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378098482342 guest_ns=12848442159 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378098524662 guest_ns=12848484478 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378098683199 cella: valve Open
+host_ns=1789984378098926296 guest_ns=12848884999 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378098941244 guest_ns=12848900568 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378099281423 cella: valve Open
+host_ns=1789984378099743640 guest_ns=12849702402 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378100117773 cella: valve Open
+host_ns=1789984378100849036 guest_ns=12850807644 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378100873592 guest_ns=12850833232 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378101257443 cella: valve Open
+host_ns=1789984378101839787 guest_ns=12851798482 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378102218217 cella: valve Open
+host_ns=1789984378102487091 guest_ns=12852445846 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378102501979 guest_ns=12852461315 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378102884427 cella: valve Open
+host_ns=1789984378103947113 guest_ns=12853905753 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378103962792 guest_ns=12853921853 cella: parked ingress from 10.77.0.2:50002 proto 6
+host_ns=1789984378104331905 cella: valve Open
+host_ns=1789984378104508838 cella: valve Open
+host_ns=1789984378184729528 guest_ns=12934687819 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378185423240 cella: valve Open
+host_ns=1789984378186166175 guest_ns=12936124623 cella: parked egress to 10.77.0.2:50002 proto 6
+host_ns=1789984378186181244 guest_ns=12936140323 cella: membrane released egress to ip=10.77.0.2 port=50002, freeze skipped
+host_ns=1789984378186270873 guest_ns=12936230582 cella: membrane released egress to ip=10.77.0.2 port=50002, freeze skipped
+host_ns=1789984378186751565 cella: valve Open
+host_ns=1789984378193064198 guest_ns=12943022507 cella: parked ingress from 10.77.0.2:50002 proto 6
+host_ns=1789984378193530403 cella: valve Open
+host_ns=1789984378195141127 guest_ns=12945099491 cella: parked ingress from 10.77.0.2:50002 proto 6
+host_ns=1789984378195582377 cella: valve Open
+host_ns=1789984378196491233 guest_ns=12946449573 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378196507123 guest_ns=12946466174 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378196958249 cella: valve Open
+host_ns=1789984378217945497 guest_ns=12967903900 cella: parked ingress from 10.77.0.2:50000 proto 17
+host_ns=1789984378218549502 cella: valve Open
+host_ns=1789984378218870294 guest_ns=12968828593 cella: parked egress to 10.77.0.2:50000 proto 17
+host_ns=1789984378218885633 guest_ns=12968844623 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378219515966 cella: valve Open
+host_ns=1789984378224211573 guest_ns=12974169918 cella: parked ingress from 10.77.0.2:50000 proto 17
+host_ns=1789984378224710259 cella: valve Open
+host_ns=1789984378225007728 guest_ns=12974966111 cella: parked egress to 10.77.0.2:50000 proto 17
+host_ns=1789984378225022636 guest_ns=12974981610 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378225612013 cella: valve Open
+host_ns=1789984378230451480 guest_ns=12980409818 cella: parked ingress from 10.77.0.2:50006 proto 6
+host_ns=1789984378231143740 cella: valve Open
+host_ns=1789984378231384421 guest_ns=12981342798 cella: parked egress to 10.77.0.2:50006 proto 6
+host_ns=1789984378231398918 guest_ns=12981357876 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984378231799891 cella: valve Open
+host_ns=1789984378236694663 guest_ns=12986652944 cella: parked ingress from 10.77.0.2:50006 proto 6
+host_ns=1789984378237214729 cella: valve Open
+host_ns=1789984378237460451 guest_ns=12987418800 cella: parked egress to 10.77.0.2:50006 proto 6
+host_ns=1789984378237475269 guest_ns=12987434209 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984378237823142 guest_ns=12987782783 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984378237882553 cella: valve Open
+host_ns=1789984378242942625 guest_ns=12992899827 cella: parked ingress from 10.77.0.2:50006 proto 6
+host_ns=1789984378243476557 cella: valve Open
+host_ns=1789984378245017330 guest_ns=12994975619 cella: parked ingress from 10.77.0.2:50006 proto 6
+host_ns=1789984378245385551 cella: valve Open
+host_ns=1789984378245653685 guest_ns=12995612022 cella: parked egress to 10.77.0.2:50006 proto 6
+host_ns=1789984378245695073 guest_ns=12995654492 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984378245812984 guest_ns=12995772563 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984378245883306 guest_ns=12995841573 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378245898144 guest_ns=12995857072 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378246091186 cella: valve Open
+host_ns=1789984378246327641 cella: valve Open
+host_ns=1789984378267934081 guest_ns=13017892097 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378268797452 cella: valve Open
+host_ns=1789984378269140786 guest_ns=13019099061 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378269156315 guest_ns=13019115171 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378269323199 guest_ns=13019282765 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378269705387 cella: valve Open
+host_ns=1789984378269959503 guest_ns=13019917746 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378270469932 cella: valve Open
+host_ns=1789984378291010110 guest_ns=13040964779 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378292475051 cella: valve Open
+host_ns=1789984378292922050 guest_ns=13042880090 cella: parked ingress from 10.77.0.2:50006 proto 6
+host_ns=1789984378293109222 guest_ns=13043066980 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378293125392 guest_ns=13043084283 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378293217625 guest_ns=13043177007 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378293260806 guest_ns=13043220087 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378293304439 guest_ns=13043263739 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378293424153 guest_ns=13043383564 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378293626924 cella: valve Open
+host_ns=1789984378293834023 cella: valve Open
+host_ns=1789984378294962832 guest_ns=13044920997 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378295510210 cella: valve Open
+host_ns=1789984378295807548 guest_ns=13045765761 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378295822717 guest_ns=13045781500 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378296212048 cella: valve Open
+host_ns=1789984378297054370 guest_ns=13047012488 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378297459501 cella: valve Open
+host_ns=1789984378379963528 guest_ns=13129921382 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984378380710781 cella: valve Open
+host_ns=1789984378381724544 guest_ns=13131682154 cella: parked egress to 10.77.0.2:50006 proto 6
+host_ns=1789984378381743440 guest_ns=13131701991 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984378381840192 guest_ns=13131799303 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984378382322648 cella: valve Open
+host_ns=1789984378388271227 guest_ns=13138229099 cella: parked ingress from 10.77.0.2:50006 proto 6
+host_ns=1789984378388760876 cella: valve Open
+host_ns=1789984378389185874 guest_ns=13139143804 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984378389201364 guest_ns=13139159905 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984378389594412 cella: valve Open
+host_ns=1789984378411131402 guest_ns=13161088851 cella: parked ingress from 10.77.0.2:50000 proto 17
+host_ns=1789984378411725958 cella: valve Open
+host_ns=1789984378412255833 guest_ns=13162213330 cella: parked egress to 10.77.0.2:50000 proto 17
+host_ns=1789984378412280930 guest_ns=13162239599 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378412790617 cella: valve Open
+host_ns=1789984378417348816 guest_ns=13167306570 cella: parked ingress from 10.77.0.2:50000 proto 17
+host_ns=1789984378417863332 cella: valve Open
+host_ns=1789984378418164518 guest_ns=13168122389 cella: parked egress to 10.77.0.2:50000 proto 17
+host_ns=1789984378418179426 guest_ns=13168137888 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378418573917 cella: valve Open
+host_ns=1789984378423585186 guest_ns=13173542973 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984378424034400 cella: valve Open
+host_ns=1789984378424289368 guest_ns=13174247233 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984378424304076 guest_ns=13174262522 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378424697174 cella: valve Open
+host_ns=1789984378429812399 guest_ns=13179770169 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984378430395143 cella: valve Open
+host_ns=1789984378430655772 guest_ns=13180613590 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984378430685429 guest_ns=13180644188 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378431115967 cella: valve Open
+host_ns=1789984378431547497 guest_ns=13181505252 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984378431562926 guest_ns=13181521342 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378431953299 cella: valve Open
+host_ns=1789984378438140387 guest_ns=13188098154 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984378438592535 cella: valve Open
+host_ns=1789984378440225361 guest_ns=13190183123 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984378440612358 cella: valve Open
+host_ns=1789984378440971362 guest_ns=13190929122 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984378440986450 guest_ns=13190944851 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378441205201 guest_ns=13191164253 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984378441277046 guest_ns=13191234855 cella: parked egress to 9.9.9.9:53 proto 17
+host_ns=1789984378441291353 guest_ns=13191249743 cella: membrane released egress to ip=9.9.9.9 port=53, freeze skipped
+host_ns=1789984378441378857 cella: valve Open
+host_ns=1789984378441647351 cella: valve Open
+host_ns=1789984378488050101 guest_ns=13238007624 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984378488892464 cella: valve Open
+host_ns=1789984378514937277 guest_ns=13264894828 cella: parked ingress from 9.9.9.9:53 proto 17
+host_ns=1789984378515771083 cella: valve Open
+host_ns=1789984378515804255 guest_ns=13265762955 cella: the ratchet learns example.org = 172.66.157.237
+host_ns=1789984378516131460 guest_ns=13266089017 cella: parked egress to 172.66.157.237:443 proto 6
+host_ns=1789984378516201611 cella: parked -- the machine freezes (one-shot)
+host_ns=1789984378516211671 cella: freezing with 1 held egress frame(s)
+host_ns=1789984378516224495 cella: freezing to "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984378660328208 cella: freeze timing: guest stop to TSC read 144061394 ns (0.144061394 s), TSC read to clock read 1724 ns (0.000001724 s)
+host_ns=1789984378660367772 cella: nested state: 128 bytes, 2 MSR(s)
+host_ns=1789984378665531678 cella: frozen
+host_ns=1789984379385301245 cella: valve Open
+host_ns=1789984379412963828 cella: thaw timing: prefault(ept) done in 27623729 ns (0.027623729 s)
+host_ns=1789984383935899814 cella: thaw timing: warm(stage-2, all layers) 131072 pages in 4522841949 ns (4.522842000 s)
+host_ns=1789984383936010892 cella: thaw timing: TSC write to clock write 2395 ns (0.000002395 s)
+host_ns=1789984383936017434 cella: serial restore: IER=0x0d IIR=0x01 LCR=0x13 LSR=0x60 MCR=0x0b MSR=0xb0
+host_ns=1789984383936152417 cella: applying 108 decision(s) from the verdict file
+host_ns=1789984383936340120 cella: lapsed 0000000033d27af4bcc1a526108a1003 by the book -- refused, and held by nothing
+host_ns=1789984383936539674 cella: thawed "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984383936764958 cella: thaw timing: clock write to first KVM_RUN 754186 ns (0.000754186 s)
+host_ns=1789984384984869819 guest_ns=14459140107 cella: parked egress to 172.66.157.237:443 proto 6
+host_ns=1789984384985023959 cella: parked -- the machine freezes (one-shot)
+host_ns=1789984384985037344 cella: freezing with 1 held egress frame(s)
+host_ns=1789984384985061219 cella: freezing to "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984385131144338 cella: freeze timing: guest stop to TSC read 146040529 ns (0.146040529 s), TSC read to clock read 1713 ns (0.000001713 s)
+host_ns=1789984385131183061 cella: nested state: 128 bytes, 2 MSR(s)
+host_ns=1789984385136275463 cella: frozen
+host_ns=1789984385958198875 cella: valve Open
+host_ns=1789984385985577003 cella: thaw timing: prefault(ept) done in 27361948 ns (0.027361948 s)
+host_ns=1789984392637400771 cella: thaw timing: warm(stage-2, all layers) 131072 pages in 6651693243 ns (6.651693293 s)
+host_ns=1789984392637551595 cella: thaw timing: TSC write to clock write 2385 ns (0.000002385 s)
+host_ns=1789984392637558508 cella: serial restore: IER=0x0d IIR=0x01 LCR=0x13 LSR=0x60 MCR=0x0b MSR=0xb0
+host_ns=1789984392637734017 cella: applying 109 decision(s) from the verdict file
+host_ns=1789984392637977414 cella: lapsed 00000000387b7d4195f51d0e2095eca3 by the book -- refused, and held by nothing
+host_ns=1789984392638169254 cella: thawed "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984392638425766 cella: thaw timing: clock write to first KVM_RUN 874301 ns (0.000874301 s)
+host_ns=1789984393452909227 guest_ns=15420769632 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984393452943551 guest_ns=15420806141 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984393453793388 guest_ns=15421656686 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984393454217003 cella: valve Open
+host_ns=1789984393460928806 guest_ns=15428790752 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984393461746481 cella: valve Open
+host_ns=1789984393463036754 guest_ns=15430898624 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984393463573502 cella: valve Open
+host_ns=1789984393465115437 guest_ns=15432977302 cella: parked ingress from 10.77.0.2:50007 proto 17
+host_ns=1789984393465709763 cella: valve Open
+host_ns=1789984393467880850 guest_ns=15435742597 cella: parked egress to 10.77.0.2:50007 proto 17
+host_ns=1789984393467895507 guest_ns=15435758316 cella: membrane released egress to ip=10.77.0.2 port=50007, freeze skipped
+host_ns=1789984393468425722 cella: valve Open
+host_ns=1789984393473722118 guest_ns=15441583959 cella: parked ingress from 10.77.0.2:50001 proto 17
+host_ns=1789984393474128201 cella: valve Open
+host_ns=1789984393474550022 guest_ns=15442411862 cella: parked egress to 10.77.0.2:50001 proto 17
+host_ns=1789984393474564139 guest_ns=15442426649 cella: membrane released egress to ip=10.77.0.2 port=50001, freeze skipped
+host_ns=1789984393475005467 cella: valve Open
+host_ns=1789984393479975559 guest_ns=15447837455 cella: parked ingress from 10.77.0.2:50006 proto 17
+host_ns=1789984393480487962 cella: valve Open
+host_ns=1789984393480825045 guest_ns=15448686907 cella: parked egress to 10.77.0.2:50006 proto 17
+host_ns=1789984393480839342 guest_ns=15448701845 cella: membrane released egress to ip=10.77.0.2 port=50006, freeze skipped
+host_ns=1789984393481233923 cella: valve Open
+host_ns=1789984415609013465 guest_ns=37576814486 cella: parked ingress from arp 02:fc:00:00:00:01
+host_ns=1789984415609611608 cella: valve Open
+host_ns=1789984415611818692 guest_ns=37579620588 cella: parked egress to arp 02:fc:00:00:00:01
+host_ns=1789984415611833820 guest_ns=37579636578 cella: membrane released egress to l2=arp 02:fc:00:00:00:01, freeze skipped
+host_ns=1789984415612291720 cella: valve Open
+host_ns=1789984415617325723 guest_ns=37585127854 cella: parked ingress from 10.77.0.2:50005 proto 17
+host_ns=1789984415617796045 cella: valve Open
+host_ns=1789984415621292782 guest_ns=37589094782 cella: parked egress to 10.77.0.2:50005 proto 17
+host_ns=1789984415621308461 guest_ns=37589111193 cella: membrane released egress to ip=10.77.0.2 port=50005, freeze skipped
+host_ns=1789984415621790256 cella: valve Open
+host_ns=1789984415673432204 guest_ns=37641233011 cella: parked ingress from 10.77.0.2:50001 proto 17
+host_ns=1789984415674069700 cella: valve Open
+host_ns=1789984415674534053 guest_ns=37642335989 cella: parked egress to 10.77.0.2:50001 proto 17
+host_ns=1789984415674549322 guest_ns=37642351909 cella: membrane released egress to ip=10.77.0.2 port=50001, freeze skipped
+host_ns=1789984415675019755 cella: valve Open
+host_ns=1789984415679706214 guest_ns=37647508057 cella: parked ingress from 10.77.0.2:50001 proto 17
+host_ns=1789984415680139919 cella: valve Open
+host_ns=1789984415680477663 guest_ns=37648279613 cella: parked egress to 10.77.0.2:50001 proto 17
+host_ns=1789984415680492511 guest_ns=37648295072 cella: membrane released egress to ip=10.77.0.2 port=50001, freeze skipped
+host_ns=1789984415680935052 cella: valve Open
+host_ns=1789984415690091475 guest_ns=37657893049 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415690634063 cella: valve Open
+host_ns=1789984415692030005 guest_ns=37659831804 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984415692044772 guest_ns=37659847313 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415692465733 cella: valve Open
+host_ns=1789984415698404364 guest_ns=37666206266 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415699170733 cella: valve Open
+host_ns=1789984415702583741 guest_ns=37670385582 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415703171265 cella: valve Open
+host_ns=1789984415703713462 guest_ns=37671515290 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984415703728781 guest_ns=37671531290 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415704268615 cella: valve Open
+host_ns=1789984415715540981 guest_ns=37683342556 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984415715560277 guest_ns=37683362744 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415716397249 cella: valve Open
+host_ns=1789984415721292000 guest_ns=37689093860 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415722010950 cella: valve Open
+host_ns=1789984415727535433 guest_ns=37695337226 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415728039018 cella: valve Open
+host_ns=1789984415728437356 guest_ns=37696239137 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984415728452244 guest_ns=37696254687 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415729034177 cella: valve Open
+host_ns=1789984415729830643 guest_ns=37697632370 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984415729854397 guest_ns=37697657156 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415730381336 cella: valve Open
+host_ns=1789984415734792349 guest_ns=37702593923 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415734807628 guest_ns=37702610063 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415735293359 cella: valve Open
+host_ns=1789984415762918371 guest_ns=37730718376 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415764337636 cella: valve Open
+host_ns=1789984415765098084 guest_ns=37732899716 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415765114585 guest_ns=37732916928 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415765751311 cella: valve Open
+host_ns=1789984415766548898 guest_ns=37734350526 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415766564798 guest_ns=37734367137 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415767091787 cella: valve Open
+host_ns=1789984415769168617 guest_ns=37736970328 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415769603183 cella: valve Open
+host_ns=1789984415777488499 guest_ns=37745290078 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415778006262 cella: valve Open
+host_ns=1789984415789947293 guest_ns=37757748758 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415791001934 cella: valve Open
+host_ns=1789984415791537068 guest_ns=37759338669 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415791553439 guest_ns=37759355691 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415791728067 guest_ns=37759531000 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415791778632 guest_ns=37759581414 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415792048028 guest_ns=37759849637 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415792170949 cella: valve Open
+host_ns=1789984415792550942 cella: valve Open
+host_ns=1789984415792913693 guest_ns=37760715260 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415792937388 guest_ns=37760740047 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415793059747 guest_ns=37760862637 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415793469878 cella: valve Open
+host_ns=1789984415793882913 guest_ns=37761684457 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415793899505 guest_ns=37761701770 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415794421715 cella: valve Open
+host_ns=1789984415796248044 guest_ns=37764049622 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415796720822 cella: valve Open
+host_ns=1789984415797975448 guest_ns=37765776971 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415797991999 guest_ns=37765794253 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415798500874 cella: valve Open
+host_ns=1789984415800412664 guest_ns=37768214271 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415800908175 cella: valve Open
+host_ns=1789984415801309077 guest_ns=37769110702 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415801324797 guest_ns=37769127042 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415801764092 cella: valve Open
+host_ns=1789984415802499723 guest_ns=37770301374 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415802957372 cella: valve Open
+host_ns=1789984415875060199 guest_ns=37842859952 cella: parked ingress from 172.66.147.243:443 proto 6
+host_ns=1789984415876504822 cella: valve Open
+host_ns=1789984415877344659 guest_ns=37845145968 cella: parked egress to 10.77.0.2:50000 proto 6
+host_ns=1789984415877361270 guest_ns=37845163310 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415877487658 guest_ns=37845290349 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415878154489 cella: valve Open
+host_ns=1789984415883382546 guest_ns=37851183879 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415884185795 cella: valve Open
+host_ns=1789984415885519949 guest_ns=37853321317 cella: parked ingress from 10.77.0.2:50000 proto 6
+host_ns=1789984415886194777 cella: valve Open
+host_ns=1789984415887387917 guest_ns=37855189189 cella: parked egress to 172.66.147.243:443 proto 6
+host_ns=1789984415887406652 guest_ns=37855208665 cella: membrane released egress to ip=172.66.147.243 port=443 host=example.com, freeze skipped
+host_ns=1789984415888243724 cella: valve Open
+host_ns=1789984415912643299 guest_ns=37880443541 cella: parked ingress from 10.77.0.2:50000 proto 17
+host_ns=1789984415913252563 cella: valve Open
+host_ns=1789984415913754215 guest_ns=37881555546 cella: parked egress to 10.77.0.2:50000 proto 17
+host_ns=1789984415913769653 guest_ns=37881571596 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415914214670 cella: valve Open
+host_ns=1789984415918878567 guest_ns=37886679844 cella: parked ingress from 10.77.0.2:50000 proto 17
+host_ns=1789984415919312161 cella: valve Open
+host_ns=1789984415919714527 guest_ns=37887515751 cella: parked egress to 10.77.0.2:50000 proto 17
+host_ns=1789984415919730768 guest_ns=37887532683 cella: membrane released egress to ip=10.77.0.2 port=50000, freeze skipped
+host_ns=1789984415920196632 cella: valve Open
+host_ns=1789984415925127761 guest_ns=37892929051 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984415925572917 cella: valve Open
+host_ns=1789984415925987936 guest_ns=37893789144 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984415926003055 guest_ns=37893804963 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984415926424326 cella: valve Open
+host_ns=1789984415931365353 guest_ns=37899166647 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984415931836708 cella: valve Open
+host_ns=1789984415933459666 guest_ns=37901260873 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984415933944416 cella: valve Open
+host_ns=1789984415934250210 guest_ns=37902051506 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984415934265279 guest_ns=37902067165 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984415934640694 guest_ns=37902443290 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984415934736042 cella: valve Open
+host_ns=1789984415939715673 guest_ns=37907516903 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984415940192909 cella: valve Open
+host_ns=1789984415941802381 guest_ns=37909603636 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984415942299283 cella: valve Open
+host_ns=1789984415942685620 guest_ns=37910486792 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984415942701550 guest_ns=37910503413 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984415943000791 guest_ns=37910803335 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984415943225663 cella: valve Open
+host_ns=1789984415943683092 guest_ns=37911484252 cella: parked egress to 172.66.157.237:443 proto 6
+host_ns=1789984415943772270 cella: parked -- the machine freezes (one-shot)
+host_ns=1789984415943782810 cella: freezing with 1 held egress frame(s)
+host_ns=1789984415943793600 cella: freezing to "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984415966826970 cella: freeze timing: guest stop to TSC read 23003333 ns (0.023003333 s), TSC read to clock read 1223 ns (0.000001223 s)
+host_ns=1789984415966868808 cella: nested state: 128 bytes, 2 MSR(s)
+host_ns=1789984415971468414 cella: frozen
+host_ns=1789984416669182859 cella: valve Open
+host_ns=1789984416704158604 cella: thaw timing: prefault(ept) done in 34959975 ns (0.034959975 s)
+host_ns=1789984421440883148 cella: thaw timing: warm(stage-2, all layers) 131072 pages in 4736589571 ns (4.736589631 s)
+host_ns=1789984421441003114 cella: thaw timing: TSC write to clock write 2344 ns (0.000002344 s)
+host_ns=1789984421441009987 cella: serial restore: IER=0x0d IIR=0x01 LCR=0x13 LSR=0x60 MCR=0x0b MSR=0xb0
+host_ns=1789984421441245308 cella: applying 170 decision(s) from the verdict file
+host_ns=1789984421441465853 cella: lapsed 00000000941777d08e9d041e413d1fae by the book -- refused, and held by nothing
+host_ns=1789984421441756439 cella: thawed "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984421442010485 cella: thaw timing: clock write to first KVM_RUN 1007501 ns (0.001007501 s)
+host_ns=1789984421629490957 guest_ns=38123114498 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984421629539798 guest_ns=38123165033 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984421630764428 cella: valve Open
+host_ns=1789984421635643489 guest_ns=38129268116 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984421636155651 cella: valve Open
+host_ns=1789984422477465123 guest_ns=38971086365 cella: parked egress to 172.66.157.237:443 proto 6
+host_ns=1789984422477649590 cella: parked -- the machine freezes (one-shot)
+host_ns=1789984422477672353 cella: freezing with 1 held egress frame(s)
+host_ns=1789984422477687541 cella: freezing to "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984422771268557 cella: freeze timing: guest stop to TSC read 293538476 ns (0.293538476 s), TSC read to clock read 1883 ns (0.000001883 s)
+host_ns=1789984422771314203 cella: nested state: 128 bytes, 2 MSR(s)
+host_ns=1789984422776517212 cella: frozen
+host_ns=1789984423464156189 cella: valve Open
+host_ns=1789984423498406580 cella: thaw timing: prefault(ept) done in 34234652 ns (0.034234652 s)
+host_ns=1789984428704800223 cella: thaw timing: warm(stage-2, all layers) 131072 pages in 5206242628 ns (5.206242819 s)
+host_ns=1789984428704920819 cella: thaw timing: TSC write to clock write 2194 ns (0.000002194 s)
+host_ns=1789984428704931569 cella: serial restore: IER=0x0d IIR=0x01 LCR=0x13 LSR=0x60 MCR=0x0b MSR=0xb0
+host_ns=1789984428705170588 cella: applying 173 decision(s) from the verdict file
+host_ns=1789984428705396903 cella: lapsed 00000000983b71c6836004dd5626203f by the book -- refused, and held by nothing
+host_ns=1789984428705591308 cella: thawed "/home/shree/.cella/machines/verify-cella-env-www-x8c8tgb-appliance"
+host_ns=1789984428706262608 cella: thaw timing: clock write to first KVM_RUN 1341899 ns (0.001341899 s)
+host_ns=1789984429380405443 guest_ns=39940371755 cella: parked egress to 10.77.0.2:50004 proto 6
+host_ns=1789984429380436011 guest_ns=39940404146 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984429381193002 guest_ns=39941161807 cella: membrane released egress to ip=10.77.0.2 port=50004, freeze skipped
+host_ns=1789984429381936919 cella: valve Open
+host_ns=1789984429387074215 guest_ns=39947041671 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984429387839382 cella: valve Open
+host_ns=1789984429389161314 guest_ns=39949128765 cella: parked ingress from 10.77.0.2:50004 proto 6
+host_ns=1789984429389581042 cella: valve Open
+host_ns=1789984432379291890 guest_ns=42939249952 cella: parked egress to arp 02:ce:11:a0:00:77
+host_ns=1789984432379324171 guest_ns=42939284216 cella: membrane released egress to l2=arp 02:ce:11:a0:00:77, freeze skipped
+host_ns=1789984432380594557 cella: valve Open
+host_ns=1789984432381726522 guest_ns=42941685989 cella: parked ingress from arp 02:ce:11:a0:00:77
+host_ns=1789984432382327690 cella: valve Open

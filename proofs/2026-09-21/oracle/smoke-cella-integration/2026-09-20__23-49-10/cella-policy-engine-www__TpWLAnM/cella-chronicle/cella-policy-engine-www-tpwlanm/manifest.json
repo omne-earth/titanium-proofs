@@ -1,0 +1,12 @@
+{
+  "name": "cella-policy-engine-www-tpwlanm",
+  "kernel": "canonical",
+  "rootfs": "cella-policy-engine-www-tpwlanm",
+  "mem_mb": 1024,
+  "net": "wire:cella-policy-engine-www-tpwlanm-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

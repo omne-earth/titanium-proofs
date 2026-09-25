@@ -1,0 +1,12 @@
+{
+  "name": "verify-cella-env-airgapped-7fuom69-verifier",
+  "kernel": "canonical",
+  "rootfs": "verify-cella-env-airgapped-7fuom69-verifier",
+  "mem_mb": 1024,
+  "net": "wire:verify-cella-env-airgapped-7fuom69-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

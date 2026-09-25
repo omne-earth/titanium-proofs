@@ -1,0 +1,6 @@
+audit verb=start args=["fix-git-offline-onz2w3r-verifier"] uid=1000 gid=1000 persona=cella-machine host_ns=1789984713222480607
+audit verb=gateway args=["fix-git-offline-onz2w3r-verifier", "open"] uid=1000 gid=1000 persona=cella-gateway host_ns=1789984713305496185
+audit verb=membrane-memory args=["0x0806", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789984713312598050
+audit verb=membrane-memory args=["10.77.0.1:443/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789984713312758822
+audit verb=membrane-memory args=["10.77.0.1:80/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789984713312810609
+audit verb=membrane-memory args=["10.77.0.1:53/17", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1789984713312876443

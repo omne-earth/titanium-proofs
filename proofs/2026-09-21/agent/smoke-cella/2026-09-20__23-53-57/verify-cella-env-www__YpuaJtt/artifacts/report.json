@@ -1,0 +1,25 @@
+{
+  "granted_https_ok": true,
+  "calls": [
+    {
+      "measured_at": 1789985801.373,
+      "secs": 0.354
+    },
+    {
+      "measured_at": 1789985801.726,
+      "secs": 0.33
+    },
+    {
+      "measured_at": 1789985802.057,
+      "secs": 0.349
+    }
+  ],
+  "denied_https_blocked": true,
+  "resolver_is_gateway": true,
+  "resolver_address": "10.77.0.1",
+  "pid1_comm": "systemd",
+  "uid": 1000,
+  "nproc": 1,
+  "mem_total_kb": 1001196,
+  "kernel_release": "7.2.2"
+}

@@ -1,0 +1,17 @@
+{
+  "task_type": "oracle",
+  "egress_tcp_denied": true,
+  "net_interfaces": [
+    "lo"
+  ],
+  "pid1_comm": "systemd",
+  "uid": 1000,
+  "writable_workdir": true,
+  "writable_tmp": true,
+  "cpu_hypervisor": true,
+  "nproc": 1,
+  "mem_total_kb": 1001196,
+  "fs_total_kb": 4046560,
+  "root_device_is_vda": true,
+  "kernel_release": "7.2.2"
+}

@@ -1,0 +1,14 @@
+{
+  "engine": "docker",
+  "expected_runtime": "runsc",
+  "services": {
+    "main": {
+      "reported": "runsc",
+      "verified_at": "2026-09-20T23:20:48.162909+00:00"
+    },
+    "titanium-egress-proxy": {
+      "reported": "runc",
+      "verified_at": "2026-09-20T23:20:48.283155+00:00"
+    }
+  }
+}
