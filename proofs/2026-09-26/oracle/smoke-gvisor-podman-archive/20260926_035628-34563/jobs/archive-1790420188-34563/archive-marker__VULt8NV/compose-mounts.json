@@ -1,0 +1,32 @@
+{
+  "services": {
+    "main": {
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/home/aryan/workspace/omne/titanium-gvisor-archive/.run/environment-archive/20260926_035628-34563/jobs/archive-1790420188-34563/archive-marker__VULt8NV/verifier",
+          "target": "/logs/verifier",
+          "bind": {
+            "selinux": "z"
+          }
+        },
+        {
+          "type": "bind",
+          "source": "/home/aryan/workspace/omne/titanium-gvisor-archive/.run/environment-archive/20260926_035628-34563/jobs/archive-1790420188-34563/archive-marker__VULt8NV/agent",
+          "target": "/logs/agent",
+          "bind": {
+            "selinux": "z"
+          }
+        },
+        {
+          "type": "bind",
+          "source": "/home/aryan/workspace/omne/titanium-gvisor-archive/.run/environment-archive/20260926_035628-34563/jobs/archive-1790420188-34563/archive-marker__VULt8NV/artifacts",
+          "target": "/logs/artifacts",
+          "bind": {
+            "selinux": "z"
+          }
+        }
+      ]
+    }
+  }
+}

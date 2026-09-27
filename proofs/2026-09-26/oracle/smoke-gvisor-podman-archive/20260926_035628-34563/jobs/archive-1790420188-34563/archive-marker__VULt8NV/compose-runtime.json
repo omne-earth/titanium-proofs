@@ -1,0 +1,30 @@
+{
+  "services": {
+    "main": {
+      "runtime": "runsc",
+      "security_opt": [
+        "no-new-privileges:true",
+        "label=disable"
+      ],
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/home/aryan/workspace/omne/titanium-gvisor-archive/.run/environment-archive/20260926_035628-34563/jobs/archive-1790420188-34563/archive-marker__VULt8NV/.titanium-stage/in",
+          "target": "/.titanium-stage/in",
+          "read_only": true,
+          "bind": {
+            "selinux": "z"
+          }
+        },
+        {
+          "type": "bind",
+          "source": "/home/aryan/workspace/omne/titanium-gvisor-archive/.run/environment-archive/20260926_035628-34563/jobs/archive-1790420188-34563/archive-marker__VULt8NV/.titanium-stage/out",
+          "target": "/.titanium-stage/out",
+          "bind": {
+            "selinux": "z"
+          }
+        }
+      ]
+    }
+  }
+}
