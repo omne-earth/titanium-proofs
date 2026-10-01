@@ -435,3 +435,23 @@ LFS.
 |---|---|---|---|---|
 | oracle | `oracle/smoke-cella-runner-docker/2026-10-01__11-44-09` | `cella-runner-docker__DmjtxTe` | 1.0 | run inside: 1m 21s, exit 0 |
 | agent | `agent/smoke-cella-runner-docker/2026-10-01__11-52-59` | `cella-runner-docker__r6hYQPf` | 1.0 | 16 steps; run inside: 12m 57s, exit 0 |
+
+## Record 2026-10-01: cella-runner baseline on cella
+
+The baselines for the cella-runner work: the `cella-runner-cella`
+task run directly on a cella machine, with no runner in between.
+Run with titanium 0.3.0 at `e483a01` (each job's `lock.json`). The
+model is deepseek/deepseek-v4.1-flash. Every claim reads from a
+file under `proofs/2026-10-01/`.
+
+One redaction: the agent printed its environment, which held an API
+key; that key reads `sk-or-v1-REDACTED` in the six agent transcript
+files of the agent trial. The state tars are kept whole. No other
+book was edited.
+
+### Per trial
+
+| Type | Run | Trial | Reward | Note |
+|---|---|---|---|---|
+| oracle | `oracle/smoke-cella-runner-cella-baseline-oracle/2026-10-01__12-25-05` | `cella-runner-cella__T5amLxM` | 1.0 | |
+| agent | `agent/smoke-cella-runner-cella-baseline-agent/2026-10-01__12-25-50` | `cella-runner-cella__GGegdwq` | 1.0 | 16 steps |
