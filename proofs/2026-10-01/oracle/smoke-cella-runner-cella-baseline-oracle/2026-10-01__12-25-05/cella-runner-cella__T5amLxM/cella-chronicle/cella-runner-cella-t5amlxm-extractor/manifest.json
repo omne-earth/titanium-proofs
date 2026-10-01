@@ -1,0 +1,12 @@
+{
+  "name": "cella-runner-cella-t5amlxm-extractor",
+  "kernel": "canonical",
+  "rootfs": "cella",
+  "mem_mb": 256,
+  "net": "none",
+  "root": "rw",
+  "diag": "off",
+  "attach": "/home/shree/.cella/machines/cella-runner-cella-t5amlxm/disk.img",
+  "scratch": "/home/shree/.cella/machines/cella-runner-cella-t5amlxm-extractor/scratch.img",
+  "extract": "/"
+}
