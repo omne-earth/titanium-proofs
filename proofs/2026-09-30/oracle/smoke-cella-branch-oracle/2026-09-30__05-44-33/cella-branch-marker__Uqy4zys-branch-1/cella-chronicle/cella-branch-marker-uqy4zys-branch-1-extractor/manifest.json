@@ -1,0 +1,12 @@
+{
+  "name": "cella-branch-marker-uqy4zys-branch-1-extractor",
+  "kernel": "canonical",
+  "rootfs": "cella",
+  "mem_mb": 256,
+  "net": "none",
+  "root": "rw",
+  "diag": "off",
+  "attach": "/home/shree/.cella/machines/cella-branch-marker-uqy4zys-branch-1/disk.img",
+  "scratch": "/home/shree/.cella/machines/cella-branch-marker-uqy4zys-branch-1-extractor/scratch.img",
+  "extract": "/"
+}

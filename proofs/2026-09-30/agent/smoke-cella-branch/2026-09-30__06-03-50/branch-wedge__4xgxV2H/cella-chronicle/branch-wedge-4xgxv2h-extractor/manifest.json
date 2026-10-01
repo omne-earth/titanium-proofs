@@ -1,0 +1,12 @@
+{
+  "name": "branch-wedge-4xgxv2h-extractor",
+  "kernel": "canonical",
+  "rootfs": "cella",
+  "mem_mb": 256,
+  "net": "none",
+  "root": "rw",
+  "diag": "off",
+  "attach": "/home/shree/.cella/machines/branch-wedge-4xgxv2h/disk.img",
+  "scratch": "/home/shree/.cella/machines/branch-wedge-4xgxv2h-extractor/scratch.img",
+  "extract": "/"
+}

@@ -1,0 +1,59 @@
+{
+    "task": {
+        "path": "/home/shree/workspace/titanium/examples/smoke/cella/branch-wedge",
+        "git_url": null,
+        "git_commit_id": null,
+        "name": null,
+        "ref": null,
+        "overwrite": false,
+        "download_dir": null,
+        "source": null
+    },
+    "trial_name": "branch-wedge__HWkpW65-branch-1",
+    "trials_dir": ".run/jobs/openrouter/smoke-cella-branch/2026-09-30__05-45-54",
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": 5.0,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+        "name": "mini-swe-agent",
+        "import_path": null,
+        "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+        "override_timeout_sec": null,
+        "override_setup_timeout_sec": null,
+        "max_timeout_sec": null,
+        "kwargs": {
+            "install_source": "git+https://github.com/omne-earth/mini-swe-agent@a48171dcdbc9948999b88a37243ce2deb0f4aa20",
+            "resume": true
+        },
+        "env": {}
+    },
+    "environment": {
+        "type": "cella",
+        "import_path": null,
+        "force_build": false,
+        "delete": true,
+        "cpu_enforcement_policy": "auto",
+        "memory_enforcement_policy": "auto",
+        "override_cpus": null,
+        "override_memory_mb": null,
+        "override_storage_mb": null,
+        "override_gpus": null,
+        "suppress_override_warnings": false,
+        "mounts": null,
+        "on_completion": "teardown",
+        "env": {},
+        "kwargs": {
+            "resume_state_tar": ".run/jobs/openrouter/smoke-cella-branch/2026-09-30__05-45-54/branch-wedge__HWkpW65/cella-env-3fhiuxfu/state-branch-wedge-hwkpw65.tar"
+        }
+    },
+    "verifier": {
+        "override_timeout_sec": null,
+        "max_timeout_sec": null,
+        "env": {},
+        "disable": false
+    },
+    "artifacts": [],
+    "job_id": "050f88f8-8ac9-4f90-ba14-eac7b77ca4b1"
+}

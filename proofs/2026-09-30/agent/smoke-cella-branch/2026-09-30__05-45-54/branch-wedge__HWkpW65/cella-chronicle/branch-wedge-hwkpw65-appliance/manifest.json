@@ -1,0 +1,12 @@
+{
+  "name": "branch-wedge-hwkpw65-appliance",
+  "kernel": "canonical",
+  "rootfs": "terminator",
+  "mem_mb": 512,
+  "net": "world,wire:branch-wedge-hwkpw65-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "branch-wedge-4xgxv2h-appliance",
+  "kernel": "canonical",
+  "rootfs": "terminator",
+  "mem_mb": 512,
+  "net": "world,wire:branch-wedge-4xgxv2h-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

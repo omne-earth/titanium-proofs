@@ -291,3 +291,58 @@ same host clock (host_ns).
 
 The failure mode of this system is a stopped machine and a full set
 of books. That is the point of this record.
+
+## Record 2026-09-30: pause and branch
+
+The pause and branch smokes of titanium's `edge` after the
+pause/branch merge, run on branch `feat/runners` at `e483a01` with
+cella pinned at `6a1e4b6`. The model is
+deepseek/deepseek-v4.1-flash. Every claim reads from a file under
+`proofs/2026-09-30/`.
+
+Three state tars of the second `smoke-cella-branch` run held the
+agent's environment, which included an API key. They were removed
+from the copy rather than edited; the books inside them are also
+present outside the tar in each trial directory. The first run
+(`2026-09-30__05-45-54`) is present without files above 100 MB, for
+disk reasons; its verdict files and transcripts are complete. Text
+files that carried the key now read `sk-or-v1-REDACTED`. No other
+book was edited.
+
+### Per trial
+
+#### pause and branch, oracle
+
+| Target | Job | Trial | Verdict |
+|---|---|---|---|
+| `smoke-cella-pause` | `oracle/smoke-cella-pause/2026-09-30__05-43-29` | `cella-branch-marker__5DBBQcc` | the machine stayed still, never archived, and left the leg's evidence |
+| `smoke-cella-branch-oracle` | `oracle/smoke-cella-branch-oracle/2026-09-30__05-44-33` | `cella-branch-marker__Uqy4zys`, `-branch-1` | the branch leg booted from the parent's disk and carried its write forward |
+
+These two smokes judge the disks, not a verifier; their trials carry
+no reward.
+
+#### branch, agent
+
+| Job | Trial | Reward | Turns | Note |
+|---|---|---|---|---|
+| `agent/smoke-cella-branch/2026-09-30__05-45-54` | `branch-wedge__HWkpW65` | 0.0 | 6 | the parent, cut at 120 s as designed |
+| same | `branch-wedge__HWkpW65-branch-1` | 0.0 | 6 | the resumed leg; case below |
+| `agent/smoke-cella-branch/2026-09-30__06-03-50` | `branch-wedge__4xgxV2H` | 0.0 | 3 | the parent, cut at 120 s as designed |
+| same | `branch-wedge__4xgxV2H-branch-1` | 1.0 | 8 | the resumed leg finished the wedge |
+
+## Case: agent/smoke-cella-branch/2026-09-30__05-45-54/branch-wedge__HWkpW65-branch-1
+
+The resumed leg made no inference call that completed. Its agent
+transcript (`agent/mini-swe-agent.txt`, lines 408 to 416) shows nine
+retries, each "Request failed: ('Connection aborted.',
+RemoteDisconnected('Remote end closed connection without response'))",
+then the agent gave up with the parent's six turns and no new one.
+The membranes released every crossing: the member's engine log holds
+344 releases and no refusal; the appliance's holds 769 releases and
+no refusal; the appliance's `vmm.log` shows 1703 released egress
+flows to `104.18.2.115:443` (openrouter.ai). The parent leg, in the
+same job, had the same burst shape (699 flows in bursts of about 170
+a second) with two of the same disconnects and six completed calls.
+The terminator behaved the same in both legs; the far end closed. The
+second run of the target, twenty minutes later, made eight calls with
+zero retries and finished the wedge.

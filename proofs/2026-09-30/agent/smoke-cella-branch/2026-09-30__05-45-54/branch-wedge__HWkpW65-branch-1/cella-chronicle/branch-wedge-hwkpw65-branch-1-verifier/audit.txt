@@ -1,0 +1,8 @@
+audit verb=start args=["branch-wedge-hwkpw65-branch-1-verifier"] uid=1000 gid=1000 persona=cella-machine host_ns=1790784067783426091
+audit verb=gateway args=["branch-wedge-hwkpw65-branch-1-verifier", "open"] uid=1000 gid=1000 persona=cella-gateway host_ns=1790784067869651281
+audit verb=membrane-memory args=["0x0806", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790784067885025764
+audit verb=membrane-memory args=["10.77.0.1:443/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790784067885196705
+audit verb=membrane-memory args=["10.77.0.1:80/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790784067885285322
+audit verb=membrane-memory args=["10.77.0.1:53/17", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790784067885361885
+audit verb=membrane-memory args=["10.77.0.1:53/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790784067885420565
+audit verb=membrane-memory args=["10.77.0.1:0/1", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790784067885519832
