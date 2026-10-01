@@ -1,0 +1,70 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-09-30T15:44:37.965808Z",
+    "titanium": {
+        "version": "0.3.0",
+        "git_commit_hash": "e483a013d0265a568b7b3e4d6b47b55091c259b3",
+        "is_editable": true
+    },
+    "invocation": [
+        "/home/shree/workspace/titanium/.venv/bin/titanium",
+        "run",
+        "--agent",
+        "oracle",
+        "--env",
+        "cella",
+        "--path",
+        "/home/shree/workspace/titanium/examples/smoke/cella-branch-marker",
+        "--jobs-dir",
+        "./.run/jobs/openrouter/smoke-cella-branch-oracle",
+        "--job-name",
+        "2026-09-30__05-44-33",
+        "--disable-verification",
+        "--yes"
+    ],
+    "n_concurrent_trials": 4,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "RewardFileNotFoundError",
+            "VerifierTimeoutError",
+            "RewardFileEmptyError",
+            "VerifierOutputParseError",
+            "AgentTimeoutError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "cella-branch-marker",
+                "type": "local",
+                "digest": "sha256:090366e6f490e1f44c8e38ff01256ef1e3ea1d6313b4923f4687dba7650abad0",
+                "path": "/home/shree/workspace/titanium/examples/smoke/cella-branch-marker"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "on_completion": "teardown",
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": true
+            }
+        }
+    ]
+}

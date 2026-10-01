@@ -1,0 +1,12 @@
+{
+  "name": "branch-wedge-hwkpw65-extractor",
+  "kernel": "canonical",
+  "rootfs": "cella",
+  "mem_mb": 256,
+  "net": "none",
+  "root": "rw",
+  "diag": "off",
+  "attach": "/home/shree/.cella/machines/branch-wedge-hwkpw65/disk.img",
+  "scratch": "/home/shree/.cella/machines/branch-wedge-hwkpw65-extractor/scratch.img",
+  "extract": "/"
+}

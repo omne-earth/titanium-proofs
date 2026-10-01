@@ -1,0 +1,102 @@
+{
+    "id": "0c46f864-7878-40e7-b63a-73a36bc0cac6",
+    "task_name": "titanium/cella-branch-marker",
+    "trial_name": "cella-branch-marker__Uqy4zys-branch-1",
+    "trial_uri": "file:///home/shree/workspace/titanium/.run/jobs/openrouter/smoke-cella-branch-oracle/2026-09-30__05-44-33/cella-branch-marker__Uqy4zys-branch-1",
+    "task_id": {
+        "path": "/home/shree/workspace/titanium/examples/smoke/cella-branch-marker"
+    },
+    "source": null,
+    "task_checksum": "1c5413070ef2456abcab0f75c2d8afe007349b06a2a36c0261f105ada21ddf9c",
+    "config": {
+        "task": {
+            "path": "/home/shree/workspace/titanium/examples/smoke/cella-branch-marker",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "cella-branch-marker__Uqy4zys-branch-1",
+        "trials_dir": ".run/jobs/openrouter/smoke-cella-branch-oracle/2026-09-30__05-44-33",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "resume": true
+            },
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "teardown",
+            "env": {},
+            "kwargs": {
+                "resume_state_tar": ".run/jobs/openrouter/smoke-cella-branch-oracle/2026-09-30__05-44-33/cella-branch-marker__Uqy4zys/cella-env-qieg2c23/state-cella-branch-marker-uqy4zys.tar"
+            }
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": true
+        },
+        "artifacts": [],
+        "job_id": "1a17fd1b-cee6-419a-bf69-01eb80cefdd0"
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "peak_context_tokens": null,
+        "summarization_count": null,
+        "n_agent_steps": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": null,
+    "exception_info": null,
+    "started_at": "2026-09-30T15:45:18.636258Z",
+    "finished_at": "2026-09-30T15:45:51.747902Z",
+    "environment_setup": {
+        "started_at": "2026-09-30T15:45:18.667250Z",
+        "finished_at": "2026-09-30T15:45:18.885821Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-09-30T15:45:18.886719Z",
+        "finished_at": "2026-09-30T15:45:51.438992Z"
+    },
+    "verifier": null,
+    "n_agent_steps": null,
+    "step_results": null,
+    "environment_completion": null
+}

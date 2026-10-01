@@ -1,0 +1,115 @@
+{
+    "id": "d0807e79-778e-4ef1-a984-954aea450838",
+    "task_name": "titanium/cella-branch-wedge",
+    "trial_name": "branch-wedge__HWkpW65",
+    "trial_uri": "file:///home/shree/workspace/titanium/.run/jobs/openrouter/smoke-cella-branch/2026-09-30__05-45-54/branch-wedge__HWkpW65",
+    "task_id": {
+        "path": "/home/shree/workspace/titanium/examples/smoke/cella/branch-wedge"
+    },
+    "source": null,
+    "task_checksum": "3e9874d66b0fbfd8dec9f42cf5b71e6fc8c25b69f624b9fc95ae978dba19081a",
+    "config": {
+        "task": {
+            "path": "/home/shree/workspace/titanium/examples/smoke/cella/branch-wedge",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "branch-wedge__HWkpW65",
+        "trials_dir": ".run/jobs/openrouter/smoke-cella-branch/2026-09-30__05-45-54",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "install_source": "git+https://github.com/omne-earth/mini-swe-agent@a48171dcdbc9948999b88a37243ce2deb0f4aa20"
+            },
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "teardown",
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "050f88f8-8ac9-4f90-ba14-eac7b77ca4b1"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "unknown",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 22864,
+        "n_cache_tokens": 12672,
+        "n_output_tokens": 8902,
+        "cost_usd": 0.013816032,
+        "peak_context_tokens": 9881,
+        "summarization_count": null,
+        "n_agent_steps": 6,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": {
+        "exception_type": "AgentTimeoutError",
+        "exception_message": "the agent phase hit its 120.0s budget",
+        "exception_traceback": "NoneType: None\n",
+        "occurred_at": "2026-09-30T05:54:13.242337"
+    },
+    "started_at": "2026-09-30T15:45:57.031759Z",
+    "finished_at": "2026-09-30T15:54:13.673409Z",
+    "environment_setup": {
+        "started_at": "2026-09-30T15:45:57.063495Z",
+        "finished_at": "2026-09-30T15:49:38.407928Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-09-30T15:49:38.411294Z",
+        "finished_at": "2026-09-30T15:54:13.241659Z"
+    },
+    "verifier": {
+        "started_at": "2026-09-30T15:54:13.253864Z",
+        "finished_at": "2026-09-30T15:54:13.254938Z"
+    },
+    "n_agent_steps": 6,
+    "step_results": null,
+    "environment_completion": null
+}

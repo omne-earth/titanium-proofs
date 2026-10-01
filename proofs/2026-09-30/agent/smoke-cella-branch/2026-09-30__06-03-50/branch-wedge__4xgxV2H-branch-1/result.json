@@ -1,0 +1,113 @@
+{
+    "id": "4537c011-db8f-494a-9ca5-aafcae3ed326",
+    "task_name": "titanium/cella-branch-wedge",
+    "trial_name": "branch-wedge__4xgxV2H-branch-1",
+    "trial_uri": "file:///home/shree/workspace/titanium/.run/jobs/openrouter/smoke-cella-branch/2026-09-30__06-03-50/branch-wedge__4xgxV2H-branch-1",
+    "task_id": {
+        "path": "/home/shree/workspace/titanium/examples/smoke/cella/branch-wedge"
+    },
+    "source": null,
+    "task_checksum": "3e9874d66b0fbfd8dec9f42cf5b71e6fc8c25b69f624b9fc95ae978dba19081a",
+    "config": {
+        "task": {
+            "path": "/home/shree/workspace/titanium/examples/smoke/cella/branch-wedge",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "branch-wedge__4xgxV2H-branch-1",
+        "trials_dir": ".run/jobs/openrouter/smoke-cella-branch/2026-09-30__06-03-50",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": 5.0,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "install_source": "git+https://github.com/omne-earth/mini-swe-agent@a48171dcdbc9948999b88a37243ce2deb0f4aa20",
+                "resume": true
+            },
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "teardown",
+            "env": {},
+            "kwargs": {
+                "resume_state_tar": ".run/jobs/openrouter/smoke-cella-branch/2026-09-30__06-03-50/branch-wedge__4xgxV2H/cella-env-vkxem_mk/state-branch-wedge-4xgxv2h.tar"
+            }
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "c21fb50c-b660-4598-9c18-85c9f8a46c61"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "unknown",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 39047,
+        "n_cache_tokens": 36352,
+        "n_output_tokens": 6408,
+        "cost_usd": 0.008716212000000001,
+        "peak_context_tokens": 7697,
+        "summarization_count": null,
+        "n_agent_steps": 8,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-09-30T16:08:52.315684Z",
+    "finished_at": "2026-09-30T16:12:15.819749Z",
+    "environment_setup": {
+        "started_at": "2026-09-30T16:08:52.361074Z",
+        "finished_at": "2026-09-30T16:08:56.616370Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-09-30T16:08:56.621591Z",
+        "finished_at": "2026-09-30T16:12:15.206659Z"
+    },
+    "verifier": {
+        "started_at": "2026-09-30T16:12:15.211954Z",
+        "finished_at": "2026-09-30T16:12:15.212937Z"
+    },
+    "n_agent_steps": 8,
+    "step_results": null,
+    "environment_completion": null
+}
