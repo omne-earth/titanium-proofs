@@ -300,14 +300,11 @@ cella pinned at `6a1e4b6`. The model is
 deepseek/deepseek-v4.1-flash. Every claim reads from a file under
 `proofs/2026-09-30/`.
 
-Three state tars of the second `smoke-cella-branch` run held the
-agent's environment, which included an API key. They were removed
-from the copy rather than edited; the books inside them are also
-present outside the tar in each trial directory. The first run
-(`2026-09-30__05-45-54`) is present without files above 100 MB, for
-disk reasons; its verdict files and transcripts are complete. Text
-files that carried the key now read `sk-or-v1-REDACTED`. No other
-book was edited.
+The record is the payload as the host wrote it. The state tars of
+the agent runs hold the agent's environment, which includes an API
+key; that key is limited by its use and the tars are kept whole. In
+the text files of the trial directories the key reads
+`sk-or-v1-REDACTED`. No other book was edited.
 
 ### Per trial
 
