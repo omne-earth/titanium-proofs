@@ -1,0 +1,72 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-09-26T10:55:56.782121Z",
+    "titanium": {
+        "version": "0.3.0",
+        "git_commit_hash": "198b90175be6903eec4958d7fdf5a564d6cd5652",
+        "is_editable": true
+    },
+    "invocation": [
+        "/home/aryan/workspace/omne/titanium-gvisor-archive/.venv/bin/titanium",
+        "run",
+        "--agent",
+        "oracle",
+        "--env",
+        "podman",
+        "--path",
+        "/home/aryan/workspace/omne/titanium-gvisor-archive/examples/smoke/archive-marker",
+        "--jobs-dir",
+        "/home/aryan/workspace/omne/titanium-gvisor-archive/.run/environment-archive/20260926_035553-33467/jobs",
+        "--job-name",
+        "archive-1790420153-33467",
+        "--on-completion",
+        "archive",
+        "--disable-verification",
+        "--yes"
+    ],
+    "n_concurrent_trials": 4,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "VerifierOutputParseError",
+            "RewardFileEmptyError",
+            "VerifierTimeoutError",
+            "RewardFileNotFoundError",
+            "AgentTimeoutError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "archive-marker",
+                "type": "local",
+                "digest": "sha256:f338355400155973604d5fc2bd7bdd31af049db120092a04d50988267a7694e9",
+                "path": "/home/aryan/workspace/omne/titanium-gvisor-archive/examples/smoke/archive-marker"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "oracle",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "podman",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "on_completion": "archive",
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": true
+            }
+        }
+    ]
+}
