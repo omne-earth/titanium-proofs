@@ -1,0 +1,40 @@
+{
+  "services": {
+    "main": {
+      "networks": [
+        "titanium-egress-internal"
+      ],
+      "depends_on": {
+        "titanium-egress-proxy": {
+          "condition": "service_healthy"
+        }
+      }
+    },
+    "titanium-egress-proxy": {
+      "image": "titanium-egress-proxy:cella-runner",
+      "environment": {
+        "PROXY_TOKEN": "w-FnnAu1lkMKUm5-Fdj-vaTHDICbQ01J",
+        "ALLOWLIST_DOMAINS": "openrouter.ai"
+      },
+      "healthcheck": {
+        "test": [
+          "CMD-SHELL",
+          "bash -lc '</dev/tcp/127.0.0.1/8080'"
+        ],
+        "interval": "1s",
+        "timeout": "1s",
+        "retries": 30
+      },
+      "networks": [
+        "titanium-egress-internal",
+        "default"
+      ]
+    }
+  },
+  "networks": {
+    "titanium-egress-internal": {
+      "internal": true
+    },
+    "default": {}
+  }
+}
