@@ -346,3 +346,37 @@ a second) with two of the same disconnects and six completed calls.
 The terminator behaved the same in both legs; the far end closed. The
 second run of the target, twenty minutes later, made eight calls with
 zero retries and finished the wedge.
+
+## Record 2026-09-30: branch --at
+
+The `smoke-cella-branch-at` run: `branch show` and the `--at` trim,
+run on titanium branch `feat/branch-at` at `f3d5598` with cella
+pinned at `6a1e4b6` and the agent fork at `a48171dc`. The model is
+deepseek/deepseek-v4.1-flash. Every claim reads from a file under
+`proofs/2026-09-30/agent/smoke-cella-branch-at/2026-09-30__21-00-43/`.
+
+This record keeps every file of the run. No file was edited and no
+file was removed; the state tars hold the agent's environment as the
+run recorded it. Only files outside LFS were scanned for scrubbing,
+and none needed it.
+
+### Per trial
+
+| Trial | Reward | Turns | Note |
+|---|---|---|---|
+| `branch-ledger__zXMcmLh` | 1.0 | 14 | the parent: the full 13-command ledger, paused at the end |
+| `branch-ledger__zXMcmLh-branch-1` | 1.0 | 14 | the leg: resumed at step 7, re-ran steps 8 to 12 itself |
+
+### The trim
+
+`titanium branch show` listed the parent's 14 steps by tool_call_id.
+The trim point was step 7, `call_00_id8uzhouh7nkgco1zfzltmzb`. The
+file `branch-ledger__zXMcmLh-branch-1/trimmed-trajectory.json` holds
+16 messages: a verbatim prefix of the parent's 31, and its last
+message is step 7's observation. The leg's own trajectory
+(`branch-ledger__zXMcmLh-branch-1/agent/mini-swe-agent.trajectory.json`)
+extends those 16 messages to 31 and diverges from the parent at
+message 17: the leg re-ran the cut steps itself. The leg's seeded
+disk (`cella-env-xd16i571/state-0000.tar`, member `./app/ledger.txt`)
+carried all 12 ledger lines at boot: the trim rewound the memory and
+left the disk at the parent's tip.
