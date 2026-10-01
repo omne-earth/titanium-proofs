@@ -411,3 +411,27 @@ message 17: the leg re-ran the cut steps itself. The leg's seeded
 disk (`cella-env-xd16i571/state-0000.tar`, member `./app/ledger.txt`)
 carried all 12 ledger lines at boot: the trim rewound the memory and
 left the disk at the parent's tip.
+
+## Record 2026-10-01: cella-runner on docker
+
+The cella-runner docker smokes: titanium runs inside a cella
+machine and drives a docker environment there. The runner boots the
+machine, starts dockerd, seeds two images, and runs the job; each
+run's `titanium/result/phases.log` holds that sequence and
+`titanium/result/exit-code` reads 0. Titanium is 0.3.0 (each job's
+`lock.json`). The model is deepseek/deepseek-v4.1-flash. Every claim
+reads from a file under `proofs/2026-10-01/`.
+
+One redaction: the agent printed its environment, which held an API
+key; that key reads `sk-or-v1-REDACTED` in the three agent
+transcript files of the agent trial. No other book was edited. The
+machine books are under each run's `cella-chronicle/`, and the
+machine's disk image (`cella-env/rootfs.ext4.zst`) is kept whole in
+LFS.
+
+### Per trial
+
+| Type | Run | Trial | Reward | Note |
+|---|---|---|---|---|
+| oracle | `oracle/smoke-cella-runner-docker/2026-10-01__11-44-09` | `cella-runner-docker__DmjtxTe` | 1.0 | run inside: 1m 21s, exit 0 |
+| agent | `agent/smoke-cella-runner-docker/2026-10-01__11-52-59` | `cella-runner-docker__r6hYQPf` | 1.0 | 16 steps; run inside: 12m 57s, exit 0 |

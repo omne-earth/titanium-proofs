@@ -1,0 +1,23 @@
+{
+  "services": {
+    "main": {
+      "volumes": [
+        {
+          "type": "bind",
+          "source": "/titanium/result/jobs/2026-10-01__21-46-27/cella-runner-docker__DmjtxTe/verifier",
+          "target": "/logs/verifier"
+        },
+        {
+          "type": "bind",
+          "source": "/titanium/result/jobs/2026-10-01__21-46-27/cella-runner-docker__DmjtxTe/agent",
+          "target": "/logs/agent"
+        },
+        {
+          "type": "bind",
+          "source": "/titanium/result/jobs/2026-10-01__21-46-27/cella-runner-docker__DmjtxTe/artifacts",
+          "target": "/logs/artifacts"
+        }
+      ]
+    }
+  }
+}

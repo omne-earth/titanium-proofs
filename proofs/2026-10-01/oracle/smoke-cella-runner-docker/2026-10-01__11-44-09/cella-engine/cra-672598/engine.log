@@ -1,0 +1,60 @@
+cella_engine: enforcing /var/tmp/cr.roqAru/policy/appliance.policy (40 grants)
+cella_engine: listening on 127.0.0.1:49031 (mode=enforce)
+cella_engine: pre-plant ip= port=0 ethertype=0x0806 keep_open=86400
+cella_engine: pre-plant ip=9.9.9.9 port=53 ethertype=0x0800 keep_open=86400
+cella_engine: pre-plant ip=10.77.0.2 port=50000 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50000 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50001 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50001 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50002 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50002 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50003 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50003 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50004 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50004 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50005 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50005 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50006 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50006 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50007 ethertype=0x0800 keep_open=3600
+cella_engine: pre-plant ip=10.77.0.2 port=50007 ethertype=0x0800 keep_open=3600
+cella_engine: release id=000000002ca47196b3bd7e292177fa60 host='' ip= port=0 direction=1
+cella_engine: release id=000000002ce4716481822eee5707b616 host='' ip= port=0 direction=0
+cella_engine: release id=000000002d1f7b3cbd2351f40cca8e2e host='' ip=10.77.0.2 port=50002 direction=1
+cella_engine: release id=000000002d267473a983109a43727ecd host='' ip=10.77.0.2 port=50002 direction=0
+cella_engine: release id=000000002e3a76cf891141f15ce46c9c host='' ip=10.77.0.2 port=50006 direction=1
+cella_engine: release id=000000002e3c7493ba2a088371b82359 host='' ip=10.77.0.2 port=50006 direction=0
+cella_engine: release id=0000000039d474d0bab90567d331468e host='' ip=10.77.0.2 port=50001 direction=1
+cella_engine: release id=0000000039d97e7087af944ea94fe351 host='' ip=10.77.0.2 port=50001 direction=0
+cella_engine: release id=0000000039de7f4ba547bb2e0ae5163b host='' ip=10.77.0.2 port=50006 direction=1
+cella_engine: release id=0000000039df7a54a6df9f818941212f host='' ip=10.77.0.2 port=50006 direction=0
+cella_engine: release id=00000000421e72cbb8e215e948aef437 host='' ip= port=0 direction=0
+cella_engine: release id=00000000423e74d5b8b4f2f527434565 host='' ip= port=0 direction=1
+cella_engine: release id=000000006600767593e174ad0d7694ad host='' ip=10.77.0.2 port=50002 direction=1
+cella_engine: release id=00000000660475f18cce9c40e8f101c9 host='' ip=10.77.0.2 port=50002 direction=0
+cella_engine: release id=00000000660b78b9bf8bc1dcc2832b3e host='' ip=10.77.0.2 port=50004 direction=1
+cella_engine: release id=00000000660c74519097251abbe9c0c7 host='' ip=10.77.0.2 port=50004 direction=0
+cella_engine: release id=0000000146d2763ab5ca2758ffd5bf44 host='' ip=10.77.0.2 port=50005 direction=1
+cella_engine: release id=0000000146dd75f39f907c3aef6b4dee host='' ip=10.77.0.2 port=50005 direction=0
+cella_engine: release id=00000001476e74c6bc680e948d205f39 host='' ip=10.77.0.2 port=50002 direction=1
+cella_engine: release id=00000001476f74b2acb6186bfcfcb6d9 host='' ip=10.77.0.2 port=50002 direction=0
+cella_engine: release id=0000000149c978778bfd09b5f6f3de43 host='' ip=10.77.0.2 port=50000 direction=1
+cella_engine: release id=0000000149cc7c1e9dffcd3ea307a8c4 host='' ip=10.77.0.2 port=50000 direction=0
+cella_engine: release id=0000000149d37d609e8771023a71c730 host='' ip=10.77.0.2 port=50001 direction=1
+cella_engine: release id=0000000149d473d3a51209344beb4ba8 host='' ip=10.77.0.2 port=50001 direction=0
+cella_engine: release id=0000000153b97a4f8971203ac66566fc host='' ip=10.77.0.2 port=50001 direction=1
+cella_engine: release id=0000000153bd7401905156106b54d7fb host='' ip=10.77.0.2 port=50001 direction=0
+cella_engine: release id=0000000153c378eab8a561a3bb71d5e2 host='' ip=10.77.0.2 port=50002 direction=1
+cella_engine: release id=0000000153c47e3e813783781723e001 host='' ip=10.77.0.2 port=50002 direction=0
+cella_engine: release id=000000015a1d72b581d576e6490d1997 host='' ip=10.77.0.2 port=50007 direction=1
+cella_engine: release id=000000015a1f715980ee931df62d3e5a host='' ip=10.77.0.2 port=50007 direction=0
+cella_engine: release id=000000015a267e1faf0812695e7c75fb host='' ip=10.77.0.2 port=50004 direction=1
+cella_engine: release id=000000015a2671dfb62c28941c92fb2a host='' ip=10.77.0.2 port=50004 direction=0
+cella_engine: release id=000000015add7ad680012cfd43e687bf host='' ip= port=0 direction=1
+cella_engine: release id=000000015ade78e3a69e0597c82d4a4e host='' ip= port=0 direction=0
+cella_engine: release id=000000015b1370b490c205115aa8b390 host='' ip=10.77.0.2 port=50001 direction=1
+cella_engine: release id=000000015b14742892e2440d79f50cfc host='' ip=10.77.0.2 port=50001 direction=0
+cella_engine: release id=000000015b1b7a2c893fbb111a226677 host='' ip=10.77.0.2 port=50006 direction=1
+cella_engine: release id=000000015b1c7573ba7de4a86a1ed15d host='' ip=10.77.0.2 port=50006 direction=0
+cella_engine: release id=000000015c1d7483bff83eabbb87573f host='' ip= port=0 direction=0
+cella_engine: release id=000000015c237e568ae160a0f1997962 host='' ip= port=0 direction=1

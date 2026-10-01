@@ -1,0 +1,117 @@
+time="2026-10-01T21:55:01.017377327Z" level=info msg="Starting up"
+time="2026-10-01T21:55:01.027153463Z" level=info msg="[core] parsed scheme: \"unix\"" module=grpc
+time="2026-10-01T21:55:01.027342450Z" level=info msg="[core] scheme \"unix\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:55:01.027424405Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:55:01.027466444Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:55:01.027476113Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:55:01.027613613Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:55:01.027895195Z" level=info msg="[core] Subchannel picks a new address \"unix:///run/containerd/containerd.sock\" to connect" module=grpc
+time="2026-10-01T21:55:01.033821471Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:55:01.034748012Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:55:01.034772388Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:55:01.039461667Z" level=info msg="[core] parsed scheme: \"unix\"" module=grpc
+time="2026-10-01T21:55:01.039477006Z" level=info msg="[core] scheme \"unix\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:55:01.039494419Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:55:01.039500020Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:55:01.039505651Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:55:01.039522342Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:55:01.039536389Z" level=info msg="[core] Subchannel picks a new address \"unix:///run/containerd/containerd.sock\" to connect" module=grpc
+time="2026-10-01T21:55:01.039916787Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:55:01.039951333Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:55:01.039956392Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:55:01.054467169Z" level=info msg="Loading containers: start."
+time="2026-10-01T21:55:01.169705564Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+time="2026-10-01T21:55:01.176429699Z" level=info msg="failed to read ipv6 net.ipv6.conf.<bridge>.accept_ra" bridge=docker0 syspath=/proc/sys/net/ipv6/conf/docker0/accept_ra
+time="2026-10-01T21:55:01.176467500Z" level=info msg="failed to read ipv6 net.ipv6.conf.<bridge>.accept_ra" bridge=docker0 syspath=/proc/sys/net/ipv6/conf/docker0/accept_ra
+time="2026-10-01T21:55:01.239635192Z" level=info msg="Loading containers: done."
+time="2026-10-01T21:55:01.304723234Z" level=info msg="Docker daemon" commit=5d6db84 graphdriver(s)=vfs version=20.10.24+dfsg1
+time="2026-10-01T21:55:01.305628935Z" level=info msg="Daemon has completed initialization"
+time="2026-10-01T21:55:01.376172963Z" level=info msg="API listen on /var/run/docker.sock"
+time="2026-10-01T21:57:15.579494904Z" level=info msg="failed to read ipv6 net.ipv6.conf.<bridge>.accept_ra" bridge=br-dd238841a4c4 syspath=/proc/sys/net/ipv6/conf/br-dd238841a4c4/accept_ra
+time="2026-10-01T21:57:15.742492091Z" level=info msg="failed to read ipv6 net.ipv6.conf.<bridge>.accept_ra" bridge=br-e0a7878f5c5c syspath=/proc/sys/net/ipv6/conf/br-e0a7878f5c5c/accept_ra
+time="2026-10-01T22:00:35Z" level=warning msg="file does not exist: /proc/sys/net/ipv6/conf/all/disable_ipv6 : stat /proc/sys/net/ipv6/conf/all/disable_ipv6: no such file or directory Has IPv6 been disabled in this node's kernel?"
+time="2026-10-01T22:00:38.440544388Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:00:42Z" level=warning msg="file does not exist: /proc/sys/net/ipv6/conf/all/disable_ipv6 : stat /proc/sys/net/ipv6/conf/all/disable_ipv6: no such file or directory Has IPv6 been disabled in this node's kernel?"
+time="2026-10-01T22:00:47.008403972Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:00:47.010252093Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:00:47.087137980Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:00:54.471475353Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:00:54.491237122Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:00:54.601761173Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:00:58.815014526Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:00:58.834862859Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:00:59.240917687Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:01.496699097Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:01.521770886Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:02.151227840Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:21.481658955Z" level=error msg="Could not send KILL signal to container process" container=01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error="process already finished: not found" exec=b4626e33c496865d51459a311b3b2961a976999d8f6f90c4d65fb63e70e7607d
+time="2026-10-01T22:01:21.494978520Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:34.432009763Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:34.443991174Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:34.491352771Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:40.373912405Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:40.377594900Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:40.433190711Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:50.238757087Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:50.264245142Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:50.425446502Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:52.713203186Z" level=error msg="Could not send KILL signal to container process" container=01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error="process already finished: not found" exec=23d8b60d50ad75b507caa67fbf03e4a14cd5d98fad486bf04dc04582cb45c438
+time="2026-10-01T22:01:52.716555143Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:54.855218197Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:54.868246098Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:01:55.079202426Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:01:57.384020034Z" level=error msg="Could not send KILL signal to container process" container=01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error="process already finished: not found" exec=2b0857521629c852061c805280076b4697174eb3e8d8b6caeacd03626c9bd329
+time="2026-10-01T22:01:57.386365265Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:06:35.894803806Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:06:35.908813931Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:06:35.975555957Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:07:02.035146060Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:02.040170753Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:02.153259984Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:07:34.153429426Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:34.171642872Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:34.390247707Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:07:36.500672905Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:36.510394362Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:36.688874854Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:07:42.162991650Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:43.158360552Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:07:43.742658585Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:07:58.686199333Z" level=info msg="Container failed to exit within 10s of signal 15 - using the force" container=2a66b7fe3b295febe547e37843e58f10419fd50c9725218f573ac8642c7368f5
+time="2026-10-01T22:08:00.017887713Z" level=info msg="ignoring event" container=2a66b7fe3b295febe547e37843e58f10419fd50c9725218f573ac8642c7368f5 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+time="2026-10-01T22:08:04.012837738Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:04.032395970Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:04.261413414Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:06.425799725Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:06.428438019Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:06.677154216Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:14.930534512Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:14.932149282Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:15.022377359Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded: unknown"
+time="2026-10-01T22:08:17.835187408Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:17.866195294Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:18.145858513Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded: unknown"
+time="2026-10-01T22:08:20.340950512Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:20.344385582Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:20.410658902Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:34.494833436Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:36.596889973Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:36.631865394Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:36.810831856Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:38.941783299Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:38.947195956Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:38.998900928Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:42.576152753Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:42.622235013Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:42.661355451Z" level=error msg="exit event" container=01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error="no such exec" module=libcontainerd namespace=moby process=224e39a72e1252de737e19eb148b8fffd727e5d1f7cdbee98f41d82ffba39869
+time="2026-10-01T22:08:46.502279326Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:46.509567714Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:46.544195830Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:50.537609944Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:50.548509335Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:50.688623990Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:57.351213852Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: context deadline exceeded"
+time="2026-10-01T22:08:59.237334392Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:59.239502729Z" level=error msg="stream copy error: reading from a closed fifo"
+time="2026-10-01T22:08:59.274616742Z" level=warning msg="Health check for container 01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc error: OCI runtime exec failed: exec failed: unable to start container process: error executing setns process: exit status 1: unknown"
+time="2026-10-01T22:08:59.317524832Z" level=info msg="ignoring event" container=01ce07c6ea64cf5d72f40480454da12cc8c5fb1f73fd407a60fe1b4ca53974cc module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"

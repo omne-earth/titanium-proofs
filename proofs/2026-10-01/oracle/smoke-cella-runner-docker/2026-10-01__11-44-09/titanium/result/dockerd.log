@@ -1,0 +1,108 @@
+time="2026-10-01T21:45:50.904741099Z" level=info msg="Starting up"
+time="2026-10-01T21:45:50.918463720Z" level=info msg="[core] parsed scheme: \"unix\"" module=grpc
+time="2026-10-01T21:45:50.918520417Z" level=info msg="[core] scheme \"unix\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:45:50.918596541Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:45:50.918636597Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:45:50.918649090Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:45:50.919057392Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:45:50.919309488Z" level=info msg="[core] Subchannel picks a new address \"unix:///run/containerd/containerd.sock\" to connect" module=grpc
+time="2026-10-01T21:45:50.925626102Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:45:50.941123732Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:45:50.941141917Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:45:50.959147335Z" level=info msg="[core] parsed scheme: \"unix\"" module=grpc
+time="2026-10-01T21:45:50.959158015Z" level=info msg="[core] scheme \"unix\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:45:50.959172242Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:45:50.959177472Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:45:50.959183253Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:45:50.959195506Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:45:50.959375135Z" level=info msg="[core] Subchannel picks a new address \"unix:///run/containerd/containerd.sock\" to connect" module=grpc
+time="2026-10-01T21:45:50.960492396Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:45:50.962797261Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:45:50.962811778Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:45:51.004210567Z" level=info msg="Loading containers: start."
+time="2026-10-01T21:45:51.124063411Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+time="2026-10-01T21:45:51.134437471Z" level=info msg="failed to read ipv6 net.ipv6.conf.<bridge>.accept_ra" bridge=docker0 syspath=/proc/sys/net/ipv6/conf/docker0/accept_ra
+time="2026-10-01T21:45:51.134457990Z" level=info msg="failed to read ipv6 net.ipv6.conf.<bridge>.accept_ra" bridge=docker0 syspath=/proc/sys/net/ipv6/conf/docker0/accept_ra
+time="2026-10-01T21:45:51.199279223Z" level=info msg="Loading containers: done."
+time="2026-10-01T21:45:52.267599698Z" level=info msg="Docker daemon" commit=5d6db84 graphdriver(s)=vfs version=20.10.24+dfsg1
+time="2026-10-01T21:45:52.283642063Z" level=info msg="Daemon has completed initialization"
+time="2026-10-01T21:45:52.552347806Z" level=info msg="API listen on /var/run/docker.sock"
+time="2026-10-01T21:46:30.139782535Z" level=info msg="[core] parsed scheme: \"\"" module=grpc
+time="2026-10-01T21:46:30.141080667Z" level=info msg="[core] scheme \"\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:46:30.141271658Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{localhost  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:46:30.141288450Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:46:30.141377648Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:46:30.141618764Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:30.142123317Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:30.142193680Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:30.144743047Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:30.144760740Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:30.191473616Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:30.191767130Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:30.191787709Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:30.193390718Z" level=warning msg="[core] grpc: addrConn.createTransport failed to connect to {localhost localhost <nil> 0 <nil>}. Err: connection error: desc = \"transport: Error while dialing only one connection allowed\". Reconnecting..." module=grpc
+time="2026-10-01T21:46:30.193446182Z" level=info msg="[core] Subchannel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:30.193462143Z" level=info msg="[core] Channel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:30.255250024Z" level=info msg="[core] parsed scheme: \"\"" module=grpc
+time="2026-10-01T21:46:30.255421578Z" level=info msg="[core] scheme \"\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:46:30.255516117Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{localhost  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:46:30.255530304Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:46:30.255535183Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:46:30.255590517Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:30.255610595Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:30.255660560Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:30.256829498Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:30.256847151Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:30.259106811Z" level=warning msg="image exporter: unknown option push"
+time="2026-10-01T21:46:30.259154751Z" level=warning msg="image exporter: unknown option load"
+time="2026-10-01T21:46:31.145501885Z" level=info msg="[core] Channel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:46:31.145552731Z" level=info msg="[core] Subchannel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:46:38.035842727Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.037410268Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.038071908Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:38.039425977Z" level=warning msg="[core] grpc: addrConn.createTransport failed to connect to {localhost localhost <nil> 0 <nil>}. Err: connection error: desc = \"transport: Error while dialing only one connection allowed\". Reconnecting..." module=grpc
+time="2026-10-01T21:46:38.039443029Z" level=info msg="[core] Subchannel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:38.039451655Z" level=info msg="[core] Channel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:38.256719137Z" level=info msg="[core] Channel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:46:38.257519920Z" level=info msg="[core] Subchannel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:46:38.859279720Z" level=info msg="[core] parsed scheme: \"\"" module=grpc
+time="2026-10-01T21:46:38.859740079Z" level=info msg="[core] scheme \"\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:46:38.860037762Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{localhost  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:46:38.860052870Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:46:38.860057479Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:46:38.860109648Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.860165734Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.860187575Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:38.861076805Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:38.861271042Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:38.872242756Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.872285186Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.872292950Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:38.872315243Z" level=warning msg="[core] grpc: addrConn.createTransport failed to connect to {localhost localhost <nil> 0 <nil>}. Err: connection error: desc = \"transport: Error while dialing only one connection allowed\". Reconnecting..." module=grpc
+time="2026-10-01T21:46:38.872364967Z" level=info msg="[core] Subchannel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:38.872379885Z" level=info msg="[core] Channel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:38.904139672Z" level=info msg="[core] parsed scheme: \"\"" module=grpc
+time="2026-10-01T21:46:38.904179547Z" level=info msg="[core] scheme \"\" not registered, fallback to default scheme" module=grpc
+time="2026-10-01T21:46:38.904193043Z" level=info msg="[core] ccResolverWrapper: sending update to cc: {[{localhost  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+time="2026-10-01T21:46:38.904199415Z" level=info msg="[core] ClientConn switching balancer to \"pick_first\"" module=grpc
+time="2026-10-01T21:46:38.904203623Z" level=info msg="[core] Channel switches to new LB policy \"pick_first\"" module=grpc
+time="2026-10-01T21:46:38.904216377Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.904344499Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:38.904366791Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:38.905303581Z" level=warning msg="image exporter: unknown option push"
+time="2026-10-01T21:46:38.905315954Z" level=warning msg="image exporter: unknown option load"
+time="2026-10-01T21:46:38.911257961Z" level=info msg="[core] Subchannel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:38.911271346Z" level=info msg="[core] Channel Connectivity change to READY" module=grpc
+time="2026-10-01T21:46:39.002613877Z" level=info msg="[core] Subchannel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:39.002677558Z" level=info msg="[core] Channel Connectivity change to CONNECTING" module=grpc
+time="2026-10-01T21:46:39.002694790Z" level=info msg="[core] Subchannel picks a new address \"localhost\" to connect" module=grpc
+time="2026-10-01T21:46:39.002770864Z" level=warning msg="[core] grpc: addrConn.createTransport failed to connect to {localhost localhost <nil> 0 <nil>}. Err: connection error: desc = \"transport: Error while dialing only one connection allowed\". Reconnecting..." module=grpc
+time="2026-10-01T21:46:39.002789239Z" level=info msg="[core] Subchannel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:39.002797224Z" level=info msg="[core] Channel Connectivity change to TRANSIENT_FAILURE" module=grpc
+time="2026-10-01T21:46:39.861128582Z" level=info msg="[core] Channel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:46:39.861179929Z" level=info msg="[core] Subchannel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:46:39.906663941Z" level=info msg="[core] Channel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:46:39.906714186Z" level=info msg="[core] Subchannel Connectivity change to SHUTDOWN" module=grpc
+time="2026-10-01T21:47:03Z" level=warning msg="file does not exist: /proc/sys/net/ipv6/conf/all/disable_ipv6 : stat /proc/sys/net/ipv6/conf/all/disable_ipv6: no such file or directory Has IPv6 been disabled in this node's kernel?"
+time="2026-10-01T21:47:18.413465406Z" level=info msg="Container failed to exit within 10s of signal 15 - using the force" container=9c71c9903356ff8bf294c669b9f409651768c079e5d9c192ad48846dc1d1e57a
+time="2026-10-01T21:47:18.485257384Z" level=info msg="ignoring event" container=9c71c9903356ff8bf294c669b9f409651768c079e5d9c192ad48846dc1d1e57a module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"

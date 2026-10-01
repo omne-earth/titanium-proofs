@@ -1,0 +1,12 @@
+{
+  "name": "cr-cellarun-676105",
+  "kernel": "container",
+  "rootfs": "titanium-cella-runner-cella-runner-docker",
+  "mem_mb": 4096,
+  "net": "wire:crw676105",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

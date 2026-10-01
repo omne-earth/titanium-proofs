@@ -1,0 +1,98 @@
+Linux debuerreotype 7.2.2 #1 SMP PREEMPT_DYNAMIC Mon Sep 28 23:15:53 HST 2026 x86_64 GNU/Linux
+
+Thu Oct  1 21:45:48 UTC 2026
+
+/dev/vda on / type ext4 (rw,relatime)
+devtmpfs on /dev type devtmpfs (rw,relatime,size=2005032k,nr_inodes=501258,mode=755)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+selinuxfs on /sys/fs/selinux type selinuxfs (rw,nosuid,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,size=802992k,nr_inodes=819200,mode=755)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
+cgroup2 on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+bpf on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+ramfs on /run/credentials/systemd-sysctl.service type ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+ramfs on /run/credentials/systemd-sysusers.service type ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+ramfs on /run/credentials/systemd-tmpfiles-setup-dev.service type ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+ramfs on /run/credentials/systemd-tmpfiles-setup.service type ramfs (ro,nosuid,nodev,noexec,relatime,mode=700)
+
+nodev	sysfs
+nodev	tmpfs
+nodev	proc
+nodev	cgroup
+nodev	cgroup2
+nodev	devtmpfs
+nodev	binfmt_misc
+nodev	debugfs
+nodev	tracefs
+nodev	sockfs
+nodev	bpf
+nodev	pipefs
+nodev	ramfs
+nodev	hugetlbfs
+nodev	rpc_pipefs
+nodev	devpts
+	ext3
+	ext2
+	ext4
+	vfat
+	msdos
+	iso9660
+nodev	nfs
+nodev	nfs4
+nodev	autofs
+nodev	overlay
+nodev	9p
+nodev	mqueue
+nodev	selinuxfs
+
+-r--r--r-- 1 root root 0 Oct  1 21:45 /sys/fs/cgroup/cgroup.controllers
+cpuset cpu io memory hugetlb pids rdma misc
+
+[    7.505601] systemd[1]: Configuration file /etc/systemd/system/cella-runner.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+[    7.513962] systemd[1]: Queued start job for default target graphical.target.
+[    7.523888] systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+[    7.530413] systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+[    7.536520] systemd[1]: Created slice system-serial\x2dgetty.slice - Slice /system/serial-getty.
+[    7.542543] systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+[    7.549017] systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+[    7.556133] systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+[    7.562907] systemd[1]: Expecting device dev-ttyS0.device - /dev/ttyS0...
+[    7.567701] systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+[    7.573220] systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+[    7.579080] systemd[1]: Reached target paths.target - Path Units.
+[    7.583726] systemd[1]: Reached target remote-fs.target - Remote File Systems.
+[    7.589023] systemd[1]: Reached target slices.target - Slice Units.
+[    7.593705] systemd[1]: Reached target swap.target - Swaps.
+[    7.597945] systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+[    7.603859] systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+[    7.610704] systemd[1]: Listening on systemd-journald-audit.socket - Journal Audit Socket.
+[    7.616605] systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+[    7.622717] systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+[    7.627960] systemd[1]: Reached target sockets.target - Socket Units.
+[    7.638790] systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+[    7.656523] systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+[    7.671165] systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+[    7.679780] systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+[    7.685745] systemd[1]: kmod-static-nodes.service - Create List of Static Device Nodes was skipped because of an unmet condition check (ConditionFileNotEmpty=/lib/modules/7.2.2/modules.devname).
+[    7.692132] systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+[    7.698689] systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+[    7.705802] systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+[    7.712742] systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+[    7.719455] systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+[    7.731179] systemd[1]: Starting systemd-journald.service - Journal Service...
+[    7.744140] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+[    7.758428] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[    7.773601] systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+[    7.785408] systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+[    7.796762] systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+[    7.808448] systemd[1]: Started systemd-journald.service - Journal Service.
+[    7.884473] systemd-journald[72]: Received client request to flush runtime journal.
+[    8.270384] e2scrub_all (91) used greatest stack depth: 12432 bytes left

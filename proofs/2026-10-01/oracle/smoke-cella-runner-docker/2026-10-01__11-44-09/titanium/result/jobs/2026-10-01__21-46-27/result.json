@@ -1,0 +1,39 @@
+{
+    "id": "a9b56778-d05c-4190-99f6-e2aaeb9a5005",
+    "started_at": "2026-10-01T21:46:28.703047",
+    "updated_at": "2026-10-01T21:47:20.618651",
+    "finished_at": "2026-10-01T21:47:20.618651",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__deepseek/deepseek-v4.1-flash__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "cella-runner-docker__DmjtxTe"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

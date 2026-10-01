@@ -1,0 +1,111 @@
+{
+    "id": "2fcc4f52-720b-4347-84d9-273a5b5e2e81",
+    "task_name": "titanium/cella-runner-docker",
+    "trial_name": "cella-runner-docker__r6hYQPf",
+    "trial_uri": "file:///titanium/result/jobs/2026-10-01__21-57-10/cella-runner-docker__r6hYQPf",
+    "task_id": {
+        "path": "/workspace/examples/smoke/cella-runner-docker"
+    },
+    "source": null,
+    "task_checksum": "814a855db6ab2d8d27b505b19f849b2cb94581a772fef2c280d852f10ff4cdb6",
+    "config": {
+        "task": {
+            "path": "/workspace/examples/smoke/cella-runner-docker",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "cella-runner-docker__r6hYQPf",
+        "trials_dir": "/titanium/result/jobs/2026-10-01__21-57-10",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "ignore",
+            "memory_enforcement_policy": "ignore",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "teardown",
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "42b6d099-4e36-46f4-a89b-fdaa69695d27"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "2.4.6",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 281141,
+        "n_cache_tokens": 243456,
+        "n_output_tokens": 19987,
+        "cost_usd": 0.036750635999999996,
+        "peak_context_tokens": 36810,
+        "summarization_count": null,
+        "n_agent_steps": 16,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-10-01T21:57:11.560670Z",
+    "finished_at": "2026-10-01T22:09:13.543805Z",
+    "environment_setup": {
+        "started_at": "2026-10-01T21:57:12.542410Z",
+        "finished_at": "2026-10-01T22:00:47.195019Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-10-01T22:00:47.206685Z",
+        "finished_at": "2026-10-01T22:00:48.584583Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-10-01T22:00:48.589749Z",
+        "finished_at": "2026-10-01T22:07:36.622313Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-01T22:07:39.820631Z",
+        "finished_at": "2026-10-01T22:07:45.546762Z"
+    },
+    "n_agent_steps": 16,
+    "step_results": null,
+    "environment_completion": null
+}
