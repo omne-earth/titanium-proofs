@@ -1,0 +1,116 @@
+{
+    "id": "055ae716-2bc7-4c7b-be1f-0c71fdd9662e",
+    "task_name": "titanium/cella-branch-ledger",
+    "trial_name": "branch-ledger__zXMcmLh-branch-1",
+    "trial_uri": "file:///home/shree/workspace/titanium/.run/jobs/openrouter/smoke-cella-branch-at/2026-09-30__21-00-43/branch-ledger__zXMcmLh-branch-1",
+    "task_id": {
+        "path": "/home/shree/workspace/titanium/examples/smoke/cella/branch-ledger"
+    },
+    "source": null,
+    "task_checksum": "72c2fbde76518748442fc47411a5d6170800350aa6c14bfe72946966cc91d832",
+    "config": {
+        "task": {
+            "path": "/home/shree/workspace/titanium/examples/smoke/cella/branch-ledger",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "branch-ledger__zXMcmLh-branch-1",
+        "trials_dir": ".run/jobs/openrouter/smoke-cella-branch-at/2026-09-30__21-00-43",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "install_source": "git+https://github.com/omne-earth/mini-swe-agent@a48171dcdbc9948999b88a37243ce2deb0f4aa20",
+                "resume": true
+            },
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "pause",
+            "env": {},
+            "kwargs": {
+                "resume_state_tar": ".run/jobs/openrouter/smoke-cella-branch-at/2026-09-30__21-00-43/branch-ledger__zXMcmLh/cella-env-vkhaicfy/state-branch-ledger-zxmcmlh.tar",
+                "resume_overrides": {
+                    "./logs/agent/mini-swe-agent.trajectory.json": ".run/jobs/openrouter/smoke-cella-branch-at/2026-09-30__21-00-43/branch-ledger__zXMcmLh-branch-1/trimmed-trajectory.json"
+                }
+            }
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "f2d9797f-5800-4603-9700-d9023caf89ff"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "unknown",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 28494,
+        "n_cache_tokens": 24704,
+        "n_output_tokens": 2015,
+        "cost_usd": 0.00755178,
+        "peak_context_tokens": 3433,
+        "summarization_count": null,
+        "n_agent_steps": 14,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-10-01T07:05:32.725487Z",
+    "finished_at": "2026-10-01T07:08:58.483900Z",
+    "environment_setup": {
+        "started_at": "2026-10-01T07:05:32.766014Z",
+        "finished_at": "2026-10-01T07:05:37.052569Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-10-01T07:05:37.059308Z",
+        "finished_at": "2026-10-01T07:08:58.291975Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-01T07:08:58.299597Z",
+        "finished_at": "2026-10-01T07:08:58.300452Z"
+    },
+    "n_agent_steps": 14,
+    "step_results": null,
+    "environment_completion": null
+}

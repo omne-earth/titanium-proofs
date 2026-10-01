@@ -1,0 +1,6 @@
+audit verb=start args=["branch-ledger-zxmcmlh-branch-1-verifier"] uid=1000 gid=1000 persona=cella-machine host_ns=1790838531077958413
+audit verb=gateway args=["branch-ledger-zxmcmlh-branch-1-verifier", "open"] uid=1000 gid=1000 persona=cella-gateway host_ns=1790838531162752367
+audit verb=membrane-memory args=["0x0806", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790838531172920215
+audit verb=membrane-memory args=["10.77.0.1:443/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790838531173081337
+audit verb=membrane-memory args=["10.77.0.1:80/6", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790838531173126663
+audit verb=membrane-memory args=["10.77.0.1:53/17", "keep_open=86400s"] uid=1000 gid=1000 persona=cella-engine host_ns=1790838531173200190
