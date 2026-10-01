@@ -6,7 +6,7 @@ books in it. The books are append-only files. The host writes them at
 the time of each event. You can read each claim in this document
 directly from the named file.
 
-## Summary
+## Record 2026-09-21: environment smokes
 
 Seven smoke runs on 2026-09-20 and 2026-09-21, all with
 deepseek/deepseek-v4.1-flash. One redaction: the agent in
@@ -291,6 +291,40 @@ same host clock (host_ns).
 
 The failure mode of this system is a stopped machine and a full set
 of books. That is the point of this record.
+
+## Record 2026-09-26: archive
+
+The environment-archive smokes, one on podman and one on
+gvisor-podman, run with titanium 0.3.0 at `198b901` (each job's
+`lock.json`). The agent is the oracle; no model was called. Every
+claim reads from a file under `proofs/2026-09-26/oracle/`. No file
+was edited.
+
+These two smokes judge the archive, not a verifier. Each trial's
+`result.json` has no verifier result and no exception, so the job
+tables show a mean of 0.000 over zero graded trials. That number is
+the absence of a grade, not a failure.
+
+| Target | Run | Trial | Runtime | Archive |
+|---|---|---|---|---|
+| `smoke-podman-archive` | `smoke-podman-archive/20260926_035553-33467` | `archive-marker__JNFHFod` | podman default | 3454 entries, 80674304 bytes |
+| `smoke-gvisor-podman-archive` | `smoke-gvisor-podman-archive/20260926_035628-34563` | `archive-marker__VULt8NV` | runsc | 3459 entries, 80680960 bytes |
+
+What the files show, for each trial:
+
+- The archive was written. `archive/archive.json` in the trial
+  directory names the engine, the runtime, the container, the entry
+  count, and the size. The trial's `trial.log` carries the same
+  count and size in its "Archived" line.
+- The archive holds the task's marker. The run's `tar-listing.txt`
+  lists every entry of `archive/environment.tar`, and
+  `app/archive-marker.txt` is among them (line 2 for podman, line
+  3457 for gvisor-podman). The line count of each listing equals the
+  entry count in `archive.json`.
+- The gvisor-podman trial ran under gVisor. Its
+  `runtime-verification.json` expected `runsc` and the `main`
+  service reported `runsc`. That trial also keeps a second tar,
+  `archive/rootfs-upper.tar`.
 
 ## Record 2026-09-30: pause and branch
 
