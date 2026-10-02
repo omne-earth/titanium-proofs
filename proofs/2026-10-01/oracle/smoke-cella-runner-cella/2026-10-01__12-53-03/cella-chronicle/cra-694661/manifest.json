@@ -1,0 +1,12 @@
+{
+  "name": "cra-694661",
+  "kernel": "canonical",
+  "rootfs": "terminator",
+  "mem_mb": 512,
+  "net": "world,wire:crw694661",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}
