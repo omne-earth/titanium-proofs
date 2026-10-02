@@ -1,0 +1,70 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-10-02T08:39:50.029227Z",
+    "titanium": {
+        "version": "0.3.0",
+        "is_editable": true
+    },
+    "invocation": [
+        ".venv/bin/titanium",
+        "run",
+        "--agent",
+        "mini-swe-agent",
+        "--model",
+        "openrouter/deepseek/deepseek-v4.1-flash",
+        "--env",
+        "cella",
+        "--cpus",
+        "ignore",
+        "--path",
+        "/workspace/examples/smoke/cella-runner-cella",
+        "--jobs-dir",
+        "/titanium/result/jobs"
+    ],
+    "n_concurrent_trials": 4,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "VerifierOutputParseError",
+            "RewardFileNotFoundError",
+            "AgentTimeoutError",
+            "VerifierTimeoutError",
+            "RewardFileEmptyError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "cella-runner-cella",
+                "type": "local",
+                "digest": "sha256:cee0496cc98bd95a5d413837760b61656c31743e41feb01703a651768ac559e7",
+                "path": "/workspace/examples/smoke/cella-runner-cella"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "mini-swe-agent",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "ignore",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "on_completion": "teardown",
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}
