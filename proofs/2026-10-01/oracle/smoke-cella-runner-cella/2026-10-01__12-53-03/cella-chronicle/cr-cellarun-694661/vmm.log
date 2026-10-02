@@ -1,0 +1,39 @@
+host_ns=1790895292683643875 cella: valve Closed
+host_ns=1790895292692786325 cella: booting "/var/tmp/cr.GAM1gb/h/kernel/container/bzImage"
+host_ns=1790895292698400193 cella: valve Open
+host_ns=1790895293186702391 cella: valve Open
+host_ns=1790895293186783373 cella: valve Open
+host_ns=1790895293186841872 cella: valve Open
+host_ns=1790895304929643817 guest_ns=12249207480 cella: parked egress to arp ff:ff:ff:ff:ff:ff
+host_ns=1790895304929713679 guest_ns=12249279336 cella: membrane released egress to l2=arp ff:ff:ff:ff:ff:ff, freeze skipped
+host_ns=1790895305001170606 cella: valve Open
+host_ns=1790895305015676003 guest_ns=12335241699 cella: parked ingress from arp 02:fc:00:00:00:02
+host_ns=1790895305016220234 cella: valve Open
+host_ns=1790895305017068416 guest_ns=12336634089 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1790895305017083234 guest_ns=12336649589 cella: membrane released egress to ip=10.77.0.1 port=53, freeze skipped
+host_ns=1790895305017475310 cella: valve Open
+host_ns=1790895305026060695 guest_ns=12345626536 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1790895305026461036 cella: valve Open
+host_ns=1790895305026471285 guest_ns=12346038344 cella: the ratchet learns localhost = 10.77.0.1
+host_ns=1790895305027676458 guest_ns=12347242258 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1790895305027691026 guest_ns=12347257487 cella: membrane released egress to ip=10.77.0.1 port=53 host=localhost, freeze skipped
+host_ns=1790895305028091717 cella: valve Open
+host_ns=1790895305032282543 guest_ns=12351848419 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1790895305032655363 cella: valve Open
+host_ns=1790895306581152298 guest_ns=13900735286 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1790895306581196440 guest_ns=13900781553 cella: membrane released egress to ip=10.77.0.1 port=53 host=localhost, freeze skipped
+host_ns=1790895306582863239 cella: valve Open
+host_ns=1790895306591138452 guest_ns=13910723033 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1790895306591636607 cella: valve Open
+host_ns=1790895306592627717 guest_ns=13912212246 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1790895306592646492 guest_ns=13912231733 cella: membrane released egress to ip=10.77.0.1 port=53 host=localhost, freeze skipped
+host_ns=1790895306593271536 cella: valve Open
+host_ns=1790895306600698777 guest_ns=13920283463 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1790895306601689868 cella: valve Open
+host_ns=1790895310143860136 guest_ns=17463486041 cella: parked ingress from arp 02:fc:00:00:00:02
+host_ns=1790895310144945623 cella: valve Open
+host_ns=1790895310146528624 guest_ns=17466155664 cella: parked egress to arp 02:fc:00:00:00:02
+host_ns=1790895310146547409 guest_ns=17466175281 cella: membrane released egress to l2=arp 02:fc:00:00:00:02, freeze skipped
+host_ns=1790895310147400831 cella: valve Open
+host_ns=1790895805723909690 cella: guest exit: shutdown exit=reset rip=0xfff0 exception nr=8 injected=0 pending=0
+host_ns=1790895805724460323 cella: guest requested shutdown

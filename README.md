@@ -455,3 +455,25 @@ book was edited.
 |---|---|---|---|---|
 | oracle | `oracle/smoke-cella-runner-cella-baseline-oracle/2026-10-01__12-25-05` | `cella-runner-cella__T5amLxM` | 1.0 | |
 | agent | `agent/smoke-cella-runner-cella-baseline-agent/2026-10-01__12-25-50` | `cella-runner-cella__GGegdwq` | 1.0 | 16 steps |
+
+## Record 2026-10-01: cella-runner on cella, the oracle leg
+
+The cella-runner cella smoke, oracle leg: titanium runs inside a
+cella machine and drives a nested cella machine there. The runner
+boots the outer machine, seeds the rootfs builder, passes the cella
+doctor gate, and runs the job; the run's
+`titanium/result/phases.log` holds that sequence and
+`titanium/result/exit-code` reads 0. Titanium is 0.3.0 (the job's
+`lock.json`). The model is deepseek/deepseek-v4.1-flash. Every claim
+reads from a file under `proofs/2026-10-01/`. No file was edited; no
+text file in this run held an API key.
+
+### Per trial
+
+| Type | Run | Trial | Reward | Note |
+|---|---|---|---|---|
+| oracle | `oracle/smoke-cella-runner-cella/2026-10-01__12-53-03` | `cella-runner-cella__mZ5KxG5` | 1.0 | run inside: 8m 19s, exit 0 |
+
+The agent leg of this target is not in this record: its run errored
+in teardown before a grade, and this repository records it when a
+passing run exists.

@@ -1,0 +1,20 @@
+cella_engine: enforcing /var/tmp/cr.GAM1gb/policy/member.policy (12 grants)
+cella_engine: listening on 127.0.0.1:42961 (mode=enforce)
+cella_engine: pre-plant ip= port=0 ethertype=0x0806 keep_open=86400
+cella_engine: pre-plant ip=10.77.0.1 port=443 ethertype=0x0800 keep_open=86400
+cella_engine: pre-plant ip=10.77.0.1 port=80 ethertype=0x0800 keep_open=86400
+cella_engine: pre-plant ip=10.77.0.1 port=53 ethertype=0x0800 keep_open=86400
+cella_engine: pre-plant ip=10.77.0.1 port=53 ethertype=0x0800 keep_open=86400
+cella_engine: pre-plant ip=10.77.0.1 port=0 ethertype=0x0800 keep_open=86400
+cella_engine: release id=000000002fd97407a64e72b2bb133fc8 host='' ip= port=0 direction=0
+cella_engine: release id=00000000302f7c9b976e8a52e2e5ae48 host='' ip= port=0 direction=1
+cella_engine: release id=0000000030307947b38aaf81b90d157a host='' ip=10.77.0.1 port=53 direction=0
+cella_engine: release id=00000000303974c68eaae0f9130f77d1 host='' ip=10.77.0.1 port=53 direction=1
+cella_engine: release id=00000000303b7985914ec9d6c070ca71 host='localhost' ip=10.77.0.1 port=53 direction=0
+cella_engine: release id=00000000303f7531839b788452041932 host='localhost' ip=10.77.0.1 port=53 direction=1
+cella_engine: release id=00000000364c71cabaa69aa8b491f274 host='localhost' ip=10.77.0.1 port=53 direction=0
+cella_engine: release id=000000003656796da7ab05b675ec7afd host='localhost' ip=10.77.0.1 port=53 direction=1
+cella_engine: release id=0000000036587996b9af189463243684 host='localhost' ip=10.77.0.1 port=53 direction=0
+cella_engine: release id=000000003660777491f48cdc20db5568 host='localhost' ip=10.77.0.1 port=53 direction=1
+cella_engine: release id=00000000443771afa4ea10a1cf3132d9 host='' ip= port=0 direction=1
+cella_engine: release id=00000000443a735dba4da0fe24b581bc host='' ip= port=0 direction=0
