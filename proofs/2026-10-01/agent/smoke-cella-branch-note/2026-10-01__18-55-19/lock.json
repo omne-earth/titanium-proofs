@@ -1,0 +1,78 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-10-02T01:55:21.460816Z",
+    "titanium": {
+        "version": "0.3.0",
+        "git_commit_hash": "81239882a2c3e0b7d2e3e8b95f1a21d8eedc197e",
+        "is_editable": true
+    },
+    "invocation": [
+        "/home/aryan/workspace/titanium-miniswe-test/.venv/bin/titanium",
+        "run",
+        "--agent",
+        "mini-swe-agent",
+        "--model",
+        "openrouter/deepseek/deepseek-v4.1-flash",
+        "--ak",
+        "install_source=git+https://github.com/omne-earth/mini-swe-agent@a48171dcdbc9948999b88a37243ce2deb0f4aa20",
+        "--env",
+        "cella",
+        "--on-completion",
+        "pause",
+        "--path",
+        "/home/aryan/workspace/titanium-miniswe-test/examples/smoke/cella/branch-ledger",
+        "--jobs-dir",
+        "./.run/jobs/openrouter/smoke-cella-branch-note",
+        "--job-name",
+        "2026-10-01__18-55-19",
+        "--yes"
+    ],
+    "n_concurrent_trials": 4,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "RewardFileNotFoundError",
+            "VerifierOutputParseError",
+            "RewardFileEmptyError",
+            "VerifierTimeoutError",
+            "AgentTimeoutError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "branch-ledger",
+                "type": "local",
+                "digest": "sha256:90c1cff5b605775bcea33d0076282df2e268fa0a900092844875597bfbc4572d",
+                "path": "/home/aryan/workspace/titanium-miniswe-test/examples/smoke/cella/branch-ledger"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "mini-swe-agent",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {
+                    "install_source": "git+https://github.com/omne-earth/mini-swe-agent@a48171dcdbc9948999b88a37243ce2deb0f4aa20"
+                },
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "on_completion": "pause",
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

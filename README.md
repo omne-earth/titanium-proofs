@@ -477,3 +477,20 @@ text file in this run held an API key.
 The agent leg of this target is not in this record: its run errored
 in teardown before a grade, and this repository records it when a
 passing run exists.
+
+## Record 2026-10-01: branch --note
+
+The smoke-cella-branch-note run: the `--note` flag on `titanium branch`, run on titanium's edge after the branch-note merge, at 8123988 with cella pinned at 7758fc73 and the agent fork at a48171dc. The model is deepseek/deepseek-v4.1-flash. Every claim reads from a file under proofs/2026-10-01/agent/smoke-cella-branch-note/2026-10-01__18-55-19/.
+
+The state tars hold the agent's environment, which includes an API key; that key is limited by its use and the tars are kept whole. No plaintext file of this run held the key, so none was edited.
+
+### Per trial
+
+| Trial | Reward | Note |
+|---|---|---|
+| branch-ledger__nRYhj5Y | 1.0 | the parent: the full ledger, paused at the end |
+| branch-ledger__nRYhj5Y-branch-1 | 1.0 | the leg: resumed at step 7 with a --note, ran to completion |
+
+### The note
+
+`titanium branch show` listed the parent's steps by tool_call_id. The trim point was step 7, call_00_w714j1ngr9u8tnhuuk6fgdcc. The leg's trimmed-trajectory.json holds 16 messages: a verbatim prefix of the parent's trajectory ending at step 7, with one appended user-role message — the note instructing the agent to finish. The note is the trailing message at index 16, where --note places it. The leg's seeded disk carried all ledger lines at boot (cella-env-qd5lwbat/state-0000.tar): the trim rewound the memory, not the disk. The leg read the note and ran to completion with reward 1.

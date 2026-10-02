@@ -1,0 +1,11 @@
+# The member border (appended by titanium): the wire plane's
+# ARP and the appliance. The member's only peer is its
+# terminator; the world names are judged at the appliance.
+release outgoing arp (keep_open=24h) (skip_freeze=true)
+release incoming arp
+release outgoing 10.77.0.1:443/tcp (keep_open=24h) (skip_freeze=true)
+release incoming 10.77.0.1:443/tcp
+release outgoing 10.77.0.1:80/tcp (keep_open=24h) (skip_freeze=true)
+release incoming 10.77.0.1:80/tcp
+release outgoing 10.77.0.1:53/udp (keep_open=24h) (skip_freeze=true)
+release incoming 10.77.0.1:53/udp
