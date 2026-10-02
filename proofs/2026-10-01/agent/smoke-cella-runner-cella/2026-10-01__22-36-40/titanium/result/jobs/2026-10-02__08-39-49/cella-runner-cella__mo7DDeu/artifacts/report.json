@@ -1,0 +1,12 @@
+{
+  "cpu_hypervisor": true,
+  "egress_tcp_denied": true,
+  "kernel_release": "7.2.2",
+  "kvm_device": false,
+  "net_interfaces": [
+    "eth0",
+    "lo"
+  ],
+  "pid1_comm": "systemd",
+  "uid": 1000
+}

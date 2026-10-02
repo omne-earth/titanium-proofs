@@ -1,0 +1,39 @@
+{
+    "id": "14ae0ed0-c228-4a04-bcc6-b7203d8eebe8",
+    "started_at": "2026-10-02T08:39:50.009102",
+    "updated_at": "2026-10-02T09:22:54.506651",
+    "finished_at": "2026-10-02T09:22:54.506651",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "mini-swe-agent__deepseek/deepseek-v4.1-flash__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "cella-runner-cella__mo7DDeu"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 221397,
+        "n_cache_tokens": 206080,
+        "n_output_tokens": 12192,
+        "cost_usd": 0.016369584000000003
+    }
+}

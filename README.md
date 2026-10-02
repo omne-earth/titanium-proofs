@@ -474,9 +474,8 @@ text file in this run held an API key.
 |---|---|---|---|---|
 | oracle | `oracle/smoke-cella-runner-cella/2026-10-01__12-53-03` | `cella-runner-cella__mZ5KxG5` | 1.0 | run inside: 8m 19s, exit 0 |
 
-The agent leg of this target is not in this record: its run errored
-in teardown before a grade, and this repository records it when a
-passing run exists.
+The agent leg of this target errored in teardown on its first run
+and is not in this record; its passing rerun is recorded below.
 
 ## Record 2026-10-01: branch --note
 
@@ -494,3 +493,23 @@ The state tars hold the agent's environment, which includes an API key; that key
 ### The note
 
 `titanium branch show` listed the parent's steps by tool_call_id. The trim point was step 7, call_00_w714j1ngr9u8tnhuuk6fgdcc. The leg's trimmed-trajectory.json holds 16 messages: a verbatim prefix of the parent's trajectory ending at step 7, with one appended user-role message — the note instructing the agent to finish. The note is the trailing message at index 16, where --note places it. The leg's seeded disk carried all ledger lines at boot (cella-env-qd5lwbat/state-0000.tar): the trim rewound the memory, not the disk. The leg read the note and ran to completion with reward 1.
+
+## Record 2026-10-01: cella-runner on cella, the agent leg
+
+The cella-runner cella smoke, agent leg: mini-swe-agent runs inside
+titanium inside a cella machine, driving a nested cella machine.
+The runner boots the outer machine, seeds the rootfs builder,
+passes the cella doctor gate, and runs the job; the run's
+`titanium/result/phases.log` holds that sequence and
+`titanium/result/exit-code` reads 0. Titanium is 0.3.0 (the job's
+`lock.json`). The model is deepseek/deepseek-v4.1-flash. Every
+claim reads from a file under `proofs/2026-10-01/`. No file was
+edited; no text file in this run held an API key. An earlier run of
+this leg errored in teardown before a grade and is not recorded;
+this is the passing rerun.
+
+### Per trial
+
+| Type | Run | Trial | Reward | Note |
+|---|---|---|---|---|
+| agent | `agent/smoke-cella-runner-cella/2026-10-01__22-36-40` | `cella-runner-cella__mo7DDeu` | 1.0 | 15 steps; run inside: 43m 21s, exit 0 |

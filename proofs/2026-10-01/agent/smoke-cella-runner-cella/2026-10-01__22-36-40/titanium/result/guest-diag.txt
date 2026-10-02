@@ -1,0 +1,93 @@
+Linux debuerreotype 7.2.2 #1 SMP PREEMPT_DYNAMIC Mon Sep 28 23:21:34 HST 2026 x86_64 GNU/Linux
+
+Fri Oct  2 08:39:37 UTC 2026
+
+/dev/vda on / type ext4 (rw,relatime)
+devtmpfs on /dev type devtmpfs (rw,relatime,size=3034248k,nr_inodes=758562,mode=755)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+selinuxfs on /sys/fs/selinux type selinuxfs (rw,nosuid,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=600,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,size=1214856k,nr_inodes=819200,mode=755)
+cgroup2 on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=36,pgrp=1,timeout=0,minproto=5,maxproto=5,direct)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,nosuid,nodev,relatime,pagesize=2M)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /tmp type tmpfs (rw,nosuid,nodev,nr_inodes=1048576)
+tmpfs on /run/credentials/systemd-journald.service type tmpfs (ro,nosuid,nodev,noexec,relatime,nosymfollow,size=1024k,nr_inodes=1024,mode=700,noswap)
+
+nodev	sysfs
+nodev	tmpfs
+nodev	proc
+nodev	cgroup
+nodev	cgroup2
+nodev	devtmpfs
+nodev	binfmt_misc
+nodev	debugfs
+nodev	tracefs
+nodev	sockfs
+nodev	pipefs
+nodev	ramfs
+nodev	hugetlbfs
+nodev	rpc_pipefs
+nodev	devpts
+	ext3
+	ext2
+	ext4
+	vfat
+	msdos
+	iso9660
+nodev	nfs
+nodev	nfs4
+nodev	autofs
+nodev	9p
+nodev	mqueue
+nodev	selinuxfs
+
+-r--r--r-- 1 root root 0 Oct  2 08:39 /sys/fs/cgroup/cgroup.controllers
+cpuset cpu io hugetlb pids rdma misc
+
+[    7.635939] systemd[1]: Expecting device dev-ttyS0.device - /dev/ttyS0...
+[    7.640823] systemd[1]: Reached target paths.target - Path Units.
+[    7.645404] systemd[1]: Reached target remote-fs.target - Remote File Systems.
+[    7.650808] systemd[1]: Reached target slices.target - Slice Units.
+[    7.655624] systemd[1]: Reached target swap.target - Swaps.
+[    7.661058] systemd[1]: Listening on systemd-creds.socket - Credential Encryption/Decryption.
+[    7.667241] systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+[    7.673992] systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+[    7.680634] systemd[1]: Listening on systemd-journald.socket - Journal Sockets.
+[    7.686058] systemd[1]: systemd-pcrextend.socket - TPM PCR Measurements skipped, unmet condition check ConditionSecurity=measured-uki
+[    7.689589] systemd[1]: systemd-pcrlock.socket - Make TPM PCR Policy skipped, unmet condition check ConditionSecurity=measured-uki
+[    7.696807] systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+[    7.711409] systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+[    7.735702] systemd[1]: Mounting run-lock.mount - Legacy Locks Directory /run/lock...
+[    7.756683] systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+[    7.770730] systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+[    7.783489] systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+[    7.790915] systemd[1]: Mounting tmp.mount - Temporary Directory /tmp...
+[    7.801737] systemd[1]: kmod-static-nodes.service - Create List of Static Device Nodes skipped, unmet condition check ConditionPathExists=/usr/bin/kmod
+[    7.807782] mount (69) used greatest stack depth: 12864 bytes left
+[    7.812947] systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+[    7.823449] (modprobe)[70]: modprobe@configfs.service: Unable to locate executable '/sbin/modprobe': No such file or directory
+[    7.829331] systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+[    7.838692] (modprobe)[71]: modprobe@drm.service: Unable to locate executable '/sbin/modprobe': No such file or directory
+[    7.844303] systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+[    7.855420] (modprobe)[72]: modprobe@efi_pstore.service: Unable to locate executable '/sbin/modprobe': No such file or directory
+[    7.860405] systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+[    7.870144] (modprobe)[73]: modprobe@fuse.service: Unable to locate executable '/sbin/modprobe': No such file or directory
+[    7.873910] systemd[1]: systemd-hibernate-clear.service - Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-8cf2644b-4b0b-428f-9387-6d876050dc67
+[    7.880470] systemd[1]: systemd-journald.service: unit configures an IP firewall, but the local system does not support BPF/cgroup firewalling.
+[    7.884219] systemd[1]: systemd-journald.service: (This warning is only shown for the first unit using IP firewalling.)
+[    7.890696] systemd[1]: Starting systemd-journald.service - Journal Service...
+[    7.906701] systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+[    7.925032] systemd[1]: systemd-pcrmachine.service - TPM PCR Machine ID Measurement skipped, unmet condition check ConditionSecurity=measured-uki
+[    7.940594] systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+[    7.954348] systemd-journald[74]: Collecting audit messages is disabled.
+[    7.966659] systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+[    7.994206] systemd[1]: systemd-tpm2-setup-early.service - Early TPM SRK Setup skipped, unmet condition check ConditionSecurity=measured-uki
+[    8.006901] systemd[1]: Started systemd-journald.service - Journal Service.
+[    8.167814] systemd-journald[74]: Received client request to flush runtime journal.
