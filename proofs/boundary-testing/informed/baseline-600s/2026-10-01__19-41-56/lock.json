@@ -1,0 +1,73 @@
+{
+    "schema_version": 1,
+    "created_at": "2026-10-02T02:41:56.808796Z",
+    "titanium": {
+        "version": "0.3.0",
+        "git_commit_hash": "81239882a2c3e0b7d2e3e8b95f1a21d8eedc197e",
+        "is_editable": true
+    },
+    "invocation": [
+        ".venv/bin/titanium",
+        "run",
+        "--env",
+        "cella",
+        "--agent",
+        "mini-swe-agent",
+        "--model",
+        "openrouter/deepseek/deepseek-v4.1-flash",
+        "--path",
+        "examples/tasks/cella-boundary-study",
+        "--jobs-dir",
+        "./.run/jobs/openrouter/boundary-informed",
+        "--on-completion",
+        "pause",
+        "-n",
+        "1"
+    ],
+    "n_concurrent_trials": 1,
+    "retry": {
+        "max_retries": 0,
+        "exclude_exceptions": [
+            "VerifierOutputParseError",
+            "VerifierTimeoutError",
+            "RewardFileEmptyError",
+            "AgentTimeoutError",
+            "RewardFileNotFoundError"
+        ],
+        "wait_multiplier": 1.0,
+        "min_wait_sec": 1.0,
+        "max_wait_sec": 60.0
+    },
+    "trials": [
+        {
+            "task": {
+                "name": "cella-boundary-study",
+                "type": "local",
+                "digest": "sha256:3c4c8c47c480a24c0d84e36d788a067b268a5e1bb8492797cdac289b3c2dadb3",
+                "path": "examples/tasks/cella-boundary-study"
+            },
+            "timeout_multiplier": 1.0,
+            "agent": {
+                "name": "mini-swe-agent",
+                "model_name": "openrouter/deepseek/deepseek-v4.1-flash",
+                "kwargs": {},
+                "env": {}
+            },
+            "environment": {
+                "type": "cella",
+                "force_build": false,
+                "delete": true,
+                "cpu_enforcement_policy": "auto",
+                "memory_enforcement_policy": "auto",
+                "suppress_override_warnings": false,
+                "on_completion": "pause",
+                "env": {},
+                "kwargs": {}
+            },
+            "verifier": {
+                "env": {},
+                "disable": false
+            }
+        }
+    ]
+}

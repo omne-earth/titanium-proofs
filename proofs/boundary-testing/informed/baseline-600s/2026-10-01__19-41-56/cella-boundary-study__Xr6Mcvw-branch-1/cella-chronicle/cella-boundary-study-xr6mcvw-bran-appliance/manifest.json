@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-xr6mcvw-bran-appliance",
+  "kernel": "canonical",
+  "rootfs": "terminator",
+  "mem_mb": 512,
+  "net": "world,wire:cella-boundary-study-xr6mcvw-branch-1-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}
