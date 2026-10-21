@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-zjme8cy-appliance",
+  "kernel": "canonical",
+  "rootfs": "terminator",
+  "mem_mb": 512,
+  "net": "world,wire:cella-boundary-study-zjme8cy-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

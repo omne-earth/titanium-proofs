@@ -1,0 +1,133 @@
+audit verb=start args=["cella-boundary-study-vaw7vvu-appliance"] uid=1001 gid=1001 persona=cella-machine host_ns=1792395682290900001
+audit verb=gateway args=["cella-boundary-study-vaw7vvu-appliance", "open"] uid=1001 gid=1001 persona=cella-gateway host_ns=1792395682390609224
+audit verb=membrane-memory args=["0x0806", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682403482879
+audit verb=membrane-memory args=["9.9.9.9:53/17", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682403935335
+audit verb=membrane-memory args=["10.77.0.2:50000/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682403991872
+audit verb=membrane-memory args=["10.77.0.2:50000/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404064293
+audit verb=membrane-memory args=["10.77.0.2:50001/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404197854
+audit verb=membrane-memory args=["10.77.0.2:50001/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404337871
+audit verb=membrane-memory args=["10.77.0.2:50002/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404434602
+audit verb=membrane-memory args=["10.77.0.2:50002/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404561427
+audit verb=membrane-memory args=["10.77.0.2:50003/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404615515
+audit verb=membrane-memory args=["10.77.0.2:50003/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404925360
+audit verb=membrane-memory args=["10.77.0.2:50004/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682404976473
+audit verb=membrane-memory args=["10.77.0.2:50004/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682405042795
+audit verb=membrane-memory args=["10.77.0.2:50005/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682405095693
+audit verb=membrane-memory args=["10.77.0.2:50005/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682405167762
+audit verb=membrane-memory args=["10.77.0.2:50006/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682405217382
+audit verb=membrane-memory args=["10.77.0.2:50006/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682405279632
+audit verb=membrane-memory args=["10.77.0.2:50007/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682405328254
+audit verb=membrane-memory args=["10.77.0.2:50007/17", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395682405389463
+audit verb=release args=["0000000065ac7dab8390e5cfaa60c2e0"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708430229839
+audit verb=release args=["0000000065c5738796f707cdf8e91101"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708434866983
+audit verb=release args=["0000000065d67b87af62b5b3fb388981"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708452823038
+audit verb=release args=["0000000065dc70998bfe74b754d2ed07"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708457875049
+audit verb=release args=["0000000065f379048b5e30f0310103b3"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708481088035
+audit verb=release args=["0000000065f773a19685cc6a3605e6cd"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708484848730
+audit verb=release args=["00000000660577a9a4d7414465224fe8"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708497858776
+audit verb=release args=["0000000066207c5a8e65be112fc5f111"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708524601401
+audit verb=release args=["000000006621741183eafa2bd7614819"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708525355382
+audit verb=release args=["00000000662779f9b755ac2771d4f2fa"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708531181017
+audit verb=release args=["00000000662873328b06d39d46306047"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708531871021
+audit verb=release args=["000000006628702782b94aad3b01547b"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708531927708
+audit verb=release args=["0000000066297c14b30208d72f95b52b"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708533083560
+audit verb=release args=["0000000066297e04bf1ca9a1691a0a2f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708533125236
+audit verb=release args=["00000000662a7af0bd485d2fd12f99c4"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708533822494
+audit verb=release args=["00000000665374cab06572bb9a089cea"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708577555512
+audit verb=release args=["00000000665c75198a5174803bf38069"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708586006866
+audit verb=release args=["00000000666b7b668cf361bc9b1f4d50"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708602508150
+audit verb=release args=["0000000066767f6baed7e7576fd9fd42"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708612904173
+audit verb=membrane-memory args=["104.18.2.115:443/6", "keep_open=3600s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395708613351612
+audit verb=thaw args=["cella-boundary-study-vaw7vvu-appliance"] uid=1001 gid=1001 persona=cella-machine host_ns=1792395709421778297
+audit verb=release args=["00000000669c7a77b25d58bb4dac03ad"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709824306016
+audit verb=release args=["00000000669d71fdb5bbe20bf4a95084"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709825081646
+audit verb=release args=["00000000669e7f519ef1399c8911180a"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709826060128
+audit verb=release args=["0000000066ab79859713e1ce2d850512"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709839671597
+audit verb=release args=["0000000066ad71ab8811d00a71bd3f73"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709840527687
+audit verb=release args=["0000000066ae76bc83d64fef2c7ac02f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709841205310
+audit verb=release args=["0000000066ae7b04ac28171e58005a96"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709841724368
+audit verb=release args=["0000000066af7fe69d374b9dac78b75b"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709843373366
+audit verb=release args=["0000000066b07f1b8625ade8ba6581fd"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709844181467
+audit verb=release args=["0000000066b27c28964888875396ca77"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395709845521019
+audit verb=release args=["000000006c8b7511be65cfd0432186d1"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711345465487
+audit verb=release args=["000000006c8f7b55810907f85734838e"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711347566361
+audit verb=release args=["000000006c8f7ddcb027effe78aeed34"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711347998471
+audit verb=release args=["000000006c9174a68a78856ab2f9f8dc"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711350347821
+audit verb=release args=["000000006c9476c2bad3c09fc4227006"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711353925957
+audit verb=release args=["000000006c9a759b944479635f1c23a8"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711358819686
+audit verb=release args=["000000006c9c711ba0f8218208e6cbe1"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711360841573
+audit verb=release args=["000000006ca677a2a438ba7518828e2c"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711370256711
+audit verb=release args=["000000006ca878bd8caead7e53670c0f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711372435818
+audit verb=release args=["000000006ca875b09ded725d101448a7"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711372765336
+audit verb=release args=["000000006cb072ebac4c4b8170c60437"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711380867232
+audit verb=release args=["000000006cb0714e8f014451f5a031d2"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711381129276
+audit verb=release args=["000000006cb278018cfadafeb98e2bdb"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711382479055
+audit verb=release args=["000000006cbb7f1bb5af807b8cb444f3"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711391935186
+audit verb=release args=["000000006cbd72918a99f47fd08785f7"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711393787305
+audit verb=release args=["000000006cc57f9abd3e2364fdffc9c8"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711402249013
+audit verb=release args=["000000006cd87938afb6387fa6bb5821"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711420345807
+audit verb=release args=["000000006cd97b6cbd92079a7add96ea"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711421148269
+audit verb=release args=["000000006cde78af8abdd2df993fff05"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711426303652
+audit verb=release args=["000000006cdf742b81665ed44fff0cfb"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711427120830
+audit verb=release args=["000000006cdf7cbda3d579923d063266"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711427171903
+audit verb=release args=["000000006ce0786e92408658c90c744a"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711428154361
+audit verb=release args=["000000006ce17e4599f2ce36c5f80d57"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711428621776
+audit verb=release args=["000000006ceb7c5c9d0dbbfd32bbf4e2"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711439023748
+audit verb=release args=["000000006cec7bb1a961cd7108cc834b"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711439948080
+audit verb=release args=["000000006ced7a969a29922162a71859"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711440922047
+audit verb=release args=["000000006cf87df5b445e9f883c80a29"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711452052869
+audit verb=release args=["000000006cf970aebb53118253957a03"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711453744664
+audit verb=release args=["000000006cfd7df7bbed8448a184e7b9"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711457196303
+audit verb=release args=["000000006cff7ebb8c335a16d4a60d91"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711459003657
+audit verb=release args=["000000006d007f7d9dbf1e266e111c59"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711460375659
+audit verb=release args=["000000006d017d70ad41f45607a29db1"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711461812672
+audit verb=release args=["000000006d02734f9fb35784d7b5e6d8"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711462197240
+audit verb=release args=["000000006d0479ed928e848d7ff0bc5f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711464364551
+audit verb=release args=["000000006d11767281f19d041e3f6a5f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395711477687746
+audit verb=release args=["0000000070f0707788b999630a6def8a"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712470712431
+audit verb=release args=["0000000070f570d5815fa316a25b3c81"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712474499125
+audit verb=release args=["0000000070f673e6b104f2257057d71b"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712475369716
+audit verb=release args=["0000000070f67a7dbf30eeba980b517b"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712476190118
+audit verb=release args=["0000000070ff7d99b64e8d89deba8910"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712485169874
+audit verb=release args=["0000000071047506a14ebac32fd64b7d"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712491368517
+audit verb=release args=["000000007118733f8dac0c664a356c24"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712509547554
+audit verb=release args=["00000000711b7cecab67cd94fb280a08"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712511740943
+audit verb=release args=["00000000711c7601b64c91571e62db80"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712512235822
+audit verb=release args=["0000000071217e5f82c0b81b52b5916e"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712516790859
+audit verb=release args=["0000000071227380a0d9861ec2768200"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712518021312
+audit verb=release args=["000000007123747ba1fad8f7b11d432f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712519286054
+audit verb=release args=["00000000712b74babf4ff49cff949862"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712527913864
+audit verb=release args=["00000000712d7914aeb34e8de0a8459f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712530275398
+audit verb=release args=["0000000071367b908b6267edbcbcce32"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712539007999
+audit verb=release args=["000000007149700588ecf66e34b08c2f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712557081859
+audit verb=release args=["00000000714a7ca18d01f4470db1a3ce"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712557846666
+audit verb=release args=["00000000714f7ac9a48eee9a4a585520"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712563393913
+audit verb=release args=["0000000071507680a848a49a26e50fb0"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712564095741
+audit verb=release args=["00000000715078cc90beea6d075505b0"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712564339009
+audit verb=release args=["0000000071517a23aaa319b645e95c14"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712565336462
+audit verb=release args=["0000000071527dbbba012671328731a0"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712566092884
+audit verb=release args=["00000000715c78f788639949c732c2d8"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712576080017
+audit verb=release args=["00000000715d7d2f988f8504d12a08a2"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712577211325
+audit verb=release args=["0000000071607a909a38cb43df8f825f"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712580470599
+audit verb=release args=["0000000071687a149fb94c3a3392fe2e"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712589397029
+audit verb=release args=["00000000716b774ba837e1c5b02e14f2"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712592036936
+audit verb=release args=["00000000716e7635b031cbf0f5af4465"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712595551039
+audit verb=release args=["00000000717172c09b57c519ee842922"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712598192782
+audit verb=release args=["0000000071737d4c9796ea6816efc63d"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712599819670
+audit verb=release args=["000000007174795a82a16059292de88c"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712600936948
+audit verb=release args=["0000000071757843881abadef2e516f7"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712601802339
+audit verb=release args=["0000000071767d95b71c8b4f5e7cd931"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712603071818
+audit verb=release args=["0000000071777a13b0ff9cf1bb4d89bc"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712603813984
+audit verb=release args=["00000000717973a59c3a299c292950a3"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712605604836
+audit verb=release args=["00000000717f78c9b578efe6f3e29d6e"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395712612399279
+audit verb=release args=["0000000078dd793385e80a01026476b7"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714500774851
+audit verb=release args=["0000000078e37ba1be4c669e29966da5"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714506237247
+audit verb=release args=["0000000078e4768fa6ac4345ca99adbb"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714507700137
+audit verb=release args=["0000000078ed7524a55b95f1f2f06b09"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714517162888
+audit verb=release args=["0000000078f475c384cfb4e66eeca91b"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714522395298
+audit verb=release args=["0000000078f87d84975b0c9c71ce34d1"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714525210125
+audit verb=release args=["0000000078fa7dcb849af06e2483b1d0"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714527139403
+audit verb=release args=["0000000079097ad9be70f538f936618a"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714541895056
+audit verb=release args=["00000000790b7af9904945e3c1c6f496"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714543508290
+audit verb=release args=["00000000790b7aa993284aa73475b07e"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714543727321
+audit verb=release args=["00000000791172df9ddb892cecfec779"] uid=1001 gid=1001 persona=cella-engine host_ns=1792395714549232166

@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-followup-r2w9wc3-extractor",
+  "kernel": "canonical",
+  "rootfs": "cella",
+  "mem_mb": 256,
+  "net": "none",
+  "root": "rw",
+  "diag": "off",
+  "attach": "/home/aryan/.cella/machines/cella-boundary-study-followup-r2w9wc3/disk.img",
+  "scratch": "/home/aryan/.cella/machines/cella-boundary-study-followup-r2w9wc3-extractor/scratch.img",
+  "extract": "/"
+}

@@ -1,0 +1,8 @@
+audit verb=start args=["cella-boundary-study-o9a7w6u-verifier"] uid=1001 gid=1001 persona=cella-machine host_ns=1792388089495154918
+audit verb=gateway args=["cella-boundary-study-o9a7w6u-verifier", "open"] uid=1001 gid=1001 persona=cella-gateway host_ns=1792388089610694215
+audit verb=membrane-memory args=["0x0806", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792388089615448707
+audit verb=membrane-memory args=["10.77.0.1:443/6", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792388089615606593
+audit verb=membrane-memory args=["10.77.0.1:80/6", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792388089615647152
+audit verb=membrane-memory args=["10.77.0.1:53/17", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792388089615682335
+audit verb=membrane-memory args=["10.77.0.1:53/6", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792388089615724085
+audit verb=membrane-memory args=["10.77.0.1:0/1", "keep_open=86400s"] uid=1001 gid=1001 persona=cella-engine host_ns=1792388089615760405

@@ -1,0 +1,108 @@
+{
+    "id": "ce4c2a05-1c71-47e4-9afc-cb7a08b3a9a0",
+    "task_name": "titanium/cella-boundary-study",
+    "trial_name": "cella-boundary-study__Vaw7Vvu",
+    "trial_uri": "file:///home/aryan/workspace/boundary-testing/.run/jobs/openrouter/boundary-testing/openrouter__anthropic__claude-opus-5.5/2026-10-19__00-41-11/cella-boundary-study__Vaw7Vvu",
+    "task_id": {
+        "path": "examples/tasks/cella-boundary-study"
+    },
+    "source": null,
+    "task_checksum": "b85b8797da5aecd08b5df44b0f4ebd51826cda766ce2831a81746586ce7b4ac1",
+    "config": {
+        "task": {
+            "path": "examples/tasks/cella-boundary-study",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "cella-boundary-study__Vaw7Vvu",
+        "trials_dir": ".run/jobs/openrouter/boundary-testing/openrouter__anthropic__claude-opus-5.5/2026-10-19__00-41-11",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": 18.0,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/anthropic/claude-opus-5.5",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "teardown",
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "2b5f7947-5d47-4896-a910-360789ead7dd"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "unknown",
+        "model_info": {
+            "name": "anthropic/claude-opus-5.5",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 0,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 0,
+        "cost_usd": null,
+        "peak_context_tokens": null,
+        "summarization_count": null,
+        "n_agent_steps": 0,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-10-19T07:41:11.971937Z",
+    "finished_at": "2026-10-19T07:42:39.445144Z",
+    "environment_setup": {
+        "started_at": "2026-10-19T07:41:12.000192Z",
+        "finished_at": "2026-10-19T07:41:22.401184Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-10-19T07:41:22.403723Z",
+        "finished_at": "2026-10-19T07:42:38.850262Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-19T07:42:38.856769Z",
+        "finished_at": "2026-10-19T07:42:38.861537Z"
+    },
+    "n_agent_steps": 0,
+    "step_results": null,
+    "environment_completion": null
+}

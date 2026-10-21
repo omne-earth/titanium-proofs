@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-o9a7w6u-appliance",
+  "kernel": "canonical",
+  "rootfs": "terminator",
+  "mem_mb": 512,
+  "net": "world,wire:cella-boundary-study-o9a7w6u-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

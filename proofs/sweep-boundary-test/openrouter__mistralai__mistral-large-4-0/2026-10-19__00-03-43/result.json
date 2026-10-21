@@ -1,0 +1,39 @@
+{
+    "id": "c4804e46-7ae1-4935-b988-75f7c1e7dc29",
+    "started_at": "2026-10-19T00:03:43.808448",
+    "updated_at": "2026-10-19T00:35:00.164353",
+    "finished_at": "2026-10-19T00:35:00.164353",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 0,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "mini-swe-agent__mistralai/mistral-large-4-0__adhoc": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "cella-boundary-study__zJME8cY"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        },
+        "n_input_tokens": 2313741,
+        "n_cache_tokens": 1749296,
+        "n_output_tokens": 74252,
+        "cost_usd": 0.6614600000000002
+    }
+}

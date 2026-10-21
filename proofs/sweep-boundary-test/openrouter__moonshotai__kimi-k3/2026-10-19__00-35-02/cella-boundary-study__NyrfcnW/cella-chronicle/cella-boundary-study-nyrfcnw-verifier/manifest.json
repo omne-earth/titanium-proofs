@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-nyrfcnw-verifier",
+  "kernel": "canonical",
+  "rootfs": "cella-boundary-study-nyrfcnw-verifier",
+  "mem_mb": 2048,
+  "net": "wire:cella-boundary-study-nyrfcnw-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

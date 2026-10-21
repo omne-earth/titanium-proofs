@@ -1,0 +1,1249 @@
+host_ns=1792393337461084569 cella: valve Closed
+host_ns=1792393337464741048 cella: booting "/home/aryan/.cella/kernel/canonical/bzImage"
+host_ns=1792393337466615494 cella: valve Open
+host_ns=1792393337471225572 cella: valve Open
+host_ns=1792393337471280374 cella: valve Open
+host_ns=1792393337471313880 cella: valve Open
+host_ns=1792393337471351802 cella: valve Open
+host_ns=1792393337471414238 cella: valve Open
+host_ns=1792393337471437881 cella: valve Open
+host_ns=1792393338830369019 guest_ns=1371567895 cella: parked egress to arp ff:ff:ff:ff:ff:ff
+host_ns=1792393338830389401 guest_ns=1371588738 cella: membrane released egress to l2=arp ff:ff:ff:ff:ff:ff, freeze skipped
+host_ns=1792393338875565483 cella: valve Open
+host_ns=1792393338976222414 guest_ns=1517407838 cella: parked ingress from arp 02:fc:00:00:00:02
+host_ns=1792393338980423338 cella: valve Open
+host_ns=1792393338981157172 guest_ns=1522343879 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393338981208204 guest_ns=1522397525 cella: membrane released egress to ip=10.77.0.1 port=53, freeze skipped
+host_ns=1792393338985244584 cella: valve Open
+host_ns=1792393339000689399 guest_ns=1541872507 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393339004270120 cella: valve Open
+host_ns=1792393339004383010 guest_ns=1545577247 cella: the ratchet learns openrouter.ai = 10.77.0.1
+host_ns=1792393339010308291 guest_ns=1551492213 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393339010370364 guest_ns=1551557398 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339012653875 cella: valve Open
+host_ns=1792393339024464497 guest_ns=1565646593 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393339028346923 cella: valve Open
+host_ns=1792393339029016878 guest_ns=1570200220 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393339029063637 guest_ns=1570249713 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339032160814 cella: valve Open
+host_ns=1792393339053648304 guest_ns=1594830926 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393339053658618 guest_ns=1594841736 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339054349322 cella: valve Open
+host_ns=1792393339060618181 guest_ns=1601800291 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393339061476994 cella: valve Open
+host_ns=1792393339062722332 guest_ns=1603904279 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393339063529995 cella: valve Open
+host_ns=1792393339063608170 guest_ns=1604790221 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393339063613337 guest_ns=1604795663 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339064177243 cella: valve Open
+host_ns=1792393339064442201 guest_ns=1605624187 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393339064449026 guest_ns=1605631325 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339064615929 guest_ns=1605798335 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339064653097 guest_ns=1605835432 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339064657040 guest_ns=1605839293 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339064893492 cella: valve Open
+host_ns=1792393339064959602 guest_ns=1606141603 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393339064965014 guest_ns=1606147250 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339065469603 cella: valve Open
+host_ns=1792393339071184039 guest_ns=1612365464 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393339071743643 cella: valve Open
+host_ns=1792393339112890384 guest_ns=1654066077 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393339113048789 guest_ns=1654229077 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393339117346610 cella: valve Open
+host_ns=1792393342050752191 guest_ns=4591714634 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342054826454 cella: valve Open
+host_ns=1792393342055573721 guest_ns=4596537923 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342055623537 guest_ns=4596590584 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342059245454 cella: valve Open
+host_ns=1792393342291528184 guest_ns=4832476347 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342292082844 cella: valve Open
+host_ns=1792393342292211846 guest_ns=4833160342 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342292218114 guest_ns=4833166968 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342292581901 cella: valve Open
+host_ns=1792393342297845140 guest_ns=4838792714 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342298355320 cella: valve Open
+host_ns=1792393342298449123 guest_ns=4839397239 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342298453657 guest_ns=4839402028 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342298767249 guest_ns=4839715887 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342298813134 cella: valve Open
+host_ns=1792393342304089361 guest_ns=4845036822 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342304624476 cella: valve Open
+host_ns=1792393342304736438 guest_ns=4845684053 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342304741975 guest_ns=4845689897 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342305169037 cella: valve Open
+host_ns=1792393342311529509 guest_ns=4852476171 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393342311547096 guest_ns=4852494568 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393342312119696 cella: valve Open
+host_ns=1792393342316583989 guest_ns=4857530259 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393342317201878 cella: valve Open
+host_ns=1792393342317386639 guest_ns=4858333320 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342317392492 guest_ns=4858339509 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342317841711 cella: valve Open
+host_ns=1792393342322844630 guest_ns=4863790449 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342323396046 cella: valve Open
+host_ns=1792393342323584558 guest_ns=4864530459 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342323598797 guest_ns=4864545698 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342324088321 cella: valve Open
+host_ns=1792393342344571247 guest_ns=4885515660 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342344588587 guest_ns=4885533673 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342345278278 cella: valve Open
+host_ns=1792393342349731096 guest_ns=4890675200 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342350232430 cella: valve Open
+host_ns=1792393342351781910 guest_ns=4892725898 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342352241289 cella: valve Open
+host_ns=1792393342352351968 guest_ns=4893296098 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342352357570 guest_ns=4893302051 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342352721688 cella: valve Open
+host_ns=1792393342353076357 guest_ns=4894020441 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342353088848 guest_ns=4894033301 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342353284733 guest_ns=4894229374 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342353312902 guest_ns=4894257339 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342353316742 guest_ns=4894261128 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342353319670 guest_ns=4894264039 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342353472852 cella: valve Open
+host_ns=1792393342353566693 guest_ns=4894510830 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342353572991 guest_ns=4894517396 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342353576636 guest_ns=4894520986 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342354047751 cella: valve Open
+host_ns=1792393342358315289 guest_ns=4899258640 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342358835520 cella: valve Open
+host_ns=1792393342360335836 guest_ns=4901279216 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393342360901035 cella: valve Open
+host_ns=1792393342399704018 guest_ns=4940644344 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393342399717783 guest_ns=4940658894 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393342400487791 cella: valve Open
+host_ns=1792393343001236608 guest_ns=5542130962 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393343003553608 cella: valve Open
+host_ns=1792393343004264800 guest_ns=5545160796 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343004302604 guest_ns=5545200728 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343006150217 cella: valve Open
+host_ns=1792393343535576316 guest_ns=6076432358 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393343538518667 cella: valve Open
+host_ns=1792393343539150533 guest_ns=6080007941 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343539183937 guest_ns=6080043176 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343540400572 guest_ns=6081261367 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343541631890 cella: valve Open
+host_ns=1792393343549738074 guest_ns=6090595189 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393343550548253 cella: valve Open
+host_ns=1792393343550721147 guest_ns=6091578557 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343550728747 guest_ns=6091586615 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343551320484 cella: valve Open
+host_ns=1792393343563015255 guest_ns=6103871568 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393343563028422 guest_ns=6103885421 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393343563780483 cella: valve Open
+host_ns=1792393343569076484 guest_ns=6109932519 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393343569763245 cella: valve Open
+host_ns=1792393343569921302 guest_ns=6110777399 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343569926868 guest_ns=6110783305 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343570337111 cella: valve Open
+host_ns=1792393343575317087 guest_ns=6116172617 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393343576045383 cella: valve Open
+host_ns=1792393343576170769 guest_ns=6117026415 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343576179976 guest_ns=6117035936 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343576641333 cella: valve Open
+host_ns=1792393343588212284 guest_ns=6129066774 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343588223302 guest_ns=6129078443 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343588823627 cella: valve Open
+host_ns=1792393343594061744 guest_ns=6134915946 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393343594749693 cella: valve Open
+host_ns=1792393343594856003 guest_ns=6135710314 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343594862004 guest_ns=6135716621 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595322688 cella: valve Open
+host_ns=1792393343595531561 guest_ns=6136385848 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343595537728 guest_ns=6136392285 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595677945 guest_ns=6136532686 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595718912 guest_ns=6136573522 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595722626 guest_ns=6136577147 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595725526 guest_ns=6136580026 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595734821 guest_ns=6136589366 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595738278 guest_ns=6136592777 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595741180 guest_ns=6136595682 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343595917450 cella: valve Open
+host_ns=1792393343596005411 guest_ns=6136859700 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343596010809 guest_ns=6136865330 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343596014346 guest_ns=6136868836 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343596548281 cella: valve Open
+host_ns=1792393343600321512 guest_ns=6141175232 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393343601003414 cella: valve Open
+host_ns=1792393343601127153 guest_ns=6141980993 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343601134447 guest_ns=6141988599 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343601138246 guest_ns=6141992368 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343601141306 guest_ns=6141995427 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343601144361 guest_ns=6141998494 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343601636085 cella: valve Open
+host_ns=1792393343616987004 guest_ns=6157838670 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393343617020254 guest_ns=6157873647 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393343618513795 cella: valve Open
+host_ns=1792393343625644540 guest_ns=6166495335 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393343627490823 cella: valve Open
+host_ns=1792393344265843499 guest_ns=6806646696 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393344268581031 cella: valve Open
+host_ns=1792393344309867472 guest_ns=6850669569 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344309894388 guest_ns=6850697652 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344311034184 cella: valve Open
+host_ns=1792393344685871056 guest_ns=7226643826 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393344689245599 cella: valve Open
+host_ns=1792393344690303637 guest_ns=7231077394 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344690354146 guest_ns=7231130681 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344692438375 guest_ns=7233217420 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344694316467 cella: valve Open
+host_ns=1792393344705401764 guest_ns=7246175270 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393344706545130 cella: valve Open
+host_ns=1792393344706746892 guest_ns=7247520693 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344706755569 guest_ns=7247529899 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344707492381 cella: valve Open
+host_ns=1792393344710677260 guest_ns=7251450869 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393344710687545 guest_ns=7251461466 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393344711273625 cella: valve Open
+host_ns=1792393344715779774 guest_ns=7256552719 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393344716443807 cella: valve Open
+host_ns=1792393344716469184 guest_ns=7257242916 cella: the ratchet learns localhost.localdomain = 10.77.0.1
+host_ns=1792393344716622076 guest_ns=7257395267 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393344716628656 guest_ns=7257402189 cella: membrane released egress to ip=10.77.0.1 port=53 host=localhost.localdomain, freeze skipped
+host_ns=1792393344717241616 cella: valve Open
+host_ns=1792393344722132347 guest_ns=7262904567 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393344723155706 cella: valve Open
+host_ns=1792393344733507961 guest_ns=7274279803 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393344733520011 guest_ns=7274292335 cella: membrane released egress to ip=10.77.0.1 port=53 host=localhost.localdomain, freeze skipped
+host_ns=1792393344734208272 cella: valve Open
+host_ns=1792393344738645986 guest_ns=7279417386 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393344739320670 cella: valve Open
+host_ns=1792393344739344372 guest_ns=7280116891 cella: the ratchet learns openrouter.ai = 10.77.0.1
+host_ns=1792393344739506640 guest_ns=7280278158 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344739512238 guest_ns=7280284064 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344739904254 cella: valve Open
+host_ns=1792393344744859452 guest_ns=7285630389 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393344745554197 cella: valve Open
+host_ns=1792393344745699519 guest_ns=7286470562 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344745708445 guest_ns=7286479825 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344745980762 cella: valve Open
+host_ns=1792393344757632739 guest_ns=7298402697 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344757644269 guest_ns=7298414835 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344758320835 cella: valve Open
+host_ns=1792393344763768921 guest_ns=7304538489 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393344764338094 cella: valve Open
+host_ns=1792393344764470357 guest_ns=7305240065 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344764475752 guest_ns=7305245755 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344764773491 cella: valve Open
+host_ns=1792393344765240060 guest_ns=7306009634 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344765252336 guest_ns=7306022320 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765409030 guest_ns=7306179105 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765437950 guest_ns=7306207927 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765441763 guest_ns=7306211688 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765444782 guest_ns=7306214686 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765455746 guest_ns=7306225702 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765459169 guest_ns=7306229067 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765462055 guest_ns=7306231954 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765774162 cella: valve Open
+host_ns=1792393344765884318 guest_ns=7306653988 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344765890115 guest_ns=7306659994 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344765893726 guest_ns=7306663616 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344766204419 cella: valve Open
+host_ns=1792393344772203974 guest_ns=7312972938 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393344772711201 cella: valve Open
+host_ns=1792393344772849755 guest_ns=7313618843 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344772856860 guest_ns=7313626262 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344772860560 guest_ns=7313629932 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344772863602 guest_ns=7313632974 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344772866651 guest_ns=7313636024 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344772912814 guest_ns=7313682231 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344772917038 guest_ns=7313686414 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344773148472 cella: valve Open
+host_ns=1792393344789848093 guest_ns=7330615053 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393344789878481 guest_ns=7330647003 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393344791074549 cella: valve Open
+host_ns=1792393344799272327 guest_ns=7340039004 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393344800011279 cella: valve Open
+host_ns=1792393345797460637 guest_ns=8338154035 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393345799602773 cella: valve Open
+host_ns=1792393345841406051 guest_ns=8382095311 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393345841507838 guest_ns=8382201561 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393345844492794 cella: valve Open
+host_ns=1792393348393928811 guest_ns=10934433175 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348396461230 cella: valve Open
+host_ns=1792393348397237992 guest_ns=10937744141 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348397275815 guest_ns=10937783769 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348398772526 cella: valve Open
+host_ns=1792393348454319292 guest_ns=10994820050 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348456690235 cella: valve Open
+host_ns=1792393348457552009 guest_ns=10998053846 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348457596845 guest_ns=10998100440 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348459429494 cella: valve Open
+host_ns=1792393348460408074 guest_ns=11000909628 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348460446368 guest_ns=11000949730 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348461751272 cella: valve Open
+host_ns=1792393348468660632 guest_ns=11009162015 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348469167809 cella: valve Open
+host_ns=1792393348469306810 guest_ns=11009808557 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348469312616 guest_ns=11009814696 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348469633921 cella: valve Open
+host_ns=1792393348479678751 guest_ns=11020179513 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393348479691046 guest_ns=11020192391 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393348480276589 cella: valve Open
+host_ns=1792393348485334039 guest_ns=11025834380 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393348485842702 cella: valve Open
+host_ns=1792393348486074553 guest_ns=11026575016 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348486082711 guest_ns=11026583580 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348486336998 cella: valve Open
+host_ns=1792393348493678079 guest_ns=11034177839 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348494176467 cella: valve Open
+host_ns=1792393348494325341 guest_ns=11034825288 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348494331379 guest_ns=11034831645 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348494653533 cella: valve Open
+host_ns=1792393348505864418 guest_ns=11046363231 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348505876235 guest_ns=11046375707 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348506392497 cella: valve Open
+host_ns=1792393348512322717 guest_ns=11052821176 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348512686448 cella: valve Open
+host_ns=1792393348512825201 guest_ns=11053323798 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348512833501 guest_ns=11053332452 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348513056138 cella: valve Open
+host_ns=1792393348513656080 guest_ns=11054154546 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348513666053 guest_ns=11054164947 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348513849715 guest_ns=11054348870 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348513881487 guest_ns=11054380370 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348513885387 guest_ns=11054384215 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348513895149 guest_ns=11054393990 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348513898868 guest_ns=11054397662 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348513985814 cella: valve Open
+host_ns=1792393348514127176 guest_ns=11054625728 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348514135776 guest_ns=11054634664 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348514145195 guest_ns=11054644020 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348514199784 guest_ns=11054698698 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348514206351 guest_ns=11054705179 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348514342894 cella: valve Open
+host_ns=1792393348518610862 guest_ns=11059108852 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348519208236 cella: valve Open
+host_ns=1792393348519352343 guest_ns=11059850465 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348519358425 guest_ns=11059856857 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348519362183 guest_ns=11059860578 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348519365219 guest_ns=11059863614 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348519415732 guest_ns=11059914253 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348519422040 guest_ns=11059920526 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348519426784 guest_ns=11059925238 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348519893663 cella: valve Open
+host_ns=1792393348520043646 guest_ns=11060541782 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348520050300 guest_ns=11060548650 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348520053988 guest_ns=11060552334 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348520057110 guest_ns=11060555457 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348520060041 guest_ns=11060558388 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348520528747 cella: valve Open
+host_ns=1792393348520638138 guest_ns=11061136244 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348520696773 guest_ns=11061194871 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348520701705 guest_ns=11061200036 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348521050262 cella: valve Open
+host_ns=1792393348521217608 cella: valve Open
+host_ns=1792393348539157885 guest_ns=11079654116 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393348539181623 guest_ns=11079678864 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393348540056649 cella: valve Open
+host_ns=1792393348549755084 guest_ns=11090250449 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393348551110310 cella: valve Open
+host_ns=1792393349280558768 guest_ns=11821000920 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393349282378871 cella: valve Open
+host_ns=1792393349323573580 guest_ns=11864010935 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393349323675502 guest_ns=11864117394 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393349327725211 cella: valve Open
+host_ns=1792393349990641346 guest_ns=12531031216 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393349994128225 cella: valve Open
+host_ns=1792393349995315004 guest_ns=12535705216 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393349995364643 guest_ns=12535757576 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393349997419458 guest_ns=12537814265 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393349999092574 cella: valve Open
+host_ns=1792393350012400382 guest_ns=12552789820 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393350013866578 cella: valve Open
+host_ns=1792393350014366971 guest_ns=12554756506 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350014386987 guest_ns=12554777667 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350015940171 cella: valve Open
+host_ns=1792393350713510576 guest_ns=13253849658 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393350713528144 guest_ns=13253868036 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393350714370312 cella: valve Open
+host_ns=1792393350722277347 guest_ns=13262616008 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393350723208748 cella: valve Open
+host_ns=1792393350723443482 guest_ns=13263782144 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350723449677 guest_ns=13263788696 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350723996124 cella: valve Open
+host_ns=1792393350728498010 guest_ns=13268836133 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393350729391712 cella: valve Open
+host_ns=1792393350729541997 guest_ns=13269880279 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350729547989 guest_ns=13269886541 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350730038553 cella: valve Open
+host_ns=1792393350740975086 guest_ns=13281312426 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350740985770 guest_ns=13281323532 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350741983485 cella: valve Open
+host_ns=1792393350749485146 guest_ns=13289821831 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393350750449977 cella: valve Open
+host_ns=1792393350750613912 guest_ns=13290950654 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350750619759 guest_ns=13290956799 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751188106 cella: valve Open
+host_ns=1792393350751381250 guest_ns=13291717946 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350751386665 guest_ns=13291723664 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751564593 guest_ns=13291901817 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751594033 guest_ns=13291931056 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751597804 guest_ns=13291934766 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751600858 guest_ns=13291937819 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751610546 guest_ns=13291947540 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751614327 guest_ns=13291951309 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751617527 guest_ns=13291954469 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751768313 cella: valve Open
+host_ns=1792393350751913322 guest_ns=13292250025 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350751919347 guest_ns=13292256273 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350751923065 guest_ns=13292259987 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350752391886 cella: valve Open
+host_ns=1792393350757743664 guest_ns=13298079737 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393350758260281 cella: valve Open
+host_ns=1792393350758427786 guest_ns=13298764017 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350758434379 guest_ns=13298770866 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758438254 guest_ns=13298774706 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758441406 guest_ns=13298777855 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758444350 guest_ns=13298780798 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758502353 guest_ns=13298838847 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758506714 guest_ns=13298843197 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758509883 guest_ns=13298846329 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758512961 guest_ns=13298849408 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758700551 cella: valve Open
+host_ns=1792393350758846198 guest_ns=13299182410 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350758852752 guest_ns=13299189181 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758856367 guest_ns=13299192796 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758859462 guest_ns=13299195885 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758862479 guest_ns=13299198903 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758865494 guest_ns=13299201917 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758925110 guest_ns=13299261572 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758929581 guest_ns=13299266001 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758932882 guest_ns=13299269299 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758936030 guest_ns=13299272447 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350758938965 guest_ns=13299275380 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350759128303 cella: valve Open
+host_ns=1792393350759906190 guest_ns=13300242328 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393350760295617 cella: valve Open
+host_ns=1792393350775256128 guest_ns=13315590737 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393350775272390 guest_ns=13315607862 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393350775790766 cella: valve Open
+host_ns=1792393350782881733 guest_ns=13323215891 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393350783362597 cella: valve Open
+host_ns=1792393351510231652 guest_ns=14050510909 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393351512443684 cella: valve Open
+host_ns=1792393351554578784 guest_ns=14094854633 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393351554682069 guest_ns=14094962664 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393351558070807 cella: valve Open
+host_ns=1792393352303772242 guest_ns=14843993944 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393352306174186 cella: valve Open
+host_ns=1792393352307033832 guest_ns=14847257321 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352307081446 guest_ns=14847306373 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352308257045 guest_ns=14848483998 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352308427223 cella: valve Open
+host_ns=1792393352322767099 guest_ns=14862989780 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393352323376636 cella: valve Open
+host_ns=1792393352323616988 guest_ns=14863839819 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352323628413 guest_ns=14863851853 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352324127419 cella: valve Open
+host_ns=1792393352411142830 guest_ns=14951358921 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393352411158003 guest_ns=14951375042 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393352411871782 cella: valve Open
+host_ns=1792393352420354719 guest_ns=14960570410 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393352420980378 cella: valve Open
+host_ns=1792393352421224834 guest_ns=14961440678 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352421231892 guest_ns=14961448153 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352421581442 cella: valve Open
+host_ns=1792393352426574528 guest_ns=14966789868 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393352427089632 cella: valve Open
+host_ns=1792393352427266914 guest_ns=14967482387 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352427273216 guest_ns=14967489005 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352427586112 cella: valve Open
+host_ns=1792393352438662896 guest_ns=14978877347 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352438675303 guest_ns=14978890309 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352439172202 cella: valve Open
+host_ns=1792393352445293802 guest_ns=14985507807 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393352445849275 cella: valve Open
+host_ns=1792393352446021727 guest_ns=14986235843 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352446028165 guest_ns=14986242592 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352446358925 cella: valve Open
+host_ns=1792393352446860616 guest_ns=14987074632 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352446869041 guest_ns=14987083412 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447048209 guest_ns=14987262691 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447094658 guest_ns=14987309066 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447104183 guest_ns=14987318557 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447107429 guest_ns=14987321738 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447117494 guest_ns=14987331850 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447121235 guest_ns=14987335546 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447124545 guest_ns=14987338855 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447296046 cella: valve Open
+host_ns=1792393352447445638 guest_ns=14987659727 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352447451852 guest_ns=14987666153 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447458592 guest_ns=14987672885 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352447760694 cella: valve Open
+host_ns=1792393352453604754 guest_ns=14993818082 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393352454156241 cella: valve Open
+host_ns=1792393352454331727 guest_ns=14994545231 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352454338271 guest_ns=14994552088 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454342153 guest_ns=14994555941 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454345285 guest_ns=14994559074 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454348311 guest_ns=14994562098 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454411320 guest_ns=14994625159 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454415868 guest_ns=14994629660 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454419036 guest_ns=14994632821 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454422135 guest_ns=14994635918 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454609913 cella: valve Open
+host_ns=1792393352454767155 guest_ns=14994980696 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352454773744 guest_ns=14994987536 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454777456 guest_ns=14994991215 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454780488 guest_ns=14994994245 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454783496 guest_ns=14994997251 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454786473 guest_ns=14995000228 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454850231 guest_ns=14995064032 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454854768 guest_ns=14995068523 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454858202 guest_ns=14995071954 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454861470 guest_ns=14995075225 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352454864589 guest_ns=14995078341 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352455104292 cella: valve Open
+host_ns=1792393352455251085 guest_ns=14995464606 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352455256596 guest_ns=14995470370 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352455260252 guest_ns=14995473989 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352455521070 cella: valve Open
+host_ns=1792393352472550393 guest_ns=15012761909 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393352472575625 guest_ns=15012788407 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393352473447908 cella: valve Open
+host_ns=1792393352484723515 guest_ns=15024934630 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393352485389356 cella: valve Open
+host_ns=1792393353343159694 guest_ns=15883306491 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393353344949195 cella: valve Open
+host_ns=1792393353386887456 guest_ns=15927030523 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393353386988974 guest_ns=15927136749 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393353390235820 cella: valve Open
+host_ns=1792393355978999478 guest_ns=18518953798 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393355983159963 cella: valve Open
+host_ns=1792393355984481070 guest_ns=18524438278 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393355984522280 guest_ns=18524481709 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393355987835321 cella: valve Open
+host_ns=1792393356095488941 guest_ns=18635436701 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356098017663 cella: valve Open
+host_ns=1792393356099326384 guest_ns=18639274645 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356099400703 guest_ns=18639352765 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356101397604 guest_ns=18641348611 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356101455693 cella: valve Open
+host_ns=1792393356114110371 guest_ns=18654058705 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356115163037 cella: valve Open
+host_ns=1792393356115508702 guest_ns=18655457305 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356115518720 guest_ns=18655468027 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356116170171 cella: valve Open
+host_ns=1792393356130535266 guest_ns=18670482574 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393356130547955 guest_ns=18670495933 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393356131237278 cella: valve Open
+host_ns=1792393356137135761 guest_ns=18677082703 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393356137764226 cella: valve Open
+host_ns=1792393356138041929 guest_ns=18677988992 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356138049024 guest_ns=18677996431 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356138353202 cella: valve Open
+host_ns=1792393356143321095 guest_ns=18683267637 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356143856456 cella: valve Open
+host_ns=1792393356144045226 guest_ns=18683991864 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356144051479 guest_ns=18683998424 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356144305975 cella: valve Open
+host_ns=1792393356155644686 guest_ns=18695590291 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356155655864 guest_ns=18695602014 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356156221383 cella: valve Open
+host_ns=1792393356164244831 guest_ns=18704189866 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356164885683 cella: valve Open
+host_ns=1792393356165105907 guest_ns=18705050408 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356165112578 guest_ns=18705058045 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356165463593 cella: valve Open
+host_ns=1792393356165981699 guest_ns=18705926687 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356165991363 guest_ns=18705936746 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166209375 guest_ns=18706154974 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166237342 guest_ns=18706182722 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166245127 guest_ns=18706190474 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166248428 guest_ns=18706193740 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166258551 guest_ns=18706203913 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166262329 guest_ns=18706207645 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166265655 guest_ns=18706210969 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166479092 cella: valve Open
+host_ns=1792393356166686475 guest_ns=18706631554 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356166692648 guest_ns=18706637957 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356166696387 guest_ns=18706641672 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356167110340 cella: valve Open
+host_ns=1792393356172523658 guest_ns=18712467887 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356172878603 cella: valve Open
+host_ns=1792393356173070041 guest_ns=18713014600 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356173077193 guest_ns=18713022073 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173081156 guest_ns=18713025979 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173084293 guest_ns=18713029113 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173087316 guest_ns=18713032137 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173167974 guest_ns=18713112842 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173172448 guest_ns=18713117267 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173175569 guest_ns=18713120386 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173178680 guest_ns=18713123495 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173409623 cella: valve Open
+host_ns=1792393356173599483 guest_ns=18713544030 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356173606498 guest_ns=18713551319 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173610330 guest_ns=18713555114 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173613421 guest_ns=18713558203 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173616475 guest_ns=18713561260 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173619469 guest_ns=18713564252 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173690467 guest_ns=18713635309 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173695070 guest_ns=18713639853 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173698410 guest_ns=18713643208 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173701764 guest_ns=18713646542 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173704976 guest_ns=18713649755 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356173978046 cella: valve Open
+host_ns=1792393356174179099 guest_ns=18714123579 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356174185815 guest_ns=18714130588 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356174189683 guest_ns=18714134425 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356174579322 cella: valve Open
+host_ns=1792393356190625507 guest_ns=18730568486 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356190642844 guest_ns=18730586569 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356191437873 cella: valve Open
+host_ns=1792393356208516737 guest_ns=18748458522 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356209336102 cella: valve Open
+host_ns=1792393356209595596 guest_ns=18749537452 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393356209605309 guest_ns=18749547588 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356209610518 guest_ns=18749552726 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356209614651 guest_ns=18749556855 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356209618705 guest_ns=18749560914 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356209622588 guest_ns=18749564791 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356209626460 guest_ns=18749568692 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393356210294747 cella: valve Open
+host_ns=1792393356216986205 guest_ns=18756927457 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356217538852 cella: valve Open
+host_ns=1792393356979870229 guest_ns=19519754340 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393356982397149 cella: valve Open
+host_ns=1792393357023932754 guest_ns=19563812601 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393357024045470 guest_ns=19563930523 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393357027772812 cella: valve Open
+host_ns=1792393359722607597 guest_ns=22262292434 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393359724863191 cella: valve Open
+host_ns=1792393359726092975 guest_ns=22265779684 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393359726155788 guest_ns=22265844665 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393359728184240 cella: valve Open
+host_ns=1792393362617486365 guest_ns=25156963005 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393362619814818 cella: valve Open
+host_ns=1792393362620927495 guest_ns=25160405048 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393362620962628 guest_ns=25160441715 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393362622666336 guest_ns=25162147243 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393362623432493 cella: valve Open
+host_ns=1792393362649628605 guest_ns=25189101772 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393362653522705 cella: valve Open
+host_ns=1792393362655784050 guest_ns=25195259183 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393362655835288 guest_ns=25195311845 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393362659026072 cella: valve Open
+host_ns=1792393363776831378 guest_ns=26316225260 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393363776858088 guest_ns=26316253030 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393363777898809 cella: valve Open
+host_ns=1792393363786393430 guest_ns=26325787072 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393363787236953 cella: valve Open
+host_ns=1792393363787281525 guest_ns=26326676386 cella: the ratchet learns localhost.localdomain = 10.77.0.1
+host_ns=1792393363787484368 guest_ns=26326878220 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393363787489972 guest_ns=26326884103 cella: membrane released egress to ip=10.77.0.1 port=53 host=localhost.localdomain, freeze skipped
+host_ns=1792393363788162180 cella: valve Open
+host_ns=1792393363794746267 guest_ns=26334139446 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393363795754388 cella: valve Open
+host_ns=1792393363807347947 guest_ns=26346740165 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393363807364012 guest_ns=26346756717 cella: membrane released egress to ip=10.77.0.1 port=53 host=localhost.localdomain, freeze skipped
+host_ns=1792393363808422717 cella: valve Open
+host_ns=1792393363817518942 guest_ns=26356910362 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393363818401246 cella: valve Open
+host_ns=1792393363818446937 guest_ns=26357839597 cella: the ratchet learns openrouter.ai = 10.77.0.1
+host_ns=1792393363818700735 guest_ns=26358092339 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363818706457 guest_ns=26358098331 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363819269696 cella: valve Open
+host_ns=1792393363826098334 guest_ns=26365489241 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393363827053516 cella: valve Open
+host_ns=1792393363827264049 guest_ns=26366654996 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363827270296 guest_ns=26366661546 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363827978776 cella: valve Open
+host_ns=1792393363839743971 guest_ns=26379133798 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363839755149 guest_ns=26379145560 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363840633567 cella: valve Open
+host_ns=1792393363849325876 guest_ns=26388715061 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393363850261681 cella: valve Open
+host_ns=1792393363850458637 guest_ns=26389847919 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363850464225 guest_ns=26389853791 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363851069649 cella: valve Open
+host_ns=1792393363851303323 guest_ns=26390692489 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363851309549 guest_ns=26390699061 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363851514324 guest_ns=26390903979 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363851541683 guest_ns=26390931178 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363851545266 guest_ns=26390934716 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363851554265 guest_ns=26390943756 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363851557779 guest_ns=26390947228 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363851998225 cella: valve Open
+host_ns=1792393363852184534 guest_ns=26391573737 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363852191014 guest_ns=26391580442 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363852194743 guest_ns=26391584166 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363852290621 guest_ns=26391680069 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363852294779 guest_ns=26391684177 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363852986862 cella: valve Open
+host_ns=1792393363859613593 guest_ns=26399002076 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393363860558621 cella: valve Open
+host_ns=1792393363860779174 guest_ns=26400167713 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363860785140 guest_ns=26400173974 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363860789099 guest_ns=26400177889 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363860792332 guest_ns=26400181121 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363860875929 guest_ns=26400264758 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363860880500 guest_ns=26400269290 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363860883837 guest_ns=26400272622 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861416029 cella: valve Open
+host_ns=1792393363861639247 guest_ns=26401027745 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363861644890 guest_ns=26401033630 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861648555 guest_ns=26401037282 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861651613 guest_ns=26401040335 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861654549 guest_ns=26401043271 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861732562 guest_ns=26401121324 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861736822 guest_ns=26401125542 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861740140 guest_ns=26401128860 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363861743262 guest_ns=26401131981 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363862160502 cella: valve Open
+host_ns=1792393363862334385 guest_ns=26401722857 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363862339846 guest_ns=26401728535 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363862343467 guest_ns=26401732144 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363862346695 guest_ns=26401735369 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363862349700 guest_ns=26401738372 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363862931494 cella: valve Open
+host_ns=1792393363863097841 guest_ns=26402486256 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363863127534 guest_ns=26402516197 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363863130918 guest_ns=26402519530 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363863578883 cella: valve Open
+host_ns=1792393363883315663 guest_ns=26422701907 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363883336220 guest_ns=26422723734 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363884435451 cella: valve Open
+host_ns=1792393363901222996 guest_ns=26440608295 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393363902674001 cella: valve Open
+host_ns=1792393363903008695 guest_ns=26442394092 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363903019880 guest_ns=26442405700 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903025777 guest_ns=26442411556 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903030492 guest_ns=26442416271 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903035078 guest_ns=26442420860 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903039621 guest_ns=26442425398 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903044060 guest_ns=26442429839 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903183357 guest_ns=26442569192 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903190074 guest_ns=26442575848 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903194717 guest_ns=26442580513 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903199195 guest_ns=26442584961 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903203608 guest_ns=26442589371 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903207907 guest_ns=26442593672 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903580122 cella: valve Open
+host_ns=1792393363903879619 guest_ns=26443264964 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393363903888707 guest_ns=26443274464 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363903894063 guest_ns=26443279770 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393363904942642 cella: valve Open
+host_ns=1792393363911663922 guest_ns=26451048614 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393363912318993 cella: valve Open
+host_ns=1792393363915718667 guest_ns=26455103161 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393363916328174 cella: valve Open
+host_ns=1792393365027028112 guest_ns=27566329969 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393365030197668 cella: valve Open
+host_ns=1792393365072311355 guest_ns=27611611018 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393365072346012 guest_ns=27611647565 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393365073728324 cella: valve Open
+host_ns=1792393367407997226 guest_ns=29947127094 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393367410377385 cella: valve Open
+host_ns=1792393367411731579 guest_ns=29950862484 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393367411771637 guest_ns=29950904405 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393367413786398 cella: valve Open
+host_ns=1792393368961437322 guest_ns=31500455919 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393368963172338 cella: valve Open
+host_ns=1792393368964519749 guest_ns=31503538627 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393368964541771 guest_ns=31503561922 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393368966784001 cella: valve Open
+host_ns=1792393368971515698 guest_ns=31510534231 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393368971534611 guest_ns=31510553965 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393368972528687 cella: valve Open
+host_ns=1792393368980291983 guest_ns=31519309950 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393368981042066 cella: valve Open
+host_ns=1792393368981328763 guest_ns=31520346940 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393368981335248 guest_ns=31520353732 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393368981919204 cella: valve Open
+host_ns=1792393368993068528 guest_ns=31532085697 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393368993079579 guest_ns=31532097255 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393368993845193 cella: valve Open
+host_ns=1792393368999104578 guest_ns=31538121310 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393368999905720 cella: valve Open
+host_ns=1792393369000311270 guest_ns=31539328018 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369000317787 guest_ns=31539334887 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369000913391 cella: valve Open
+host_ns=1792393369007390126 guest_ns=31546406273 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393369008142875 cella: valve Open
+host_ns=1792393369008363228 guest_ns=31547379432 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369008369216 guest_ns=31547385725 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369008849094 cella: valve Open
+host_ns=1792393369021321548 guest_ns=31560336692 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369021331366 guest_ns=31560346985 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369022094934 cella: valve Open
+host_ns=1792393369028400536 guest_ns=31567415154 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393369029252051 cella: valve Open
+host_ns=1792393369029475084 guest_ns=31568489772 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369029480344 guest_ns=31568495318 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369030081442 cella: valve Open
+host_ns=1792393369030475224 guest_ns=31569489778 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369030481798 guest_ns=31569496714 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369030791636 guest_ns=31569806706 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369030834132 guest_ns=31569849108 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369030837782 guest_ns=31569852625 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369030849422 guest_ns=31569864314 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369030852909 guest_ns=31569867754 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369031086268 cella: valve Open
+host_ns=1792393369031302216 guest_ns=31570316813 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369031307911 guest_ns=31570322769 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369031311352 guest_ns=31570326172 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369031392009 guest_ns=31570406856 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369031395923 guest_ns=31570410732 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369031961751 cella: valve Open
+host_ns=1792393369038885857 guest_ns=31577899709 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393369039725616 cella: valve Open
+host_ns=1792393369039976142 guest_ns=31578990060 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369039982141 guest_ns=31578996359 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369039985748 guest_ns=31578999931 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369039988633 guest_ns=31579002815 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040080601 guest_ns=31579094819 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040084688 guest_ns=31579098886 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040087629 guest_ns=31579101803 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040638316 cella: valve Open
+host_ns=1792393369040867490 guest_ns=31579881363 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369040874606 guest_ns=31579888759 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040878178 guest_ns=31579892296 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040881141 guest_ns=31579895260 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040884049 guest_ns=31579898180 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040973631 guest_ns=31579987796 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040977804 guest_ns=31579991924 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040980774 guest_ns=31579994884 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369040983662 guest_ns=31579997772 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369041578996 cella: valve Open
+host_ns=1792393369041801312 guest_ns=31580815119 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369041808151 guest_ns=31580822226 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369041811707 guest_ns=31580825757 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369041814683 guest_ns=31580828734 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369041817493 guest_ns=31580831544 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369042444266 cella: valve Open
+host_ns=1792393369042664211 guest_ns=31581677953 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369042670623 guest_ns=31581684638 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369042674179 guest_ns=31581688168 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369043354431 cella: valve Open
+host_ns=1792393369062065914 guest_ns=31601077918 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393369062650781 guest_ns=31601662865 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369062664764 guest_ns=31601677413 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369062761344 cella: valve Open
+host_ns=1792393369062988556 guest_ns=31602001279 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369062996765 guest_ns=31602009302 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369062999993 guest_ns=31602012516 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063003041 guest_ns=31602015563 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063006092 guest_ns=31602018614 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063009088 guest_ns=31602021613 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063012043 guest_ns=31602024567 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063038467 guest_ns=31602051034 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063042263 guest_ns=31602054787 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063045353 guest_ns=31602057873 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063048469 guest_ns=31602060988 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063051581 guest_ns=31602064102 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063054668 guest_ns=31602067208 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063057688 guest_ns=31602070210 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063270175 cella: valve Open
+host_ns=1792393369063528587 guest_ns=31602540808 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369063536770 guest_ns=31602549283 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063540695 guest_ns=31602553182 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063543874 guest_ns=31602556359 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063546989 guest_ns=31602559505 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063550069 guest_ns=31602562555 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063553080 guest_ns=31602565564 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369063556075 guest_ns=31602568561 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369064292923 cella: valve Open
+host_ns=1792393369070387905 guest_ns=31609399483 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393369071142363 cella: valve Open
+host_ns=1792393369072507693 guest_ns=31611519238 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393369073172472 cella: valve Open
+host_ns=1792393369890518720 guest_ns=32429470144 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393369892253230 cella: valve Open
+host_ns=1792393369934031594 guest_ns=32472978116 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393369934184061 guest_ns=32473135698 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393369938760900 cella: valve Open
+host_ns=1792393370619667119 guest_ns=33158566516 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370621185262 cella: valve Open
+host_ns=1792393370621762058 guest_ns=33160661392 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370621774760 guest_ns=33160674766 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370622513514 guest_ns=33161414668 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370623110521 cella: valve Open
+host_ns=1792393370634421473 guest_ns=33173319884 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370635980395 cella: valve Open
+host_ns=1792393370636628146 guest_ns=33175526334 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370636644467 guest_ns=33175543494 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370638191090 cella: valve Open
+host_ns=1792393370657748611 guest_ns=33196645399 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393370657760600 guest_ns=33196657861 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393370658684753 cella: valve Open
+host_ns=1792393370666173701 guest_ns=33205069867 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393370667132766 cella: valve Open
+host_ns=1792393370667479129 guest_ns=33206375307 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370667485821 guest_ns=33206382364 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370668179825 cella: valve Open
+host_ns=1792393370676555600 guest_ns=33215450733 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370677735533 cella: valve Open
+host_ns=1792393370678161608 guest_ns=33217056948 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370678172196 guest_ns=33217068004 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370678728230 cella: valve Open
+host_ns=1792393370690705868 guest_ns=33229600270 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370690716630 guest_ns=33229611485 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370691455710 cella: valve Open
+host_ns=1792393370699374354 guest_ns=33238268125 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370700290737 cella: valve Open
+host_ns=1792393370700578403 guest_ns=33239472223 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370700584338 guest_ns=33239478460 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370701200095 cella: valve Open
+host_ns=1792393370701522342 guest_ns=33240416104 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370701528358 guest_ns=33240422399 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370701761001 guest_ns=33240655204 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370701801309 guest_ns=33240695372 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370701805262 guest_ns=33240699280 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370701814566 guest_ns=33240708600 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370701818054 guest_ns=33240712045 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370702172464 cella: valve Open
+host_ns=1792393370702405095 guest_ns=33241298844 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370702410579 guest_ns=33241304566 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370702414063 guest_ns=33241308005 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370702499670 guest_ns=33241393659 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370702503800 guest_ns=33241397743 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370703186021 cella: valve Open
+host_ns=1792393370709794372 guest_ns=33248687310 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370710784298 cella: valve Open
+host_ns=1792393370711079877 guest_ns=33249972901 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370711086836 guest_ns=33249980212 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370711091166 guest_ns=33249984503 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370711204221 guest_ns=33250097608 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370711209309 guest_ns=33250102640 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370711222657 guest_ns=33250116035 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370711227028 guest_ns=33250120355 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370711230790 guest_ns=33250124116 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370711875705 cella: valve Open
+host_ns=1792393370712151627 guest_ns=33251044599 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370712159440 guest_ns=33251052724 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370712163560 guest_ns=33251056813 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370712166960 guest_ns=33251060212 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370712270093 guest_ns=33251163393 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370712274833 guest_ns=33251168080 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370712278288 guest_ns=33251171533 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370712978091 cella: valve Open
+host_ns=1792393370713246785 guest_ns=33252139684 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370713254190 guest_ns=33252147432 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370713258280 guest_ns=33252151449 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370713261597 guest_ns=33252154767 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370713366069 guest_ns=33252259295 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370713370658 guest_ns=33252263830 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370713374054 guest_ns=33252267217 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370714064066 cella: valve Open
+host_ns=1792393370714329792 guest_ns=33253222620 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370714336227 guest_ns=33253229352 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370715129120 cella: valve Open
+host_ns=1792393370737064369 guest_ns=33275954548 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370737127854 guest_ns=33276019880 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370739340877 cella: valve Open
+host_ns=1792393370750229792 guest_ns=33289119807 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370751144804 cella: valve Open
+host_ns=1792393370751438059 guest_ns=33290328178 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370751449349 guest_ns=33290339798 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751453438 guest_ns=33290343849 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751456838 guest_ns=33290347247 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751460112 guest_ns=33290350521 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751463369 guest_ns=33290353793 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751573995 guest_ns=33290464456 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751579141 guest_ns=33290469565 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751582740 guest_ns=33290473141 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751586024 guest_ns=33290476427 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370751591224 guest_ns=33290481640 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752156179 cella: valve Open
+host_ns=1792393370752410254 guest_ns=33291300355 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370752416563 guest_ns=33291306932 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752420344 guest_ns=33291310679 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752423553 guest_ns=33291313918 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752426774 guest_ns=33291317106 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752429866 guest_ns=33291320199 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752526917 guest_ns=33291417301 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752531344 guest_ns=33291421672 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752534623 guest_ns=33291424946 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752537763 guest_ns=33291428088 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752540849 guest_ns=33291431174 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370752816419 cella: valve Open
+host_ns=1792393370753075318 guest_ns=33291965335 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393370753082266 guest_ns=33291972576 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370753086102 guest_ns=33291976384 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370753089531 guest_ns=33291979815 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393370753496785 cella: valve Open
+host_ns=1792393370760549809 guest_ns=33299439124 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370760985059 cella: valve Open
+host_ns=1792393370764747980 guest_ns=33303637052 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393370765169698 cella: valve Open
+host_ns=1792393371750247883 guest_ns=34289064965 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393371751842039 cella: valve Open
+host_ns=1792393371792912196 guest_ns=34331724192 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393371793040164 guest_ns=34331856934 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393371796452885 cella: valve Open
+host_ns=1792393372374650652 guest_ns=34913421791 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372376348843 cella: valve Open
+host_ns=1792393372377617938 guest_ns=34916389213 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372377668764 guest_ns=34916443018 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372379049340 guest_ns=34917824964 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372379492957 cella: valve Open
+host_ns=1792393372391122062 guest_ns=34929893243 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372391859948 cella: valve Open
+host_ns=1792393372392323115 guest_ns=34931094306 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372392340178 guest_ns=34931112337 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372393034884 cella: valve Open
+host_ns=1792393372396531757 guest_ns=34935302761 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393372396542134 guest_ns=34935313633 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393372397295352 cella: valve Open
+host_ns=1792393372405655243 guest_ns=34944425467 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393372406756499 cella: valve Open
+host_ns=1792393372407193431 guest_ns=34945963720 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372407202837 guest_ns=34945973588 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372408046189 cella: valve Open
+host_ns=1792393372418212685 guest_ns=34956981783 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372419809230 cella: valve Open
+host_ns=1792393372420372054 guest_ns=34959141282 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372420385815 guest_ns=34959155668 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372421377259 cella: valve Open
+host_ns=1792393372434674662 guest_ns=34973442928 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372434684850 guest_ns=34973453571 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372435397186 cella: valve Open
+host_ns=1792393372443280408 guest_ns=34982047973 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372443971240 cella: valve Open
+host_ns=1792393372444277338 guest_ns=34983045053 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372444283504 guest_ns=34983051490 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372444752547 cella: valve Open
+host_ns=1792393372445235209 guest_ns=34984002791 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372445242916 guest_ns=34984010830 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372445486078 guest_ns=34984254130 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372445514129 guest_ns=34984282080 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372445518047 guest_ns=34984285920 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372445527761 guest_ns=34984295681 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372445531552 guest_ns=34984299428 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372445739271 cella: valve Open
+host_ns=1792393372446003181 guest_ns=34984770817 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372446012522 guest_ns=34984780381 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372446016245 guest_ns=34984784080 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372446122775 guest_ns=34984890651 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372446127095 guest_ns=34984894933 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372446643549 cella: valve Open
+host_ns=1792393372453581597 guest_ns=34992348446 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372454269517 cella: valve Open
+host_ns=1792393372454543593 guest_ns=34993310555 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372454549392 guest_ns=34993316651 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372454552996 guest_ns=34993320212 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372454649355 guest_ns=34993416621 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372454653586 guest_ns=34993420797 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372454665738 guest_ns=34993433002 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372454669235 guest_ns=34993436443 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372454672283 guest_ns=34993439491 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372455063189 cella: valve Open
+host_ns=1792393372455303804 guest_ns=34994070766 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372455309260 guest_ns=34994076435 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372455312680 guest_ns=34994079841 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372455315658 guest_ns=34994082814 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372455415906 guest_ns=34994183113 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372455420282 guest_ns=34994187465 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372455423552 guest_ns=34994190710 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372455736741 cella: valve Open
+host_ns=1792393372455994225 guest_ns=34994761137 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372455999932 guest_ns=34994767053 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372456003486 guest_ns=34994770601 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372456006644 guest_ns=34994773760 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372456112957 guest_ns=34994880134 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372456117342 guest_ns=34994884470 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372456120714 guest_ns=34994887821 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372456393452 cella: valve Open
+host_ns=1792393372456665235 guest_ns=34995432039 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372456671618 guest_ns=34995438712 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372457066610 cella: valve Open
+host_ns=1792393372481783608 guest_ns=35020548343 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372481799151 guest_ns=35020564544 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372482727439 cella: valve Open
+host_ns=1792393372484673509 guest_ns=35023438254 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372485383448 cella: valve Open
+host_ns=1792393372485701085 guest_ns=35024465783 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372485708602 guest_ns=35024473598 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485712542 guest_ns=35024477531 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485715797 guest_ns=35024480764 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485718917 guest_ns=35024483882 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485721944 guest_ns=35024486910 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485829559 guest_ns=35024594565 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485834206 guest_ns=35024599172 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485837532 guest_ns=35024602488 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485840686 guest_ns=35024605644 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372485843852 guest_ns=35024608809 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486575616 cella: valve Open
+host_ns=1792393372486854123 guest_ns=35025618797 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372486861249 guest_ns=35025626170 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486864965 guest_ns=35025629849 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486868143 guest_ns=35025633050 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486871208 guest_ns=35025636092 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486874286 guest_ns=35025639167 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486986180 guest_ns=35025751101 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486990195 guest_ns=35025755093 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486993647 guest_ns=35025758520 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372486996884 guest_ns=35025761756 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372487000102 guest_ns=35025764973 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372487728708 cella: valve Open
+host_ns=1792393372488004922 guest_ns=35026769465 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372488012676 guest_ns=35026777535 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372488016632 guest_ns=35026781434 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372488019864 guest_ns=35026784665 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372488025641 guest_ns=35026790446 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372488028761 guest_ns=35026793563 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372488667360 cella: valve Open
+host_ns=1792393372488940269 guest_ns=35027704745 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393372488946963 guest_ns=35027711740 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372488950787 guest_ns=35027715523 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393372489807125 cella: valve Open
+host_ns=1792393372493070444 guest_ns=35031834457 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372493942462 cella: valve Open
+host_ns=1792393372497295721 guest_ns=35036059416 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372497969394 cella: valve Open
+host_ns=1792393372499431357 guest_ns=35038194907 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393372500113665 cella: valve Open
+host_ns=1792393373387674817 guest_ns=35926373156 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393373389297359 cella: valve Open
+host_ns=1792393373431242583 guest_ns=35969936384 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393373431332902 guest_ns=35970031062 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393373436599301 cella: valve Open
+host_ns=1792393374772160761 guest_ns=37310759237 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374773896764 cella: valve Open
+host_ns=1792393374774964279 guest_ns=37313563034 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374774987712 guest_ns=37313587471 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374776073502 guest_ns=37314673932 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374777014682 cella: valve Open
+host_ns=1792393374787081341 guest_ns=37325679232 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374788119980 cella: valve Open
+host_ns=1792393374788519193 guest_ns=37327117296 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374788527153 guest_ns=37327125665 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374789290694 cella: valve Open
+host_ns=1792393374798195438 guest_ns=37336792758 cella: parked egress to 10.77.0.1:53 proto 17
+host_ns=1792393374798206564 guest_ns=37336804375 cella: membrane released egress to ip=10.77.0.1 port=53 host=openrouter.ai, freeze skipped
+host_ns=1792393374798987341 cella: valve Open
+host_ns=1792393374805456503 guest_ns=37344053167 cella: parked ingress from 10.77.0.1:53 proto 17
+host_ns=1792393374806283588 cella: valve Open
+host_ns=1792393374806674014 guest_ns=37345270826 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374806680285 guest_ns=37345277434 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374807248976 cella: valve Open
+host_ns=1792393374813779899 guest_ns=37352376034 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374814754050 cella: valve Open
+host_ns=1792393374815085655 guest_ns=37353681841 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374815092329 guest_ns=37353688900 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374815742898 cella: valve Open
+host_ns=1792393374827370545 guest_ns=37365965756 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374827381926 guest_ns=37365977591 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374828188806 cella: valve Open
+host_ns=1792393374836445767 guest_ns=37375040290 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374837383080 cella: valve Open
+host_ns=1792393374837689332 guest_ns=37376283910 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374837695025 guest_ns=37376289903 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374838395824 cella: valve Open
+host_ns=1792393374838666851 guest_ns=37377261401 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374838672141 guest_ns=37377267012 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374838929342 guest_ns=37377524325 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374838956977 guest_ns=37377551781 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374838960586 guest_ns=37377555366 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374838969601 guest_ns=37377564400 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374838973079 guest_ns=37377567835 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374839430306 cella: valve Open
+host_ns=1792393374839715501 guest_ns=37378310013 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374839720583 guest_ns=37378315297 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374839723969 guest_ns=37378318668 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374839834322 guest_ns=37378429068 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374839838610 guest_ns=37378433314 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374840565284 cella: valve Open
+host_ns=1792393374846914560 guest_ns=37385508331 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374847740545 cella: valve Open
+host_ns=1792393374848041236 guest_ns=37386635072 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374848047659 guest_ns=37386641792 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374848051445 guest_ns=37386645551 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374848054718 guest_ns=37386648825 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374848172538 guest_ns=37386766684 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374848176843 guest_ns=37386770961 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374848180023 guest_ns=37386774121 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374848856613 cella: valve Open
+host_ns=1792393374849138198 guest_ns=37387731933 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374849264523 guest_ns=37387858343 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374849270319 guest_ns=37387864372 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374849273980 guest_ns=37387867999 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374849277246 guest_ns=37387871265 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374849391228 guest_ns=37387985314 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374849395845 guest_ns=37387989871 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374849402012 guest_ns=37387996024 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374849843579 cella: valve Open
+host_ns=1792393374850235902 cella: valve Open
+host_ns=1792393374850386599 guest_ns=37388980273 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374850393103 guest_ns=37388987140 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374850396984 guest_ns=37388990937 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374850400392 guest_ns=37388994327 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374851142269 cella: valve Open
+host_ns=1792393374872007596 guest_ns=37410599075 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374872037991 guest_ns=37410630716 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374873760830 cella: valve Open
+host_ns=1792393374878409841 guest_ns=37416999057 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374879164317 cella: valve Open
+host_ns=1792393374879464797 guest_ns=37418056395 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374879472062 guest_ns=37418063942 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879475950 guest_ns=37418067784 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879479061 guest_ns=37418070891 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879482089 guest_ns=37418073921 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879485016 guest_ns=37418076849 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879602730 guest_ns=37418194605 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879606913 guest_ns=37418198740 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879610347 guest_ns=37418202170 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879613530 guest_ns=37418205350 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374879616603 guest_ns=37418208426 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880052878 cella: valve Open
+host_ns=1792393374880325810 guest_ns=37418917352 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374880332007 guest_ns=37418923807 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880335771 guest_ns=37418927554 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880339005 guest_ns=37418930775 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880341984 guest_ns=37418933758 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880344929 guest_ns=37418936700 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880458848 guest_ns=37419050657 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880463364 guest_ns=37419055133 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880466666 guest_ns=37419058428 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880469775 guest_ns=37419061537 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880475846 guest_ns=37419067615 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374880916203 cella: valve Open
+host_ns=1792393374881181136 guest_ns=37419772637 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374881187338 guest_ns=37419779062 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881190890 guest_ns=37419782605 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881193969 guest_ns=37419785678 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881197016 guest_ns=37419788725 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881200050 guest_ns=37419791757 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881317219 guest_ns=37419908969 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881321893 guest_ns=37419913599 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881325474 guest_ns=37419917172 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881328907 guest_ns=37419920607 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881332108 guest_ns=37419923807 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374881798351 cella: valve Open
+host_ns=1792393374882054858 guest_ns=37420646294 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374882060163 guest_ns=37420651813 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374882063747 guest_ns=37420655396 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374882066851 guest_ns=37420658498 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374882069949 guest_ns=37420661594 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374882912350 cella: valve Open
+host_ns=1792393374886780619 guest_ns=37425371491 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374887413988 cella: valve Open
+host_ns=1792393374887722689 guest_ns=37426313668 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393374887730143 guest_ns=37426321419 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374887733917 guest_ns=37426325153 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374887737051 guest_ns=37426328285 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374887740042 guest_ns=37426331279 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393374888247487 cella: valve Open
+host_ns=1792393374893030004 guest_ns=37431620436 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374893795169 cella: valve Open
+host_ns=1792393374897183165 guest_ns=37435773260 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393374897936260 cella: valve Open
+host_ns=1792393375851916363 guest_ns=38390436079 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393375853361447 cella: valve Open
+host_ns=1792393375894356359 guest_ns=38432871543 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393375894462858 guest_ns=38432983003 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393375899726046 cella: valve Open
+host_ns=1792393377930495691 guest_ns=40468865212 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393377933197797 cella: valve Open
+host_ns=1792393377934319074 guest_ns=40472689278 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393377934342039 guest_ns=40472713335 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393377935409160 guest_ns=40473781157 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393377936074341 cella: valve Open
+host_ns=1792393377942791255 guest_ns=40481161077 cella: parked ingress from 10.77.0.1:443 proto 6
+host_ns=1792393377943641422 cella: valve Open
+host_ns=1792393377943978476 guest_ns=40482348403 cella: parked egress to 10.77.0.1:443 proto 6
+host_ns=1792393377943984162 guest_ns=40482354401 cella: membrane released egress to ip=10.77.0.1 port=443 host=openrouter.ai, freeze skipped
+host_ns=1792393377944694596 cella: valve Open
+host_ns=1792393378040120779 cella: guest exit: shutdown exit=fault rip=0xffffffffb50b15dd exception nr=13 injected=0 pending=0
+host_ns=1792393378040128876 cella: guest requested shutdown

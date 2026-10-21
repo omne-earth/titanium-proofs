@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-zjme8cy-verifier",
+  "kernel": "canonical",
+  "rootfs": "cella-boundary-study-zjme8cy-verifier",
+  "mem_mb": 2048,
+  "net": "wire:cella-boundary-study-zjme8cy-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}
