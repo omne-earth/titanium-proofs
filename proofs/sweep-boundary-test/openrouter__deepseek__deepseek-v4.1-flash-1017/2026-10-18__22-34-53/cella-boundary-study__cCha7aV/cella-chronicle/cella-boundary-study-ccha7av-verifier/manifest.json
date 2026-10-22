@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-ccha7av-verifier",
+  "kernel": "canonical",
+  "rootfs": "cella-boundary-study-ccha7av-verifier",
+  "mem_mb": 2048,
+  "net": "wire:cella-boundary-study-ccha7av-line",
+  "root": "rw",
+  "diag": "off",
+  "attach": "none",
+  "scratch": "none",
+  "extract": "none"
+}

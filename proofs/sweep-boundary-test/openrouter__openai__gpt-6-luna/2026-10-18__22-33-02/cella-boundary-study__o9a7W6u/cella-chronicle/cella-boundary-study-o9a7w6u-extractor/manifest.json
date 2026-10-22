@@ -1,0 +1,12 @@
+{
+  "name": "cella-boundary-study-o9a7w6u-extractor",
+  "kernel": "canonical",
+  "rootfs": "cella",
+  "mem_mb": 256,
+  "net": "none",
+  "root": "rw",
+  "diag": "off",
+  "attach": "/home/aryan/.cella/machines/cella-boundary-study-o9a7w6u/disk.img",
+  "scratch": "/home/aryan/.cella/machines/cella-boundary-study-o9a7w6u-extractor/scratch.img",
+  "extract": "/"
+}

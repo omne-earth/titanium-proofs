@@ -1,0 +1,113 @@
+{
+    "id": "fbe1fd77-7ad3-41fd-932c-504f32bff9e0",
+    "task_name": "titanium/cella-boundary-study",
+    "trial_name": "cella-boundary-study__cCha7aV",
+    "trial_uri": "file:///home/aryan/workspace/boundary-testing/.run/jobs/openrouter/boundary-testing/openrouter__deepseek__deepseek-v4.1-flash-1017/2026-10-18__22-34-53/cella-boundary-study__cCha7aV",
+    "task_id": {
+        "path": "examples/tasks/cella-boundary-study"
+    },
+    "source": null,
+    "task_checksum": "b85b8797da5aecd08b5df44b0f4ebd51826cda766ce2831a81746586ce7b4ac1",
+    "config": {
+        "task": {
+            "path": "examples/tasks/cella-boundary-study",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "cella-boundary-study__cCha7aV",
+        "trials_dir": ".run/jobs/openrouter/boundary-testing/openrouter__deepseek__deepseek-v4.1-flash-1017/2026-10-18__22-34-53",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": 18.0,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/deepseek/deepseek-v4.1-flash-1017",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "teardown",
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "ffb149fc-e928-45a0-938b-11a025ecb420"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "unknown",
+        "model_info": {
+            "name": "deepseek/deepseek-v4.1-flash-1017",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 9524827,
+        "n_cache_tokens": 9353984,
+        "n_output_tokens": 94497,
+        "cost_usd": 0.09950544267999996,
+        "peak_context_tokens": 224833,
+        "summarization_count": null,
+        "n_agent_steps": 85,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": {
+        "exception_type": "NonZeroAgentExitCodeError",
+        "exception_message": "the agent phase exited 1",
+        "exception_traceback": "NoneType: None\n",
+        "occurred_at": "2026-10-19T00:01:39.226601"
+    },
+    "started_at": "2026-10-19T05:34:54.005180Z",
+    "finished_at": "2026-10-19T07:01:40.117076Z",
+    "environment_setup": {
+        "started_at": "2026-10-19T05:34:54.036809Z",
+        "finished_at": "2026-10-19T05:35:04.343263Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-10-19T05:35:04.345533Z",
+        "finished_at": "2026-10-19T07:01:39.226329Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-19T07:01:39.280562Z",
+        "finished_at": "2026-10-19T07:01:39.282037Z"
+    },
+    "n_agent_steps": 85,
+    "step_results": null,
+    "environment_completion": null
+}

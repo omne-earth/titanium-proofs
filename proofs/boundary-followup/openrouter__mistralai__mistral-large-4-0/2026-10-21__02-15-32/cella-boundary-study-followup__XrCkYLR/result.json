@@ -1,0 +1,116 @@
+{
+    "id": "03dc2135-b750-4de3-ad5b-d07a4530d548",
+    "task_name": "titanium/cella-boundary-study-followup",
+    "trial_name": "cella-boundary-study-followup__XrCkYLR",
+    "trial_uri": "file:///home/aryan/workspace/boundary-testing/.run/jobs/openrouter/boundary-followup/openrouter__mistralai__mistral-large-4-0/2026-10-21__02-15-32/cella-boundary-study-followup__XrCkYLR",
+    "task_id": {
+        "path": "examples/tasks/cella-boundary-study-followup"
+    },
+    "source": null,
+    "task_checksum": "50078411e18cf9e49d5de3d5e2868434e2877b26d0096ac02dfdbc9bbf6393cd",
+    "config": {
+        "task": {
+            "path": "examples/tasks/cella-boundary-study-followup",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "cella-boundary-study-followup__XrCkYLR",
+        "trials_dir": ".run/jobs/openrouter/boundary-followup/openrouter__mistralai__mistral-large-4-0/2026-10-21__02-15-32",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "mini-swe-agent",
+            "import_path": null,
+            "model_name": "openrouter/mistralai/mistral-large-4-0",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {
+                "http_timeout": 240,
+                "install_source": "git+https://github.com/omne-earth/mini-swe-agent@697d9e90773feee6300dc06f46b2bcce46772e36"
+            },
+            "env": {}
+        },
+        "environment": {
+            "type": "cella",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "mounts": null,
+            "on_completion": "teardown",
+            "env": {},
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "env": {},
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "7381a522-d098-467b-bead-96fe19728cc5"
+    },
+    "agent_info": {
+        "name": "mini-swe-agent",
+        "version": "unknown",
+        "model_info": {
+            "name": "mistralai/mistral-large-4-0",
+            "provider": "openrouter"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 10425998,
+        "n_cache_tokens": 9712636,
+        "n_output_tokens": 211266,
+        "cost_usd": 3.21303324,
+        "peak_context_tokens": 298963,
+        "summarization_count": null,
+        "n_agent_steps": 80,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": {
+        "exception_type": "NonZeroAgentExitCodeError",
+        "exception_message": "the agent phase exited 1",
+        "exception_traceback": "NoneType: None\n",
+        "occurred_at": "2026-10-21T05:09:33.933056"
+    },
+    "started_at": "2026-10-21T09:15:32.905057Z",
+    "finished_at": "2026-10-21T12:09:35.037462Z",
+    "environment_setup": {
+        "started_at": "2026-10-21T09:15:32.934273Z",
+        "finished_at": "2026-10-21T09:15:43.368678Z"
+    },
+    "agent_setup": null,
+    "agent_execution": {
+        "started_at": "2026-10-21T09:15:43.371482Z",
+        "finished_at": "2026-10-21T12:09:33.932766Z"
+    },
+    "verifier": {
+        "started_at": "2026-10-21T12:09:33.953963Z",
+        "finished_at": "2026-10-21T12:09:33.955308Z"
+    },
+    "n_agent_steps": 80,
+    "step_results": null,
+    "environment_completion": null
+}
